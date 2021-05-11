@@ -19,3 +19,9 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
+WebUI.maximizeWindow()
+
+WebUI.waitForPageLoad(0)
+
+WebUI.closeBrowser()
+
