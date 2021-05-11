@@ -25,3 +25,7 @@ WebUI.waitForPageLoad(0)
 
 WebUI.closeBrowser()
 
+WebUI.openBrowser('https://www.google.com')
+
+WebUI.closeBrowser()
+
