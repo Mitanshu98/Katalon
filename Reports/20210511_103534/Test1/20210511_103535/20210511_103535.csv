@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test1,Chrome 90.0.4430.93,,,2021-05-11 10:35:37,2021-05-11 10:35:41,3.894s,PASSED
+,,,,,,,
+Test Cases/SAMPLE,Chrome 90.0.4430.93,,,2021-05-11 10:35:38,2021-05-11 10:35:41,3.041s,PASSED
+"openBrowser("""")",Chrome 90.0.4430.93,,,2021-05-11 10:35:39,2021-05-11 10:35:40,1.802s,PASSED
+maximizeWindow(),Chrome 90.0.4430.93,,,2021-05-11 10:35:40,2021-05-11 10:35:41,0.150s,PASSED
+waitForPageLoad(0),Chrome 90.0.4430.93,,,2021-05-11 10:35:41,2021-05-11 10:35:41,0.114s,PASSED
+closeBrowser(),Chrome 90.0.4430.93,,,2021-05-11 10:35:41,2021-05-11 10:35:41,0.646s,PASSED
