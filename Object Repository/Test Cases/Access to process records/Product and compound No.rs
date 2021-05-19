@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Include territory Yes</name>
+   <name>Product and compound No</name>
    <tag></tag>
-   <elementGuidId>a989a358-5cc6-48cf-8c3b-1dde8f642300</elementGuidId>
+   <elementGuidId>143da788-5dd2-4dc3-afd9-233dc51f0ca5</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id=&quot;P17_WF_LINK_TERRITORY&quot;]/descendant::label[text()='Yes']</value>
+         <value>//div[@id='P17_WF_LINK_PRODUCT']/descendant::label[text()='No']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

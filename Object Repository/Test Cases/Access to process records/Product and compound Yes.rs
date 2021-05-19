@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description>This is a button which opens the Mre options like nullify user, record scope etc.</description>
-   <name>More menu</name>
+   <description></description>
+   <name>Product and compound Yes</name>
    <tag></tag>
-   <elementGuidId>f8cfddfc-bcaa-486a-8898-c2afc0bec0cd</elementGuidId>
+   <elementGuidId>a0a1679e-2ae1-4e8d-a044-4fdfcdceda1b</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='R79427398463545739']//button[@id='B33330673082066712']</value>
+         <value>//div[@id='P17_WF_LINK_PRODUCT']/descendant::label[text()='Yes']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

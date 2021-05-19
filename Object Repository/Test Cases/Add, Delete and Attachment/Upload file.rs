@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description></description>
-   <name>Include organizationalstudy No</name>
+   <description>Here we are selecting the file for upload</description>
+   <name>Upload file</name>
    <tag></tag>
-   <elementGuidId>c151130d-350a-4f27-80c0-a3a67fa1f10d</elementGuidId>
+   <elementGuidId>d33c553a-5919-4356-991a-d0695299de13</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id=&quot;P17_WF_LINK_ORGENTITY&quot;]/descendant::label[text()='No']</value>
+         <value>//div[@id='R95561128717940324_dropzone']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Include organizational study Yes</name>
+   <name>Advanced Settings</name>
    <tag></tag>
-   <elementGuidId>3dcf8b49-9ca7-44b3-8297-9fb5a7df6688</elementGuidId>
+   <elementGuidId>7dc1cab2-ea50-4fa4-8f5e-f4da065a37ba</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id=&quot;P17_WF_LINK_ORGENTITY&quot;]/descendant::label[text()='Yes']</value>
+         <value>//span[text()='Advanced settings']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

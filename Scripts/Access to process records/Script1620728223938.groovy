@@ -23,7 +23,7 @@ WebUI.openBrowser('www.google.com')
 
 WebUI.waitForPageLoad(Timeout)
 
-WebUI.navigateToUrl('https://halodemo.insife.cloud:8080/ords/f?p=100:LOGIN_DESKTOP:250404183592:::::')
+WebUI.navigateToUrl(GlobalVariable.Url)
 
 WebUI.waitForPageLoad(Timeout)
 
@@ -83,24 +83,28 @@ WebUI.setText(findTestObject('Test Cases/Assign Electronic signature/Search Box'
 
 WebUI.click(findTestObject('Test Cases/Assign Electronic signature/Search Button'))
 
-WebUI.waitForElementVisible(findTestObject('Test Cases/Entities and agreements/Entities agreements management (Internal)'), 
+WebUI.waitForElementVisible(findTestObject('Test Cases/Access to process records/Process workflow-Entities(internal)'), 
     Timeout)
 
-WebUI.click(findTestObject('Test Cases/Entities and agreements/Entities agreements management (Internal)'))
+WebUI.click(findTestObject('Test Cases/Access to process records/Process workflow-Entities(internal)'))
 
 WebUI.waitForPageLoad(Timeout)
 
 WebUI.switchToFrame(findTestObject('HALO Front-End/Common Elements/Iframe(5)'), 1)
 
-WebUI.waitForElementVisible(findTestObject('Test Cases/Entities and agreements/Product and compound Yes'), Timeout)
+WebUI.waitForElementVisible(findTestObject('Test Cases/Access to process records/Advanced Settings'), GlobalVariable.Timeout)
 
-WebUI.click(findTestObject('Test Cases/Entities and agreements/Product and compound Yes'))
+WebUI.click(findTestObject('Test Cases/Access to process records/Advanced Settings'))
 
-WebUI.click(findTestObject('Test Cases/Entities and agreements/Include territory Yes'))
+WebUI.waitForElementVisible(findTestObject('Test Cases/Access to process records/Product and compound Yes'), Timeout)
 
-WebUI.click(findTestObject('Test Cases/Entities and agreements/Include study Yes'))
+WebUI.click(findTestObject('Test Cases/Access to process records/Product and compound Yes'))
 
-WebUI.click(findTestObject('Test Cases/Entities and agreements/Include organizational study Yes'))
+WebUI.click(findTestObject('Test Cases/Access to process records/Include territory Yes'))
+
+WebUI.click(findTestObject('Test Cases/Access to process records/Include study Yes'))
+
+WebUI.click(findTestObject('Test Cases/Access to process records/Include organizational study Yes'))
 
 WebUI.delay(Delay)
 
@@ -137,3 +141,194 @@ WebUI.waitForElementVisible(findTestObject('Test Cases/Entities and agreements/E
 
 WebUI.click(findTestObject('Test Cases/Entities and agreements/Entities and agreement form/More menu'))
 
+WebUI.waitForElementVisible(findTestObject('Test Cases/Entities and agreements/Entities and agreement form/Record scope'), 
+    GlobalVariable.Timeout)
+
+WebUI.click(findTestObject('Test Cases/Entities and agreements/Entities and agreement form/Record scope'))
+
+WebUI.delay(GlobalVariable.Delay)
+
+WebUI.waitForElementVisible(findTestObject('Test Cases/Access to process records/Close Record Scope'), GlobalVariable.Timeout)
+
+WebUI.click(findTestObject('Test Cases/Access to process records/Close Record Scope'))
+
+WebUI.waitForElementVisible(findTestObject('Test Cases/Access to process records/Record Close'), GlobalVariable.Timeout)
+
+WebUI.click(findTestObject('Test Cases/Access to process records/Record Close'))
+
+WebUI.switchToDefaultContent()
+
+// Step 1.9 
+WebUI.click(findTestObject('HALO Front-End/Application management/Application management'))
+
+WebUI.waitForElementPresent(findTestObject('HALO Front-End/Application management/Process workflows'), Timeout)
+
+WebUI.click(findTestObject('HALO Front-End/Application management/Process workflows'))
+
+WebUI.waitForPageLoad(Timeout)
+
+WebUI.setText(findTestObject('Test Cases/Assign Electronic signature/Search Box'), 'Entities')
+
+WebUI.click(findTestObject('Test Cases/Assign Electronic signature/Search Button'))
+
+WebUI.waitForElementVisible(findTestObject('Test Cases/Access to process records/Process workflow-Entities(internal)'), 
+    Timeout)
+
+WebUI.click(findTestObject('Test Cases/Access to process records/Process workflow-Entities(internal)'))
+
+WebUI.waitForPageLoad(Timeout)
+
+WebUI.switchToFrame(findTestObject('HALO Front-End/Common Elements/Iframe(5)'), 1)
+
+WebUI.waitForElementVisible(findTestObject('Test Cases/Access to process records/Advanced Settings'), GlobalVariable.Timeout)
+
+WebUI.click(findTestObject('Test Cases/Access to process records/Advanced Settings'))
+
+WebUI.waitForElementVisible(findTestObject('Test Cases/Access to process records/Product and compound No'), Timeout)
+
+WebUI.click(findTestObject('Test Cases/Access to process records/Product and compound No'))
+
+WebUI.click(findTestObject('Test Cases/Access to process records/Include Territory No'))
+
+WebUI.click(findTestObject('Test Cases/Access to process records/Include Study No'))
+
+WebUI.click(findTestObject('Test Cases/Access to process records/Include organizationalstudy No'))
+
+WebUI.delay(Delay)
+
+WebUI.click(findTestObject('Test Cases/Entities and agreements/Save'))
+
+WebUI.delay(shortdelay)
+
+WebUI.click(findTestObject('Test Cases/Entities and agreements/Close'))
+
+WebUI.switchToDefaultContent()
+
+WebUI.waitForPageLoad(Timeout)
+
+WebUI.delay(shortdelay)
+
+WebUI.click(findTestObject('HALO Front-End/Processes/Entities and Agreement'))
+
+WebUI.waitForPageLoad(Timeout)
+
+WebUI.click(findTestObject('Test Cases/Entities and agreements/Process-Entities agreement management(internal)'))
+
+WebUI.waitForPageLoad(Timeout)
+
+WebUI.click(findTestObject('Test Cases/Entities and agreements/Entities and agreement form/Old record'))
+
+WebUI.waitForPageLoad(Timeout)
+
+WebUI.switchToFrame(findTestObject('Test Cases/Entities and agreements/Entities and agreement form/2ndiframe'), 1)
+
+WebUI.waitForElementVisible(findTestObject('Test Cases/Entities and agreements/Entities and agreement form/More menu'), 
+    Timeout)
+
+WebUI.click(findTestObject('Test Cases/Entities and agreements/Entities and agreement form/More menu'))
+
+WebUI.waitForElementVisible(findTestObject('Test Cases/Entities and agreements/Entities and agreement form/Record scope'), 
+    GlobalVariable.Timeout)
+
+WebUI.click(findTestObject('Test Cases/Entities and agreements/Entities and agreement form/Record scope'))
+
+WebUI.delay(GlobalVariable.Delay)
+
+WebUI.waitForElementVisible(findTestObject('Test Cases/Access to process records/Close Record Scope'), GlobalVariable.Timeout)
+
+WebUI.click(findTestObject('Test Cases/Access to process records/Close Record Scope'))
+
+WebUI.waitForElementVisible(findTestObject('Test Cases/Access to process records/Record Close'), GlobalVariable.Timeout)
+
+WebUI.click(findTestObject('Test Cases/Access to process records/Record Close'))
+
+WebUI.switchToDefaultContent()
+
+//Step  1.15
+
+WebUI.click(findTestObject('HALO Front-End/Application management/Application management'))
+
+WebUI.waitForElementPresent(findTestObject('HALO Front-End/Application management/Process workflows'), Timeout)
+
+WebUI.click(findTestObject('HALO Front-End/Application management/Process workflows'))
+
+WebUI.waitForPageLoad(Timeout)
+
+WebUI.setText(findTestObject('Test Cases/Assign Electronic signature/Search Box'), 'Entities')
+
+WebUI.click(findTestObject('Test Cases/Assign Electronic signature/Search Button'))
+
+WebUI.waitForElementVisible(findTestObject('Test Cases/Access to process records/Process workflow-Entities(internal)'),
+	Timeout)
+
+WebUI.click(findTestObject('Test Cases/Access to process records/Process workflow-Entities(internal)'))
+
+WebUI.waitForPageLoad(Timeout)
+
+WebUI.switchToFrame(findTestObject('HALO Front-End/Common Elements/Iframe(5)'), 1)
+
+WebUI.waitForElementVisible(findTestObject('Test Cases/Access to process records/Advanced Settings'), GlobalVariable.Timeout)
+
+WebUI.click(findTestObject('Test Cases/Access to process records/Advanced Settings'))
+
+WebUI.waitForElementVisible(findTestObject('Test Cases/Access to process records/Product and compound Yes'), Timeout)
+
+WebUI.click(findTestObject('Test Cases/Access to process records/Product and compound Yes'))
+
+WebUI.click(findTestObject('Test Cases/Access to process records/Include territory Yes'))
+
+WebUI.click(findTestObject('Test Cases/Access to process records/Include study Yes'))
+
+WebUI.click(findTestObject('Test Cases/Access to process records/Include organizational study Yes'))
+
+WebUI.delay(Delay)
+
+WebUI.click(findTestObject('Test Cases/Entities and agreements/Save'))
+
+WebUI.delay(shortdelay)
+
+WebUI.click(findTestObject('Test Cases/Entities and agreements/Close'))
+
+WebUI.switchToDefaultContent()
+
+WebUI.waitForPageLoad(Timeout)
+
+WebUI.click(findTestObject('HALO Front-End/Processes/Process_Dropdown'))
+
+WebUI.delay(shortdelay)
+
+WebUI.click(findTestObject('HALO Front-End/Processes/Entities and Agreement'))
+
+WebUI.waitForPageLoad(Timeout)
+
+WebUI.click(findTestObject('Test Cases/Entities and agreements/Process-Entities agreement management(internal)'))
+
+WebUI.waitForPageLoad(Timeout)
+
+WebUI.click(findTestObject('Test Cases/Entities and agreements/Entities and agreement form/Old record'))
+
+WebUI.waitForPageLoad(Timeout)
+
+WebUI.switchToFrame(findTestObject('Test Cases/Entities and agreements/Entities and agreement form/2ndiframe'), 1)
+
+WebUI.waitForElementVisible(findTestObject('Test Cases/Entities and agreements/Entities and agreement form/More menu'),
+	Timeout)
+
+WebUI.click(findTestObject('Test Cases/Entities and agreements/Entities and agreement form/More menu'))
+
+WebUI.waitForElementVisible(findTestObject('Test Cases/Entities and agreements/Entities and agreement form/Record scope'),
+	GlobalVariable.Timeout)
+
+WebUI.click(findTestObject('Test Cases/Entities and agreements/Entities and agreement form/Record scope'))
+
+WebUI.delay(GlobalVariable.Delay)
+
+WebUI.waitForElementVisible(findTestObject('Test Cases/Access to process records/Close Record Scope'), GlobalVariable.Timeout)
+
+WebUI.click(findTestObject('Test Cases/Access to process records/Close Record Scope'))
+
+WebUI.waitForElementVisible(findTestObject('Test Cases/Access to process records/Record Close'), GlobalVariable.Timeout)
+
+WebUI.click(findTestObject('Test Cases/Access to process records/Record Close'))
+
+WebUI.switchToDefaultContent()

@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Product and compound Yes</name>
+   <name>Include organizationalstudy No</name>
    <tag></tag>
-   <elementGuidId>a0a1679e-2ae1-4e8d-a044-4fdfcdceda1b</elementGuidId>
+   <elementGuidId>c151130d-350a-4f27-80c0-a3a67fa1f10d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='P17_WF_LINK_PRODUCT']/descendant::label[text()='Yes']</value>
+         <value>//div[@id=&quot;P17_WF_LINK_ORGENTITY&quot;]/descendant::label[text()='No']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

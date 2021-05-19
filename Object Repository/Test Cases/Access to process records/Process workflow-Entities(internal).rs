@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description>This is a button which opens the Mre options like nullify user, record scope etc.</description>
-   <name>More menu</name>
+   <description></description>
+   <name>Process workflow-Entities(internal)</name>
    <tag></tag>
-   <elementGuidId>f8cfddfc-bcaa-486a-8898-c2afc0bec0cd</elementGuidId>
+   <elementGuidId>fa5bc970-857c-46ec-a423-009db87dba65</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='R79427398463545739']//button[@id='B33330673082066712']</value>
+         <value>//div[@class='a-IRR-tableContainer']/descendant::a[text()='Entities / agreements management (Internal)']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

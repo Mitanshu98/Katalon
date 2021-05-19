@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description></description>
-   <name>Include study Yes</name>
+   <description>With help of this button we are uploading the file t the halo</description>
+   <name>Attachment button</name>
    <tag></tag>
-   <elementGuidId>288433a4-22c7-4993-add3-79c9536bf7b6</elementGuidId>
+   <elementGuidId>635fdcf7-100c-4d9b-8f06-7bffeee3ed28</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id=&quot;P17_WF_LINK_STUDY&quot;]/descendant::label[text()='Yes']</value>
+         <value>//div[@id='R79427398463545739']//button[@id='B33331025200066712']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
