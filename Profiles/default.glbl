@@ -4,4 +4,29 @@
    <name>default</name>
    <tag></tag>
    <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description>Timeout is used for the page load or theelement load time</description>
+      <initValue>20</initValue>
+      <name>Timeout</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Delay to see the element</description>
+      <initValue>5</initValue>
+      <name>Delay</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>user emailid</description>
+      <initValue>'mitanshu.gupta@insife.com'</initValue>
+      <name>Email</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'joydeep.chakraborty@insife.com'</initValue>
+      <name>Email1</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://halotest.insife.cloud:8080/ords/f?p=100'</initValue>
+      <name>Url</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

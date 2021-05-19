@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Upload and Download</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a2854811-c7f8-4463-8716-7d9e0f2584a2</testCaseGuid>
+   <variable>
+      <defaultValue>2</defaultValue>
+      <description></description>
+      <id>0ee39d2a-bfa3-4677-ada0-00e45138d0a7</id>
+      <masked>false</masked>
+      <name>Timeout</name>
+   </variable>
+   <variable>
+      <defaultValue>5</defaultValue>
+      <description></description>
+      <id>0df1c72e-2705-446b-9f5a-e08f399ad2dd</id>
+      <masked>false</masked>
+      <name>Delay</name>
+   </variable>
+   <variable>
+      <defaultValue>'mitanshu.gupta@insife.com'</defaultValue>
+      <description></description>
+      <id>ad26e4be-030e-48f6-98d8-cd770bffaca9</id>
+      <masked>false</masked>
+      <name>Email</name>
+   </variable>
+</TestCaseEntity>

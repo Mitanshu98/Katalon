@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Application Log</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>add9533d-114d-4350-be37-d5fe9a4744c1</testCaseGuid>
+   <variable>
+      <defaultValue>20</defaultValue>
+      <description></description>
+      <id>44480040-000a-4472-a361-bcdb419f21e4</id>
+      <masked>false</masked>
+      <name>Timeout</name>
+   </variable>
+   <variable>
+      <defaultValue>5</defaultValue>
+      <description></description>
+      <id>d65f1424-445b-4dda-8023-02cc19bc6dd9</id>
+      <masked>false</masked>
+      <name>Delay</name>
+   </variable>
+</TestCaseEntity>

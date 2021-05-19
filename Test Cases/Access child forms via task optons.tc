@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Here we are creating a new record in Entities and agreement(external) and opening the create SDEA agreement form</description>
+   <name>Access child forms via task optons</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>332b2c2d-77d3-42f8-bc0d-1e04aef188f0</testCaseGuid>
+</TestCaseEntity>

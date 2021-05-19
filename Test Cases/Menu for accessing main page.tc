@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>SAMPLE</name>
+   <name>Menu for accessing main page</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>705968be-6a9c-4cc1-853a-82473c96a190</testCaseGuid>
+   <testCaseGuid>f9b1694f-e14f-4833-8dc8-50fd6e0be2ab</testCaseGuid>
 </TestCaseEntity>

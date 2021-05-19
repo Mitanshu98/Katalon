@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Assign Electronic Signature</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9b115df9-11a0-426d-b6f4-b8e4b2d1b8c6</testCaseGuid>
+   <variable>
+      <defaultValue>20</defaultValue>
+      <description></description>
+      <id>619e096b-d8d4-4e6b-9568-07c23b79efa2</id>
+      <masked>false</masked>
+      <name>Timeout</name>
+   </variable>
+   <variable>
+      <defaultValue>5</defaultValue>
+      <description></description>
+      <id>8d4c1b67-3853-48db-8e00-dfafaf373650</id>
+      <masked>false</masked>
+      <name>Delay</name>
+   </variable>
+</TestCaseEntity>
