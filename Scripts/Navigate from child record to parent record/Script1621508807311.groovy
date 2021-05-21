@@ -78,61 +78,61 @@ WebUI.click(findTestObject('HALO Front-End/Processes/Entities and Agreement'))
 
 WebUI.waitForPageLoad(GlobalVariable.Timeout)
 
-WebUI.waitForElementPresent(findTestObject('Test Cases/Access child forms via task actions/Entites and agreement(External)'), 
+WebUI.waitForElementPresent(findTestObject('Test Cases/Access child form via Task option/Entites and agreement(External)'), 
     GlobalVariable.Timeout)
 
-WebUI.click(findTestObject('Test Cases/Access child forms via task actions/Entites and agreement(External)'))
+WebUI.click(findTestObject('Test Cases/Access child form via Task option/Entites and agreement(External)'))
 
 WebUI.waitForPageLoad(GlobalVariable.Timeout)
 
-WebUI.waitForElementVisible(findTestObject('Test Cases/Access child forms via Task options/Old Record'), GlobalVariable.Timeout)
+WebUI.waitForElementVisible(findTestObject('Test Cases/Navigate from child record to parent record/Old Record'), GlobalVariable.Timeout)
 
-WebUI.click(findTestObject('Test Cases/Access child forms via Task options/Old Record'))
+WebUI.click(findTestObject('Test Cases/Navigate from child record to parent record/Old Record'))
 
 WebUI.waitForPageLoad(GlobalVariable.Timeout)
 
 WebUI.switchToFrame(findTestObject('HALO Front-End/Common Elements/Iframe(5)'), 2)
 
-WebUI.waitForElementPresent(findTestObject('Test Cases/Access child forms via Task options/Associated child'), GlobalVariable.Timeout)
+WebUI.waitForElementPresent(findTestObject('Test Cases/Navigate from child record to parent record/Associated child'), GlobalVariable.Timeout)
 
-WebUI.click(findTestObject('Test Cases/Access child forms via Task options/Associated child'))
-
-WebUI.waitForPageLoad(GlobalVariable.Timeout)
-
-WebUI.waitForElementVisible(findTestObject('Test Cases/Access child forms via Task options/Add child record'), GlobalVariable.Timeout)
-
-WebUI.click(findTestObject('Test Cases/Access child forms via Task options/Add child record'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Test Cases/Navigate from child record to parent record/Associated child'))
 
 WebUI.waitForPageLoad(GlobalVariable.Timeout)
 
-WebUI.waitForElementVisible(findTestObject('Test Cases/Access child forms via Task options/Child record/Core process'), 
+WebUI.waitForElementVisible(findTestObject('Test Cases/Navigate from child record to parent record/Add child record'), GlobalVariable.Timeout)
+
+WebUI.click(findTestObject('Test Cases/Navigate from child record to parent record/Add child record'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.waitForPageLoad(GlobalVariable.Timeout)
+
+WebUI.waitForElementVisible(findTestObject('Test Cases/Navigate from child record to parent record/Child record/Core process'), 
     GlobalVariable.Timeout)
 
-WebUI.selectOptionByLabel(findTestObject('Test Cases/Access child forms via Task options/Child record/Core process'), 'Entities and agreements', 
+WebUI.selectOptionByLabel(findTestObject('Test Cases/Navigate from child record to parent record/Child record/Core process'), 'Entities and agreements', 
     false)
 
 WebUI.delay(GlobalVariable.Delay)
 
-WebUI.selectOptionByLabel(findTestObject('Test Cases/Access child forms via Task options/Child record/Workflow'), 'Entities management (External)', 
+WebUI.selectOptionByLabel(findTestObject('Test Cases/Navigate from child record to parent record/Child record/Workflow'), 'Entities management (External)', 
     false)
 
-WebUI.setText(findTestObject('Test Cases/Access child forms via Task options/Child record/Title'), 'Automation Testing')
+WebUI.setText(findTestObject('Test Cases/Navigate from child record to parent record/Child record/Title'), 'Automation Testing')
 
-WebUI.selectOptionByLabel(findTestObject('Test Cases/Access child forms via Task options/Child record/Type'), 'Committee', 
+WebUI.selectOptionByLabel(findTestObject('Test Cases/Navigate from child record to parent record/Child record/Type'), 'Committee', 
     false)
 
-WebUI.selectOptionByLabel(findTestObject('Test Cases/Access child forms via Task options/Child record/Organizational Entity'), 
+WebUI.selectOptionByLabel(findTestObject('Test Cases/Navigate from child record to parent record/Child record/Organizational Entity'), 
     'Root organization', false)
 
 WebUI.delay(GlobalVariable.Delay)
 
-WebUI.click(findTestObject('Test Cases/Access child forms via Task options/Create and open'))
+WebUI.click(findTestObject('Test Cases/Navigate from child record to parent record/Child record/Create and open'))
 
 WebUI.waitForPageLoad(GlobalVariable.Timeout)
 
-WebUI.click(findTestObject('Test Cases/Access child forms via Task options/Associated child'))
+WebUI.click(findTestObject('Test Cases/Navigate from child record to parent record/Associated child'))
 
-WebUI.waitForElementVisible(findTestObject('Test Cases/Access child forms via Task options/Go to parent record'), GlobalVariable.Timeout)
+WebUI.waitForElementVisible(findTestObject('Test Cases/Navigate from child record to parent record/Go to parent record'), GlobalVariable.Timeout)
 
-WebUI.click(findTestObject('Test Cases/Access child forms via Task options/Go to parent record'))
+WebUI.click(findTestObject('Test Cases/Navigate from child record to parent record/Go to parent record'))
 

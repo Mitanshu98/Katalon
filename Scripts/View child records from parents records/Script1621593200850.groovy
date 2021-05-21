@@ -85,51 +85,54 @@ WebUI.click(findTestObject('Test Cases/Access child form via Task option/Entites
 
 WebUI.waitForPageLoad(GlobalVariable.Timeout)
 
-WebUI.waitForElementVisible(findTestObject('Test Cases/Access child form via Task option/old record'), GlobalVariable.Timeout)
+WebUI.waitForElementVisible(findTestObject('Test Cases/Navigate from child record to parent record/Old Record'), GlobalVariable.Timeout)
 
-WebUI.click(findTestObject('Test Cases/Access child form via Task option/old record'))
+WebUI.click(findTestObject('Test Cases/Navigate from child record to parent record/Old Record'))
 
 WebUI.waitForPageLoad(GlobalVariable.Timeout)
 
 WebUI.switchToFrame(findTestObject('HALO Front-End/Common Elements/Iframe(5)'), 2)
 
-WebUI.waitForElementPresent(findTestObject('HALO Front-End/Common Elements/Basic Information box/Basic Information'), GlobalVariable.Timeout)
+WebUI.waitForElementPresent(findTestObject('Test Cases/Navigate from child record to parent record/Associated child'), GlobalVariable.Timeout)
 
-WebUI.click(findTestObject('HALO Front-End/Common Elements/Basic Information box/Basic Information'))
-
-WebUI.waitForPageLoad(GlobalVariable.Timeout)
-
-WebUI.waitForElementVisible(findTestObject('HALO Front-End/Common Elements/Basic Information box/Entity name'), GlobalVariable.Timeout)
-
-WebUI.setText(findTestObject('HALO Front-End/Common Elements/Basic Information box/Entity name'), 'Automation Test')
-
-WebUI.selectOptionByLabel(findTestObject('HALO Front-End/Common Elements/Basic Information box/Type'), 'Partner', false)
-
-WebUI.setText(findTestObject('HALO Front-End/Common Elements/Basic Information box/Wrkflow to be completed by'), '30-JUN-2021')
-
-WebUI.selectOptionByLabel(findTestObject('HALO Front-End/Common Elements/Basic Information box/Reporting to'), 'Test', false)
-
-WebUI.delay(GlobalVariable.Delay)
-
-WebUI.click(findTestObject('HALO Front-End/Common Elements/Basic Information box/Save and close'))
+WebUI.click(findTestObject('Test Cases/Navigate from child record to parent record/Associated child'))
 
 WebUI.waitForPageLoad(GlobalVariable.Timeout)
 
-WebUI.click(findTestObject('Test Cases/Access child form via Task option/Create SDEA Agreement'))
+WebUI.waitForElementVisible(findTestObject('Test Cases/Navigate from child record to parent record/Add child record'), GlobalVariable.Timeout)
+
+WebUI.click(findTestObject('Test Cases/Navigate from child record to parent record/Add child record'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.waitForPageLoad(GlobalVariable.Timeout)
+
+WebUI.waitForElementVisible(findTestObject('Test Cases/Navigate from child record to parent record/Child record/Core process'), 
+    GlobalVariable.Timeout)
+
+WebUI.selectOptionByLabel(findTestObject('Test Cases/Navigate from child record to parent record/Child record/Core process'), 
+    'Entities and agreements', false)
 
 WebUI.delay(GlobalVariable.Delay)
 
-WebUI.click(findTestObject('Test Cases/Access child form via Task option/Return'))
+WebUI.selectOptionByLabel(findTestObject('Test Cases/Navigate from child record to parent record/Child record/Workflow'), 
+    'Entities management (External)', false)
 
-WebUI.waitForElementVisible(findTestObject('Test Cases/Access child form via Task option/2nd return'), GlobalVariable.Timeout)
+WebUI.setText(findTestObject('Test Cases/Navigate from child record to parent record/Child record/Title'), 'From parent to child record')
 
-WebUI.click(findTestObject('Test Cases/Access child form via Task option/2nd return'))
+WebUI.delay(GlobalVariable.Delay)
 
-WebUI.click(findTestObject('HALO Front-End/Common Elements/User_Dropdown'))
+WebUI.selectOptionByLabel(findTestObject('Test Cases/Navigate from child record to parent record/Child record/Type'), 'Committee', 
+    false)
 
-WebUI.waitForElementVisible(findTestObject('HALO Front-End/Common Elements/Log Out'), GlobalVariable.Timeout)
+WebUI.selectOptionByLabel(findTestObject('Test Cases/Navigate from child record to parent record/Child record/Organizational Entity'), 
+    'Root organization', false)
 
-WebUI.click(findTestObject('HALO Front-End/Common Elements/Log Out'))
+WebUI.delay(GlobalVariable.Delay)
 
-WebUI.closeBrowser()
+WebUI.click(findTestObject('Test Cases/Navigate from child record to parent record/Child record/Create and Return'))
+
+WebUI.waitForPageLoad(GlobalVariable.Timeout)
+
+WebUI.click(findTestObject('Test Cases/Navigate from child record to parent record/Associated child'))
+
+WebUI.delay(GlobalVariable.Delay)
 

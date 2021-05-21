@@ -152,9 +152,9 @@ WebUI.waitForElementVisible(findTestObject('Test Cases/Access to process records
 
 WebUI.click(findTestObject('Test Cases/Access to process records/Close Record Scope'))
 
-WebUI.waitForElementVisible(findTestObject('Test Cases/Access to process records/Record Close'), GlobalVariable.Timeout)
+WebUI.waitForElementVisible(findTestObject('HALO Front-End/Common Elements/Record Close'), GlobalVariable.Timeout)
 
-WebUI.click(findTestObject('Test Cases/Access to process records/Record Close'))
+WebUI.click(findTestObject('HALO Front-End/Common Elements/Record Close'))
 
 WebUI.switchToDefaultContent()
 
@@ -238,9 +238,9 @@ WebUI.waitForElementVisible(findTestObject('Test Cases/Access to process records
 
 WebUI.click(findTestObject('Test Cases/Access to process records/Close Record Scope'))
 
-WebUI.waitForElementVisible(findTestObject('Test Cases/Access to process records/Record Close'), GlobalVariable.Timeout)
+WebUI.waitForElementVisible(findTestObject('HALO Front-End/Common Elements/Record Close'), GlobalVariable.Timeout)
 
-WebUI.click(findTestObject('Test Cases/Access to process records/Record Close'))
+WebUI.click(findTestObject('HALO Front-End/Common Elements/Record Close'))
 
 WebUI.switchToDefaultContent()
 
@@ -340,7 +340,7 @@ WebUI.waitForElementVisible(findTestObject('Test Cases/Access to process records
 
 WebUI.click(findTestObject('Test Cases/Access to process records/Organisation Entity/Save Record'))
 
-WebUI.click(findTestObject('Test Cases/Access to process records/Record Close'))
+WebUI.click(findTestObject('HALO Front-End/Common Elements/Record Close'))
 
 WebUI.switchToDefaultContent()
 
@@ -404,7 +404,7 @@ WebUI.waitForElementVisible(findTestObject('Test Cases/Access to process records
 
 WebUI.click(findTestObject('Test Cases/Access to process records/Organisation Entity/Save Record'))
 
-WebUI.click(findTestObject('Test Cases/Access to process records/Record Close'))
+WebUI.click(findTestObject('HALO Front-End/Common Elements/Record Close'))
 
 WebUI.switchToDefaultContent()
 

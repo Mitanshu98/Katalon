@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>User subscribed to configured task user group must view task details</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>197d78a7-827b-4847-8094-9b9dae2e2807</testCaseGuid>
+</TestCaseEntity>

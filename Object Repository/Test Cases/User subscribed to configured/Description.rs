@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description>Close record button</description>
-   <name>Record Close</name>
+   <description></description>
+   <name>Description</name>
    <tag></tag>
-   <elementGuidId>d031ead5-1e99-4e7f-a285-99fd899ac394</elementGuidId>
+   <elementGuidId>9ae52dca-fd56-4773-b339-319e111f46f4</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>//div[@id='R79427398463545739']//button[@id='B33332628903066713']</value>
-      </entry>
       <entry>
          <key>BASIC</key>
          <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//textarea[@id='P119_MASTER_DESCRIPTION']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

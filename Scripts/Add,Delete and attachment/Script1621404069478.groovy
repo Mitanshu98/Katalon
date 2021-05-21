@@ -78,7 +78,7 @@ WebUI.click(findTestObject('HALO Front-End/Processes/Entities and Agreement'))
 
 WebUI.waitForPageLoad(GlobalVariable.Timeout)
 
-WebUI.click(findTestObject('Test Cases/Access child forms via task actions/Entites and agreement(External)'))
+WebUI.click(findTestObject('Test Cases/Access child form via Task option/Entites and agreement(External)'))
 
 WebUI.waitForPageLoad(GlobalVariable.Timeout)
 
