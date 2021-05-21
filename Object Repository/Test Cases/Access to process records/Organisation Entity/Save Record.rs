@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description>Here we are selecting the file for upload</description>
-   <name>Upload file</name>
+   <description>This is a buttn which is used for Save the record</description>
+   <name>Save Record</name>
    <tag></tag>
-   <elementGuidId>d33c553a-5919-4356-991a-d0695299de13</elementGuidId>
+   <elementGuidId>50c124bc-083a-4467-9e72-e2173dd66923</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@class='dz-default dz-message']</value>
+         <value>//div[@id='R79427398463545739']//button[@id='B33331883796066713']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

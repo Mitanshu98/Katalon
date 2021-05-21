@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description>Here we are selecting the file for upload</description>
-   <name>Upload file</name>
+   <description></description>
+   <name>Title</name>
    <tag></tag>
-   <elementGuidId>d33c553a-5919-4356-991a-d0695299de13</elementGuidId>
+   <elementGuidId>a30ce9d3-64e8-44e0-8ce9-0cf8b76ff605</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@class='dz-default dz-message']</value>
+         <value>//input[@id='P136_MASTER_TITLE']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

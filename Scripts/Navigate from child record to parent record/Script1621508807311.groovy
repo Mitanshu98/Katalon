@@ -23,7 +23,7 @@ WebUI.openBrowser('www.google.com')
 
 WebUI.waitForPageLoad(GlobalVariable.Timeout)
 
-WebUI.navigateToUrl(GlobalVariable.Url)
+WebUI.navigateToUrl('https://halodemo.insife.cloud:8080/ords/f?p=100:LOGIN_DESKTOP:250404183592:::::')
 
 WebUI.waitForPageLoad(GlobalVariable.Timeout)
 
@@ -78,44 +78,61 @@ WebUI.click(findTestObject('HALO Front-End/Processes/Entities and Agreement'))
 
 WebUI.waitForPageLoad(GlobalVariable.Timeout)
 
+WebUI.waitForElementPresent(findTestObject('Test Cases/Access child forms via task actions/Entites and agreement(External)'), 
+    GlobalVariable.Timeout)
+
 WebUI.click(findTestObject('Test Cases/Access child forms via task actions/Entites and agreement(External)'))
 
 WebUI.waitForPageLoad(GlobalVariable.Timeout)
 
-WebUI.waitForElementVisible(findTestObject('Test Cases/Add, Delete and Attachment/Old record(entities (external))'), GlobalVariable.Timeout)
+WebUI.waitForElementVisible(findTestObject('Test Cases/Access child forms via Task options/Old Record'), GlobalVariable.Timeout)
 
-WebUI.click(findTestObject('Test Cases/Add, Delete and Attachment/Old record(entities (external))'))
+WebUI.click(findTestObject('Test Cases/Access child forms via Task options/Old Record'))
+
+WebUI.waitForPageLoad(GlobalVariable.Timeout)
 
 WebUI.switchToFrame(findTestObject('HALO Front-End/Common Elements/Iframe(5)'), 2)
 
-WebUI.waitForElementVisible(findTestObject('HALO Front-End/Common Elements/Basic Information box/Basic Information'), GlobalVariable.Timeout)
+WebUI.waitForElementPresent(findTestObject('Test Cases/Access child forms via Task options/Associated child'), GlobalVariable.Timeout)
 
-WebUI.click(findTestObject('HALO Front-End/Common Elements/Basic Information box/Basic Information'))
-
-WebUI.waitForElementVisible(findTestObject('HALO Front-End/Common Elements/Basic Information box/Entity name'), GlobalVariable.Timeout)
-
-WebUI.setText(findTestObject('HALO Front-End/Common Elements/Basic Information box/Entity name'), '<Test Case - OQ 03.50')
-
-WebUI.selectOptionByLabel(findTestObject('HALO Front-End/Common Elements/Basic Information box/Type'), 'Partner', false)
-
-WebUI.click(findTestObject('HALO Front-End/Common Elements/Basic Information box/Save and close'))
-
-WebUI.delay(GlobalVariable.Delay)
+WebUI.click(findTestObject('Test Cases/Access child forms via Task options/Associated child'))
 
 WebUI.waitForPageLoad(GlobalVariable.Timeout)
 
-WebUI.waitForElementClickable(findTestObject('Object Repository/Test Cases/Add, Delete and Attachment/Attachment button'), 
+WebUI.waitForElementVisible(findTestObject('Test Cases/Access child forms via Task options/Add child record'), GlobalVariable.Timeout)
+
+WebUI.click(findTestObject('Test Cases/Access child forms via Task options/Add child record'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.waitForPageLoad(GlobalVariable.Timeout)
+
+WebUI.waitForElementVisible(findTestObject('Test Cases/Access child forms via Task options/Child record/Core process'), 
     GlobalVariable.Timeout)
 
-WebUI.click(findTestObject('Test Cases/Add, Delete and Attachment/Attachment button'))
-
-WebUI.waitForPageLoad(GlobalVariable.Timeout)
-
-WebUI.waitForElementVisible(findTestObject('Test Cases/Add, Delete and Attachment/Upload file'), GlobalVariable.Timeout)
-
-WebUI.uploadFile(findTestObject('Test Cases/Add, Delete and Attachment/Upload file'), 'Downloads\\\\icsr.xlsx')
+WebUI.selectOptionByLabel(findTestObject('Test Cases/Access child forms via Task options/Child record/Core process'), 'Entities and agreements', 
+    false)
 
 WebUI.delay(GlobalVariable.Delay)
 
-WebUI.click(findTestObject('Test Cases/Add, Delete and Attachment/Upload Button'))
+WebUI.selectOptionByLabel(findTestObject('Test Cases/Access child forms via Task options/Child record/Workflow'), 'Entities management (External)', 
+    false)
+
+WebUI.setText(findTestObject('Test Cases/Access child forms via Task options/Child record/Title'), 'Automation Testing')
+
+WebUI.selectOptionByLabel(findTestObject('Test Cases/Access child forms via Task options/Child record/Type'), 'Committee', 
+    false)
+
+WebUI.selectOptionByLabel(findTestObject('Test Cases/Access child forms via Task options/Child record/Organizational Entity'), 
+    'Root organization', false)
+
+WebUI.delay(GlobalVariable.Delay)
+
+WebUI.click(findTestObject('Test Cases/Access child forms via Task options/Create and open'))
+
+WebUI.waitForPageLoad(GlobalVariable.Timeout)
+
+WebUI.click(findTestObject('Test Cases/Access child forms via Task options/Associated child'))
+
+WebUI.waitForElementVisible(findTestObject('Test Cases/Access child forms via Task options/Go to parent record'), GlobalVariable.Timeout)
+
+WebUI.click(findTestObject('Test Cases/Access child forms via Task options/Go to parent record'))
 

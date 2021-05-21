@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description>Here we are selecting the file for upload</description>
-   <name>Upload file</name>
+   <description>This is a button which is used for go from child record to parent record</description>
+   <name>Go to parent record</name>
    <tag></tag>
-   <elementGuidId>d33c553a-5919-4356-991a-d0695299de13</elementGuidId>
+   <elementGuidId>aec16825-e9f5-46c9-a3fb-86bbcc3d973b</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@class='dz-default dz-message']</value>
+         <value>//button[@id='B33338312944066717']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
