@@ -111,11 +111,11 @@ WebUI.click(findTestObject('Test Cases/Add, Delete and Attachment/Attachment but
 
 WebUI.waitForPageLoad(GlobalVariable.Timeout)
 
-WebUI.waitForElementVisible(findTestObject('Test Cases/Add, Delete and Attachment/Upload file'), GlobalVariable.Timeout)
+WebUI.waitForElementClickable(findTestObject('Test Cases/Add, Delete and Attachment/Action'), 24)
 
-WebUI.uploadFile(findTestObject('Test Cases/Add, Delete and Attachment/Upload file'), 'Downloads\\\\icsr.xlsx')
+WebUI.click(findTestObject('Test Cases/Add, Delete and Attachment/Action'))
 
-WebUI.delay(GlobalVariable.Delay)
+WebUI.waitForElementClickable(findTestObject('Test Cases/Reports/Tabular Reports/Download'), 25)
 
-WebUI.click(findTestObject('Test Cases/Add, Delete and Attachment/Upload Button'))
+WebUI.click(findTestObject('Test Cases/Reports/Tabular Reports/Download'))
 

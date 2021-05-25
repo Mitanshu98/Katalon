@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description>Here we are selecting the file for upload</description>
-   <name>Upload file</name>
+   <description></description>
+   <name>Search Field</name>
    <tag></tag>
-   <elementGuidId>d33c553a-5919-4356-991a-d0695299de13</elementGuidId>
+   <elementGuidId>4a2d12be-d20c-46b7-855c-97d6240fbb20</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@class=&quot;dropzone dz-style4 dz-clickable&quot;]</value>
+         <value>//input[@class='a-PopupLOV-search apex-item-text']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -19,11 +19,9 @@ import org.openqa.selenium.Keys as Keys
 
 //***********************************************STEP 1:**************************************************
 //Open the browser and enter application url
-WebUI.openBrowser('www.google.com')
+WebUI.openBrowser('https://halocodebase.insife.cloud:8080/ords/f?p=100')
 
 WebUI.waitForPageLoad(GlobalVariable.Timeout)
-
-WebUI.navigateToUrl('https://halodemo.insife.cloud:8080/ords/f?p=100:LOGIN_DESKTOP:250404183592:::::')
 
 WebUI.waitForPageLoad(GlobalVariable.Timeout)
 
@@ -36,7 +34,7 @@ WebUI.setText(findTestObject('Microsoft and HALO login/Microsoft login/Enter_ema
 WebUI.click(findTestObject('Microsoft and HALO login/Microsoft login/Next button'))
 
 //Enter password encrypted
-WebUI.setEncryptedText(findTestObject('Microsoft and HALO login/Microsoft login/Password'), 'ZSBpLB3nxxkXHvLg/VAeWg==')
+WebUI.setEncryptedText(findTestObject('Microsoft and HALO login/Microsoft login/Password'), GlobalVariable.UserPass)
 
 //Click signin button
 WebUI.click(findTestObject('Microsoft and HALO login/Microsoft login/SignIn'))
@@ -54,9 +52,9 @@ WebUI.waitForElementVisible(findTestObject('Microsoft and HALO login/HALO Login 
 
 //*******************************************STEP 2:*******************************************************
 //Login and Verify user subscriptions and the Organization of the user
-WebUI.setText(findTestObject('Microsoft and HALO login/HALO Login Page/HALO_Username'), 'AUTOMATE.USER1')
+WebUI.setText(findTestObject('Microsoft and HALO login/HALO Login Page/HALO_Username'), User1)
 
-WebUI.setText(findTestObject('Microsoft and HALO login/HALO Login Page/HALO_Password'), 'AUTOMATE.USER1')
+WebUI.setText(findTestObject('Microsoft and HALO login/HALO Login Page/HALO_Password'), User1)
 
 WebUI.click(findTestObject('Microsoft and HALO login/HALO Login Page/Halo_Login Btn'))
 
@@ -71,7 +69,7 @@ WebUI.click(findTestObject('HALO Front-End/My settings/My roles'))
 WebUI.delay(GlobalVariable.Delay)
 
 'First test user role screenshot\t'
-WebUI.takeFullPageScreenshot('C:\\Users\\mitan\\git\\Katalon\\Screenshot\\User subscribed\\USERROLE1.jpg')
+WebUI.takeFullPageScreenshot('Screenshot\\User subscribed\\USERROLE1.jpg')
 
 WebUI.click(findTestObject('HALO Front-End/Common Elements/User_Dropdown'))
 
@@ -83,9 +81,9 @@ WebUI.waitForPageLoad(GlobalVariable.Timeout)
 
 WebUI.delay(GlobalVariable.Delay)
 
-WebUI.setText(findTestObject('Microsoft and HALO login/HALO Login Page/HALO_Username'), 'AUTOMATE.USER2')
+WebUI.setText(findTestObject('Microsoft and HALO login/HALO Login Page/HALO_Username'), User2)
 
-WebUI.setText(findTestObject('Microsoft and HALO login/HALO Login Page/HALO_Password'), 'AUTOMATE.USER2')
+WebUI.setText(findTestObject('Microsoft and HALO login/HALO Login Page/HALO_Password'), User2)
 
 WebUI.click(findTestObject('Microsoft and HALO login/HALO Login Page/Halo_Login Btn'))
 
@@ -99,7 +97,7 @@ WebUI.click(findTestObject('HALO Front-End/My settings/My roles'))
 
 WebUI.delay(GlobalVariable.Delay)
 
-WebUI.takeFullPageScreenshot('C:\\Users\\mitan\\git\\Katalon\\Screenshot\\User subscribed\\USERROLE2.jpg')
+WebUI.takeFullPageScreenshot('Screenshot\\User subscribed\\USERROLE2.jpg')
 
 WebUI.click(findTestObject('HALO Front-End/Common Elements/User_Dropdown'))
 
@@ -111,9 +109,9 @@ WebUI.waitForPageLoad(GlobalVariable.Timeout)
 
 WebUI.delay(GlobalVariable.Delay)
 
-WebUI.setText(findTestObject('Microsoft and HALO login/HALO Login Page/HALO_Username'), 'AUTOMATE.USER3')
+WebUI.setText(findTestObject('Microsoft and HALO login/HALO Login Page/HALO_Username'), User3)
 
-WebUI.setText(findTestObject('Microsoft and HALO login/HALO Login Page/HALO_Password'), 'AUTOMATE.USER3')
+WebUI.setText(findTestObject('Microsoft and HALO login/HALO Login Page/HALO_Password'), User3)
 
 WebUI.click(findTestObject('Microsoft and HALO login/HALO Login Page/Halo_Login Btn'))
 
@@ -127,7 +125,7 @@ WebUI.click(findTestObject('HALO Front-End/My settings/My roles'))
 
 WebUI.delay(GlobalVariable.Delay)
 
-WebUI.takeFullPageScreenshot('C:\\Users\\mitan\\git\\Katalon\\Screenshot\\User subscribed\\USERROLE3.jpg')
+WebUI.takeFullPageScreenshot('Screenshot\\User subscribed\\USERROLE3.jpg')
 
 WebUI.click(findTestObject('HALO Front-End/Common Elements/User_Dropdown'))
 
@@ -137,9 +135,9 @@ WebUI.click(findTestObject('HALO Front-End/Common Elements/Log Out'))
 
 WebUI.waitForPageLoad(GlobalVariable.Timeout)
 
-WebUI.setText(findTestObject('Microsoft and HALO login/HALO Login Page/HALO_Username'), 'AUTOMATE.USER1')
+WebUI.setText(findTestObject('Microsoft and HALO login/HALO Login Page/HALO_Username'), User1)
 
-WebUI.setText(findTestObject('Microsoft and HALO login/HALO Login Page/HALO_Password'), 'AUTOMATE.USER1')
+WebUI.setText(findTestObject('Microsoft and HALO login/HALO Login Page/HALO_Password'), User1)
 
 WebUI.click(findTestObject('Microsoft and HALO login/HALO Login Page/Halo_Login Btn'))
 
@@ -168,10 +166,9 @@ WebUI.click(findTestObject('HALO Front-End/Common Elements/Basic Information box
 
 WebUI.waitForElementVisible(findTestObject('HALO Front-End/Common Elements/Basic Information box/Entity name'), GlobalVariable.Timeout)
 
-WebUI.setText(findTestObject('HALO Front-End/Common Elements/Basic Information box/Entity name'), 'Placebo Product')
+WebUI.setText(findTestObject('HALO Front-End/Common Elements/Basic Information box/Entity name'), Title, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.selectOptionByLabel(findTestObject('HALO Front-End/Common Elements/Basic Information box/Type'), 'Combination product (Drug-drug)', 
-    false)
+WebUI.selectOptionByLabel(findTestObject('HALO Front-End/Common Elements/Basic Information box/Type'), Type, false, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.click(findTestObject('HALO Front-End/Common Elements/Basic Information box/Save and close'))
 
@@ -181,15 +178,15 @@ WebUI.delay(GlobalVariable.Delay)
 
 WebUI.waitForElementVisible(findTestObject('Test Cases/User subscribed to configured/Description'), GlobalVariable.Timeout)
 
-WebUI.setText(findTestObject('Test Cases/User subscribed to configured/Description'), 'Placebo combination product is')
+WebUI.setText(findTestObject('Test Cases/User subscribed to configured/Description'), Description)
 
-WebUI.setText(findTestObject('Test Cases/User subscribed to configured/Notes'), 'Placebo combination product is')
+WebUI.setText(findTestObject('Test Cases/User subscribed to configured/Notes'), Notes)
 
 WebUI.click(findTestObject('HALO Front-End/Common Elements/Record Save'))
 
 WebUI.delay(GlobalVariable.Delay)
 
-WebUI.takeFullPageScreenshot('C:\\Users\\mitan\\git\\Katalon\\Screenshot\\User subscribed\\RECORD1.jpg')
+WebUI.takeFullPageScreenshot('Screenshot\\User subscribed\\RECORD1.jpg')
 
 WebUI.click(findTestObject('HALO Front-End/Common Elements/Record Close'))
 
@@ -205,9 +202,9 @@ WebUI.waitForPageLoad(GlobalVariable.Timeout)
 
 WebUI.delay(GlobalVariable.Delay)
 
-WebUI.setText(findTestObject('Microsoft and HALO login/HALO Login Page/HALO_Username'), 'AUTOMATE.USER3')
+WebUI.setText(findTestObject('Microsoft and HALO login/HALO Login Page/HALO_Username'), User3)
 
-WebUI.setText(findTestObject('Microsoft and HALO login/HALO Login Page/HALO_Password'), 'AUTOMATE.USER3')
+WebUI.setText(findTestObject('Microsoft and HALO login/HALO Login Page/HALO_Password'), User3)
 
 WebUI.click(findTestObject('Microsoft and HALO login/HALO Login Page/Halo_Login Btn'))
 
@@ -215,7 +212,7 @@ WebUI.waitForPageLoad(GlobalVariable.Timeout)
 
 WebUI.delay(GlobalVariable.Delay)
 
-WebUI.takeFullPageScreenshot('C:\\Users\\mitan\\git\\Katalon\\Screenshot\\User subscribed\\RECORD2.jpg')
+WebUI.takeFullPageScreenshot('Screenshot\\User subscribed\\RECORD2.jpg')
 
 WebUI.click(findTestObject('HALO Front-End/Common Elements/User_Dropdown'))
 
@@ -227,9 +224,9 @@ WebUI.waitForPageLoad(GlobalVariable.Timeout)
 
 WebUI.delay(GlobalVariable.Delay)
 
-WebUI.setText(findTestObject('Microsoft and HALO login/HALO Login Page/HALO_Username'), 'AUTOMATE.USER2')
+WebUI.setText(findTestObject('Microsoft and HALO login/HALO Login Page/HALO_Username'), User2)
 
-WebUI.setText(findTestObject('Microsoft and HALO login/HALO Login Page/HALO_Password'), 'AUTOMATE.USER2')
+WebUI.setText(findTestObject('Microsoft and HALO login/HALO Login Page/HALO_Password'), User2)
 
 WebUI.click(findTestObject('Microsoft and HALO login/HALO Login Page/Halo_Login Btn'))
 
@@ -243,5 +240,13 @@ WebUI.click(findTestObject('Test Cases/User subscribed to configured/Product man
 
 WebUI.waitForPageLoad(GlobalVariable.Timeout)
 
-WebUI.takeFullPageScreenshot('C:\\Users\\mitan\\git\\Katalon\\Screenshot\\User subscribed\\RECORD3.jpg')
+WebUI.takeFullPageScreenshot('Screenshot\\User subscribed\\RECORD3.jpg')
+
+WebUI.click(findTestObject('HALO Front-End/Common Elements/User_Dropdown'))
+
+WebUI.waitForElementVisible(findTestObject('HALO Front-End/Common Elements/Log Out'), GlobalVariable.Timeout)
+
+WebUI.click(findTestObject('HALO Front-End/Common Elements/Log Out'))
+
+WebUI.closeBrowser()
 

@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description>Here we are selecting the file for upload</description>
-   <name>Upload file</name>
+   <description></description>
+   <name>Close</name>
    <tag></tag>
-   <elementGuidId>d33c553a-5919-4356-991a-d0695299de13</elementGuidId>
+   <elementGuidId>6fe081d0-ece2-4b4a-a79e-33946d6810dc</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@class=&quot;dropzone dz-style4 dz-clickable&quot;]</value>
+         <value>//span[text()='User information']/following-sibling::button[@class='ui-dialog-titlebar-close']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

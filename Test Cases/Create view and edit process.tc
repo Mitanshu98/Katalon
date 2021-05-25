@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Here we are creatring a new record in Entities(external)
+and Fill the external SDEA form</description>
+   <name>Create view and edit process</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6196f5cc-a6fc-44d1-89dd-9d376e93984f</testCaseGuid>
+</TestCaseEntity>

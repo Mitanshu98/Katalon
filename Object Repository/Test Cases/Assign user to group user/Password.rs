@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description>Here we are selecting the file for upload</description>
-   <name>Upload file</name>
+   <description></description>
+   <name>Password</name>
    <tag></tag>
-   <elementGuidId>d33c553a-5919-4356-991a-d0695299de13</elementGuidId>
+   <elementGuidId>cc78c77a-d174-4eb2-ac30-d7e86b9f033a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@class=&quot;dropzone dz-style4 dz-clickable&quot;]</value>
+         <value>//input[@id='P47_INITIAL_PW']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

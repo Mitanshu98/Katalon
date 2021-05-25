@@ -29,4 +29,14 @@
       <initValue>'https://halocodebase.insife.cloud:8080/ords/f?p=100'</initValue>
       <name>Url</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>This is a encrypted outlook password</description>
+      <initValue>'ZSBpLB3nxxkXHvLg/VAeWg=='</initValue>
+      <name>UserPass</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>This is a encrypted password for Halo Environment</description>
+      <initValue>'r0Zc9uoGivFWnlDK9UxeLSw1+U/R0MIL'</initValue>
+      <name>HaloPass</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
