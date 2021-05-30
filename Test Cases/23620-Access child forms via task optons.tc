@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Here we are creating a new record in Entities and agreement(external) and opening the create SDEA agreement form</description>
+   <name>23620-Access child forms via task optons</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>332b2c2d-77d3-42f8-bc0d-1e04aef188f0</testCaseGuid>
+   <variable>
+      <defaultValue>'Automation Testing'</defaultValue>
+      <description></description>
+      <id>6dffdc03-5fca-4720-8f30-389e5fe64835</id>
+      <masked>false</masked>
+      <name>Title</name>
+   </variable>
+   <variable>
+      <defaultValue>'Partner'</defaultValue>
+      <description></description>
+      <id>7b6aa79c-cdd6-4ea2-bdf6-a121ef049cb0</id>
+      <masked>false</masked>
+      <name>Type</name>
+   </variable>
+   <variable>
+      <defaultValue>'30-JUN-2021'</defaultValue>
+      <description>Workflow to be comleted by:-</description>
+      <id>6225f171-0d67-473d-b66e-572733b90f38</id>
+      <masked>false</masked>
+      <name>Workflow</name>
+   </variable>
+   <variable>
+      <defaultValue>'Test'</defaultValue>
+      <description></description>
+      <id>68acbc14-03d9-488d-a322-9636d7d95a32</id>
+      <masked>false</masked>
+      <name>Reporting</name>
+   </variable>
+</TestCaseEntity>

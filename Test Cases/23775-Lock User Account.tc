@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>In this test case we are lock the user from accessing the Halo environment.</description>
+   <name>23775-Lock User Account</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>51a8b1ce-8306-48de-ba10-20129dc56307</testCaseGuid>
+   <variable>
+      <defaultValue>'TESTUSER\r\n'</defaultValue>
+      <description>The Username which is to be locked</description>
+      <id>c9b27349-74f0-45ea-b75a-76fe555561e5</id>
+      <masked>false</masked>
+      <name>User</name>
+   </variable>
+   <variable>
+      <defaultValue>'r0Zc9uoGivFWnlDK9UxeLSw1+U/R0MIL'</defaultValue>
+      <description></description>
+      <id>adf931af-c97a-4c4e-89dd-c32282e03316</id>
+      <masked>false</masked>
+      <name>Userpassword</name>
+   </variable>
+   <variable>
+      <defaultValue>'4142'</defaultValue>
+      <description>This is the id of the Halo user.</description>
+      <id>f2500a41-7ad0-47f6-9e6b-13d1317b53d1</id>
+      <masked>false</masked>
+      <name>Test</name>
+   </variable>
+</TestCaseEntity>

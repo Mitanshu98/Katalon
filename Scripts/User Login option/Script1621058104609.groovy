@@ -17,77 +17,25 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-//***********************************************STEP 1:**************************************************
-//Open the browser and enter application url
-WebUI.openBrowser('www.google.com')
+CustomKeywords.'HALO.HaloLogin'()
 
-WebUI.waitForPageLoad(Timeout)
+WebUI.takeScreenshot()
 
-WebUI.navigateToUrl('https://halodemo.insife.cloud:8080/ords/f?p=100:LOGIN_DESKTOP:250404183592:::::')
+CustomKeywords.'HALO.Logout'()
 
-WebUI.waitForPageLoad(Timeout)
+WebUI.waitForPageLoad(GlobalVariable.Delay)
 
-WebUI.maximizeWindow()
-
-//Store email id in a string variable
-String emailid = 'mitanshu.gupta@insife.com'
-
-//Enter email id in textbox for microsoft login
-WebUI.setText(findTestObject('Microsoft and HALO login/Microsoft login/Enter_email'), emailid)
-
-//Click on next button
-WebUI.click(findTestObject('Microsoft and HALO login/Microsoft login/Next button'))
-
-//Enter password encrypted
-WebUI.setEncryptedText(findTestObject('Microsoft and HALO login/Microsoft login/Password'), 'ZSBpLB3nxxkXHvLg/VAeWg==')
-
-//Click signin button
-WebUI.click(findTestObject('Microsoft and HALO login/Microsoft login/SignIn'))
-
-//wait for authentication
-WebUI.waitForPageLoad(Timeout)
-
-//Check checkbox for stay signed in
-WebUI.check(findTestObject('Microsoft and HALO login/Microsoft login/Checkbox stay signed in'))
-
-//Click Yes button
-WebUI.click(findTestObject('Microsoft and HALO login/Microsoft login/Stay signed in YES'))
-
-WebUI.waitForElementVisible(findTestObject('Microsoft and HALO login/HALO Login Page/Halo_Login Btn'), Timeout)
-
-//*******************************************STEP 2:*******************************************************
-//Login and Verify user subscriptions and the Organization of the user
-WebUI.setText(findTestObject('Microsoft and HALO login/HALO Login Page/HALO_Username'), emailid)
-
-WebUI.setEncryptedText(findTestObject('Microsoft and HALO login/HALO Login Page/HALO_Password'), 'r0Zc9uoGivFWnlDK9UxeLSw1+U/R0MIL')
-
-WebUI.click(findTestObject('Microsoft and HALO login/HALO Login Page/Halo_Login Btn'))
-
-WebUI.waitForPageLoad(Timeout)
-
-WebUI.delay(Delay)
-
-WebUI.click(findTestObject('HALO Front-End/Common Elements/User_Dropdown'))
-
-WebUI.waitForElementPresent(findTestObject('HALO Front-End/Common Elements/Log Out'), Timeout)
-
-WebUI.click(findTestObject('HALO Front-End/Common Elements/Log Out'))
-
-WebUI.waitForPageLoad(Timeout)
-
-WebUI.delay(Delay)
+WebUI.delay(GlobalVariable.Delay)
 
 WebUI.click(findTestObject('HALO Front-End/Common Elements/Azure login'))
 
-WebUI.waitForPageLoad(Timeout)
+WebUI.waitForPageLoad(GlobalVariable.Timeout)
 
-WebUI.delay(Delay)
+WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('HALO Front-End/Common Elements/User_Dropdown'))
+WebUI.delay(GlobalVariable.Delay)
 
-WebUI.waitForElementPresent(findTestObject('HALO Front-End/Common Elements/Log Out'), Timeout)
-
-WebUI.click(findTestObject('HALO Front-End/Common Elements/Log Out'))
+CustomKeywords.'HALO.Logout'()
 
 WebUI.closeBrowser()
 

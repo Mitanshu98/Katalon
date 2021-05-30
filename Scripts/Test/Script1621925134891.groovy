@@ -1,3 +1,8 @@
+//Title:- Non-expedited reporting requirements overview  DSUR Periodic Reporting rules (Report ID 200)
+//Owner:- Mitanshu Gupta
+//Description:-
+//Environment:- HALO 3.0(https://halocodebase.insife.cloud:8080/ords/f?p=100)
+
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
@@ -17,10 +22,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-//Title:- Non-expedited reporting requirements overview  DSUR Periodic Reporting rules (Report ID 200)
-//Owner:- Mitanshu Gupta
-//Description:-
-//Environment:- HALO 3.0(https://halocodebase.insife.cloud:8080/ords/f?p=100)
+
 //Script starts from here:-
 //This is a custom keywords which stores the script till the login to halo environment.
 CustomKeywords.'HALO.HaloLogin'()

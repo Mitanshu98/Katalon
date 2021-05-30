@@ -5,18 +5,4 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>00b2f5e5-3345-491a-9f01-d65e5828e56b</testCaseGuid>
-   <variable>
-      <defaultValue>20</defaultValue>
-      <description></description>
-      <id>9615288d-fe3f-4ac4-87bb-73d6ba6a9237</id>
-      <masked>false</masked>
-      <name>Timeout</name>
-   </variable>
-   <variable>
-      <defaultValue>5</defaultValue>
-      <description></description>
-      <id>bab384f6-c92c-4724-a744-bf8896d2f7e0</id>
-      <masked>false</masked>
-      <name>Delay</name>
-   </variable>
 </TestCaseEntity>

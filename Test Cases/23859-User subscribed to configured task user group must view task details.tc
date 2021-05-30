@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>23859-User subscribed to configured task user group must view task details</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>197d78a7-827b-4847-8094-9b9dae2e2807</testCaseGuid>
+   <variable>
+      <defaultValue>'AUTOMATE.USER1'</defaultValue>
+      <description>Test User 1 and password</description>
+      <id>b925f67f-5fe1-4548-b3f9-661470a42f1f</id>
+      <masked>false</masked>
+      <name>User1</name>
+   </variable>
+   <variable>
+      <defaultValue>'AUTOMATE.USER2'</defaultValue>
+      <description>Test User 2 and password</description>
+      <id>f57b397d-1124-4e63-9182-cf5114f41392</id>
+      <masked>false</masked>
+      <name>User2</name>
+   </variable>
+   <variable>
+      <defaultValue>'AUTOMATE.USER3'</defaultValue>
+      <description>Test User 3 and password</description>
+      <id>99a6ae1e-1ea4-4005-90d5-6063ae3cc48d</id>
+      <masked>false</masked>
+      <name>User3</name>
+   </variable>
+   <variable>
+      <defaultValue>'Placebo Product'</defaultValue>
+      <description></description>
+      <id>99451639-b4a0-49e7-a76a-1bf39c848141</id>
+      <masked>false</masked>
+      <name>Title</name>
+   </variable>
+   <variable>
+      <defaultValue>'Combination product (Drug-drug)'</defaultValue>
+      <description></description>
+      <id>fec8a305-05c3-4eab-9b09-2df968c89b44</id>
+      <masked>false</masked>
+      <name>Type</name>
+   </variable>
+   <variable>
+      <defaultValue>'Placebo combination product is'</defaultValue>
+      <description></description>
+      <id>c421ae88-4bee-491b-a2a5-b8c93320f954</id>
+      <masked>false</masked>
+      <name>Description</name>
+   </variable>
+   <variable>
+      <defaultValue>'Placebo combination product is'</defaultValue>
+      <description></description>
+      <id>6bf059c7-1d4f-4a34-885a-2fe14bfca745</id>
+      <masked>false</masked>
+      <name>Notes</name>
+   </variable>
+</TestCaseEntity>

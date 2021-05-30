@@ -29,26 +29,29 @@ WebUI.waitForPageLoad(GlobalVariable.Timeout)
 
 WebUI.maximizeWindow()
 
-//Enter email id in textbox for microsoft login
-WebUI.setText(findTestObject('Microsoft and HALO login/Microsoft login/Enter_email'), GlobalVariable.Email)
-
-//Click on next button
-WebUI.click(findTestObject('Microsoft and HALO login/Microsoft login/Next button'))
-
-//Enter password encrypted
-WebUI.setEncryptedText(findTestObject('Microsoft and HALO login/Microsoft login/Password'), 'ZSBpLB3nxxkXHvLg/VAeWg==')
-
-//Click signin button
-WebUI.click(findTestObject('Microsoft and HALO login/Microsoft login/SignIn'))
-
-//wait for authentication
-WebUI.waitForPageLoad(GlobalVariable.Timeout)
-
-//Check checkbox for stay signed in
-WebUI.check(findTestObject('Microsoft and HALO login/Microsoft login/Checkbox stay signed in'))
-
-//Click Yes button
-WebUI.click(findTestObject('Microsoft and HALO login/Microsoft login/Stay signed in YES'))
+if (WebUI.waitForElementVisible(findTestObject('Object Repository/Microsoft and HALO login/Microsoft login/Enter_email'), 20)) {
+	//Enter email id in textbox for microsoft login
+	WebUI.setText(findTestObject('Microsoft and HALO login/Microsoft login/Enter_email'), GlobalVariable.Email)
+	
+	//Click on next button
+	WebUI.click(findTestObject('Microsoft and HALO login/Microsoft login/Next button'))
+	
+	//Enter password encrypted
+	WebUI.setEncryptedText(findTestObject('Microsoft and HALO login/Microsoft login/Password'), 'ZSBpLB3nxxkXHvLg/VAeWg==')
+	
+	//Click signin button
+	WebUI.click(findTestObject('Microsoft and HALO login/Microsoft login/SignIn'))
+	
+	//wait for authentication
+	WebUI.waitForPageLoad(GlobalVariable.Timeout)
+	
+	//Check checkbox for stay signed in
+	WebUI.check(findTestObject('Microsoft and HALO login/Microsoft login/Checkbox stay signed in'))
+	
+	//Click Yes button
+	WebUI.click(findTestObject('Microsoft and HALO login/Microsoft login/Stay signed in YES'))
+	
+	}
 
 WebUI.waitForElementVisible(findTestObject('Microsoft and HALO login/HALO Login Page/Halo_Login Btn'), GlobalVariable.Timeout)
 
