@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>23780-Navigate from child record to parent record</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>445bd316-0b46-4f75-ac01-eb535f2f4b3d</testCaseGuid>
+   <variable>
+      <defaultValue>'Entities and agreements'</defaultValue>
+      <description></description>
+      <id>e6385eeb-ef96-4c36-a04f-42139967dcdd</id>
+      <masked>false</masked>
+      <name>Core_Process</name>
+   </variable>
+   <variable>
+      <defaultValue>'Entities management (External)'</defaultValue>
+      <description></description>
+      <id>8e47ca86-8d2a-4829-a985-2a70215c9323</id>
+      <masked>false</masked>
+      <name>Workflow</name>
+   </variable>
+   <variable>
+      <defaultValue>'Automation Testing'</defaultValue>
+      <description></description>
+      <id>12d78486-afa7-4228-a208-62e2aa8e3cb4</id>
+      <masked>false</masked>
+      <name>Title</name>
+   </variable>
+   <variable>
+      <defaultValue>'Committee'</defaultValue>
+      <description></description>
+      <id>cf8a99c2-a957-4c42-8868-2d8f8159f331</id>
+      <masked>false</masked>
+      <name>Type</name>
+   </variable>
+   <variable>
+      <defaultValue>'Root organization'</defaultValue>
+      <description></description>
+      <id>c960c391-7b9e-481f-ab61-5a98b39df173</id>
+      <masked>false</masked>
+      <name>Entitity</name>
+   </variable>
+</TestCaseEntity>

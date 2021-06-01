@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='P41_SHOW_COMPLETED']/descendant::span[@class='apex-item-option apex-item-option--yes']</value>
+         <value>//input[@id='P41_SHOW_COMPLETED_Y']/parent::*</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

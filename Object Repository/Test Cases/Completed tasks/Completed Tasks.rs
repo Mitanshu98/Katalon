@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Old Record</name>
+   <name>Completed Tasks</name>
    <tag></tag>
-   <elementGuidId>4ce017f8-c0d0-49bb-8bde-740b5b3cd564</elementGuidId>
+   <elementGuidId>a6201857-df1c-4985-97a5-e69580f85ebd</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[text()='ORG_EXT-1174']</value>
+         <value>//div[@class='card-body']/descendant::*[text()='My completed tasks']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>23563-Access to process records</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b0c41323-0dbe-44ab-a7f3-62c5b407d8f9</testCaseGuid>
+   <variable>
+      <defaultValue>'Entities'</defaultValue>
+      <description></description>
+      <id>d512ea08-5268-4b40-a3c0-78158cc5b377</id>
+      <masked>false</masked>
+      <name>Search</name>
+   </variable>
+   <variable>
+      <defaultValue>'Automation Testing'</defaultValue>
+      <description></description>
+      <id>ce3c5177-6323-4fe7-9a16-503d9ed5565c</id>
+      <masked>false</masked>
+      <name>Clinical_title</name>
+   </variable>
+</TestCaseEntity>

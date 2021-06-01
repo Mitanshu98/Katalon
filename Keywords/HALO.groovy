@@ -70,7 +70,7 @@ public class HALO {
 		WebUI.delay(GlobalVariable.Delay)
 	}
 
-	@Keyword 
+	@Keyword
 	public void Logout(){
 		WebUI.click(findTestObject('HALO Front-End/Common Elements/User_Dropdown'))
 
@@ -78,62 +78,61 @@ public class HALO {
 
 		WebUI.click(findTestObject('HALO Front-End/Common Elements/Log Out'))
 	}
-	
+
 	@Keyword
 	public void HaloMicrosoftLogin() {
 		WebUI.openBrowser(GlobalVariable.Url)
-		
+
 		WebUI.waitForPageLoad(GlobalVariable.Timeout)
-		
+
 		WebUI.maximizeWindow()
-		
+
 		//Enter email id in textbox for microsoft login
 		WebUI.setText(findTestObject('Microsoft and HALO login/Microsoft login/Enter_email'), GlobalVariable.Email)
-		
+
 		//Click on next button
 		WebUI.click(findTestObject('Microsoft and HALO login/Microsoft login/Next button'))
-		
+
 		//Enter password encrypted
 		WebUI.setEncryptedText(findTestObject('Microsoft and HALO login/Microsoft login/Password'), GlobalVariable.UserPass)
-		
+
 		//Click signin button
 		WebUI.click(findTestObject('Microsoft and HALO login/Microsoft login/SignIn'))
-		
+
 		//wait for authentication
 		WebUI.waitForPageLoad(GlobalVariable.Timeout)
-		
+
 		//Check checkbox for stay signed in
 		WebUI.check(findTestObject('Microsoft and HALO login/Microsoft login/Checkbox stay signed in'))
-		
+
 		//Click Yes button
 		WebUI.click(findTestObject('Microsoft and HALO login/Microsoft login/Stay signed in YES'))
 	}
-	@Keyword 
+	@Keyword
 	public void HaloUserLogin(String User,String password) {
-		
+
 		WebUI.waitForElementVisible(findTestObject('Microsoft and HALO login/HALO Login Page/Halo_Login Btn'), GlobalVariable.Timeout)
-		
+
 		//*******************************************STEP 2:*******************************************************
 		//Login and Verify user subscriptions and the Organization of the user
 		WebUI.setText(findTestObject('Microsoft and HALO login/HALO Login Page/HALO_Username'), User)
-		
+
 		WebUI.setText(findTestObject('Microsoft and HALO login/HALO Login Page/HALO_Password'), password)
-		
+
 		WebUI.click(findTestObject('Microsoft and HALO login/HALO Login Page/Halo_Login Btn'))
-		
+
 		WebUI.waitForPageLoad(GlobalVariable.Timeout)
-		
+
 		WebUI.click(findTestObject('HALO Front-End/My settings/My settings'))
-		
+
 		WebUI.waitForElementVisible(findTestObject('HALO Front-End/My settings/My roles'), GlobalVariable.Timeout)
-		
+
 		WebUI.click(findTestObject('HALO Front-End/My settings/My roles'))
-		
+
 		WebUI.delay(GlobalVariable.Delay)
-		
+
 		WebUI.comment('Roles the user has subscribed')
-		
+
 		WebUI.takeFullPageScreenshot()
 	}
-	
 }

@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Old Record</name>
+   <name>menu</name>
    <tag></tag>
-   <elementGuidId>4ce017f8-c0d0-49bb-8bde-740b5b3cd564</elementGuidId>
+   <elementGuidId>0685a94e-0e63-4004-a849-a8d77c13310f</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[text()='ORG_EXT-1174']</value>
+         <value>//div[@id='R79427398463545739']//button[@id='B33332628903066713']/following-sibling::*</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Here we are creatring a new record in Entities(external)
+and Fill the external SDEA form</description>
+   <name>Create view and edit process</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6196f5cc-a6fc-44d1-89dd-9d376e93984f</testCaseGuid>
+   <variable>
+      <defaultValue>'Patient Medical'</defaultValue>
+      <description></description>
+      <id>d38350c7-c3fd-44b1-bbe7-51e4d7b69c19</id>
+      <masked>false</masked>
+      <name>Title</name>
+   </variable>
+   <variable>
+      <defaultValue>'Patient Medical'</defaultValue>
+      <description></description>
+      <id>3da68c08-93fe-493b-90a7-20a625a12f44</id>
+      <masked>false</masked>
+      <name>New_Record</name>
+   </variable>
+   <variable>
+      <defaultValue>'Partner'</defaultValue>
+      <description></description>
+      <id>241099d9-85a0-4efb-b431-265290ffa5f9</id>
+      <masked>false</masked>
+      <name>Type</name>
+   </variable>
+   <variable>
+      <defaultValue>'Patient has a medical history of headache'</defaultValue>
+      <description></description>
+      <id>01221cc5-49bc-4f8b-81a4-a8920f7f8410</id>
+      <masked>false</masked>
+      <name>Description</name>
+   </variable>
+   <variable>
+      <defaultValue>'Headache'</defaultValue>
+      <description></description>
+      <id>327068cc-9351-41bf-b96c-2563f9cd83fb</id>
+      <masked>false</masked>
+      <name>Note</name>
+   </variable>
+   <variable>
+      <defaultValue>'Agreements management'</defaultValue>
+      <description></description>
+      <id>89296709-54b7-4556-8eae-15ba59ed4de3</id>
+      <masked>false</masked>
+      <name>workflow</name>
+   </variable>
+   <variable>
+      <defaultValue>'Patient history effected to child'</defaultValue>
+      <description></description>
+      <id>1a74f581-5209-43ca-9d0c-01f8bd2d1edc</id>
+      <masked>false</masked>
+      <name>SEDA_title</name>
+   </variable>
+   <variable>
+      <defaultValue>'Service provider partner'</defaultValue>
+      <description></description>
+      <id>b22ea331-34d4-4fa8-8a0e-78c1977bbc79</id>
+      <masked>false</masked>
+      <name>Sdea_type</name>
+   </variable>
+</TestCaseEntity>

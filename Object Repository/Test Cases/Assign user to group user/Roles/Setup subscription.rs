@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//span[text()='Setup subscription']/parent::*</value>
+         <value>//button[@id='B83253347600691766']/following-sibling::*</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

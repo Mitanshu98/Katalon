@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Old Record</name>
+   <name>Create and return</name>
    <tag></tag>
-   <elementGuidId>4ce017f8-c0d0-49bb-8bde-740b5b3cd564</elementGuidId>
+   <elementGuidId>a209f8fd-1705-498e-8ef5-00934c5cfe5c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[text()='ORG_EXT-1174']</value>
+         <value>//button[@id='B55858245461858563']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

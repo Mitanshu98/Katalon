@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Old Record</name>
+   <name>SDEA_Type</name>
    <tag></tag>
-   <elementGuidId>4ce017f8-c0d0-49bb-8bde-740b5b3cd564</elementGuidId>
+   <elementGuidId>9bb507e8-f57a-4643-b438-c40eb8908c94</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[text()='ORG_EXT-1174']</value>
+         <value>//select[@id='P136_MASTER_TYPE']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;90443566505173368_orig&quot;]/tbody/tr[2]/td[2]/a</value>
+         <value>//a[text()=${record}]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
