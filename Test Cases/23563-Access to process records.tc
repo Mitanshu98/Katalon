@@ -19,4 +19,53 @@
       <masked>false</masked>
       <name>Clinical_title</name>
    </variable>
+   <variable>
+      <defaultValue>'Entities(Internal)'</defaultValue>
+      <description></description>
+      <id>47326fd3-39ac-41f9-b12c-d00d2504571b</id>
+      <masked>false</masked>
+      <name>Title</name>
+   </variable>
+   <variable>
+      <defaultValue>'Company'</defaultValue>
+      <description></description>
+      <id>17ad4a6b-bfdf-4d81-a826-06e319b625da</id>
+      <masked>false</masked>
+      <name>Type</name>
+   </variable>
+   <variable>
+      <defaultValue>'Entities(1)'</defaultValue>
+      <description></description>
+      <id>e2b911c6-b69c-4112-8d87-2086ae611637</id>
+      <masked>false</masked>
+      <name>Title1</name>
+   </variable>
+   <variable>
+      <defaultValue>'Company'</defaultValue>
+      <description></description>
+      <id>2cca2d4e-8cee-4768-abe6-857e08c207ef</id>
+      <masked>false</masked>
+      <name>Type1</name>
+   </variable>
+   <variable>
+      <defaultValue>'Product testing'</defaultValue>
+      <description></description>
+      <id>176cee2d-5b83-4cda-9536-4ab1a49ef284</id>
+      <masked>false</masked>
+      <name>Title2</name>
+   </variable>
+   <variable>
+      <defaultValue>'Vaccine'</defaultValue>
+      <description></description>
+      <id>0284972b-b81e-49dc-9c42-f6a8bf229d3f</id>
+      <masked>false</masked>
+      <name>Type2</name>
+   </variable>
+   <variable>
+      <defaultValue>'Interventional trial, phase 2'</defaultValue>
+      <description></description>
+      <id>5b031ce2-4e17-419d-a076-b3de3dba6a1e</id>
+      <masked>false</masked>
+      <name>clinical_type</name>
+   </variable>
 </TestCaseEntity>

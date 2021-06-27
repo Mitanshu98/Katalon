@@ -6,7 +6,7 @@
    <comment></comment>
    <testCaseGuid>85c3c65a-ca68-4ccc-9188-ca3381f1b187</testCaseGuid>
    <variable>
-      <defaultValue>'Automated'</defaultValue>
+      <defaultValue>'Halo005'</defaultValue>
       <description></description>
       <id>c53d4bf3-fd53-4447-84a1-9ee153eec3d1</id>
       <masked>false</masked>

@@ -71,12 +71,12 @@ WebUI.setText(findTestObject('HALO Front-End/Common Elements/Basic Information b
 
 WebUI.selectOptionByLabel(findTestObject('HALO Front-End/Common Elements/Basic Information box/Type'), Type, false, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.setText(findTestObject('HALO Front-End/Common Elements/Basic Information box/Wrkflow to be completed by'), Workflow, 
-    FailureHandling.CONTINUE_ON_FAILURE)
+/*WebUI.setText(findTestObject('HALO Front-End/Common Elements/Basic Information box/Wrkflow to be completed by'), Workflow, 
+   FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.selectOptionByLabel(findTestObject('HALO Front-End/Common Elements/Basic Information box/Reporting to'), Reporting, 
     false, FailureHandling.CONTINUE_ON_FAILURE)
-
+*/
 WebUI.delay(GlobalVariable.Delay)
 
 WebUI.click(findTestObject('HALO Front-End/Common Elements/Basic Information box/Save and close'))

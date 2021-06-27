@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Old record(entities (external))</name>
+   <name>Organizational entity KPI dashboard</name>
    <tag></tag>
-   <elementGuidId>5ef1213c-f0a3-4219-94c7-0067cdb16be7</elementGuidId>
+   <elementGuidId>5f3e41c8-ff1e-4e24-928c-5d3162f07d77</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[text()='ORG_EXT-1640']</value>
+         <value>//span[text()='Organizational Entity KPI Dashboard']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

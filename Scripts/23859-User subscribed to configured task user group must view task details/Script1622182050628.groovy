@@ -184,5 +184,3 @@ CustomKeywords.'HALO.Logout'()
 
 WebUI.closeBrowser()
 
-WebUI.acceptAlert()
-

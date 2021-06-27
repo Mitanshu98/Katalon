@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Old record(entities (external))</name>
+   <name>Initiate Workflow</name>
    <tag></tag>
-   <elementGuidId>5ef1213c-f0a3-4219-94c7-0067cdb16be7</elementGuidId>
+   <elementGuidId>13d9f02f-0e67-4b9b-be3e-931d03e8596d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[text()='ORG_EXT-1640']</value>
+         <value>//button[@id='B33326379114066709']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

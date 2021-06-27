@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Old record(entities (external))</name>
+   <name>75</name>
    <tag></tag>
-   <elementGuidId>5ef1213c-f0a3-4219-94c7-0067cdb16be7</elementGuidId>
+   <elementGuidId>1498991b-ecf1-4538-84aa-0a3b744efca1</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[text()='ORG_EXT-1640']</value>
+         <value>//td[text()='Aggregate reporting process > Draft aggregate report body (75-95)']/parent::*/descendant::a[text()='75']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

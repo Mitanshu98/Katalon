@@ -88,6 +88,8 @@ WebUI.selectOptionByLabel(findTestObject('Test Cases/Navigate from child record 
 
 WebUI.setText(findTestObject('Test Cases/Navigate from child record to parent record/Child record/Title'), Title)
 
+WebUI.delay(GlobalVariable.Delay)
+
 WebUI.selectOptionByLabel(findTestObject('Test Cases/Navigate from child record to parent record/Child record/Type'), Type, 
     false)
 

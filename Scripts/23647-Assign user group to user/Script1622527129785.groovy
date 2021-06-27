@@ -1,11 +1,9 @@
-/*
+ /*
  Title:- Assign user group to user.
  Owner:- Mitanshu Gupta
  Description:- In this Test case the user is creating a new test user and setup roles for the user.
  Environment:- HALO 3.0(https://halocodebase.insife.cloud:8080/ords/f?p=100)
- */
-
-import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+ */ import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
@@ -141,7 +139,7 @@ WebUI.click(findTestObject('Test Cases/Assign user to group user/Roles/close'))
 
 WebUI.delay(GlobalVariable.Delay)
 
-CustomKeywords.'HALO.HaloLogin'()
+CustomKeywords.'HALO.Logout'()
 
 WebUI.delay(GlobalVariable.Delay)
 

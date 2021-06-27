@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Old record(entities (external))</name>
+   <name>Textarea</name>
    <tag></tag>
-   <elementGuidId>5ef1213c-f0a3-4219-94c7-0067cdb16be7</elementGuidId>
+   <elementGuidId>90038147-d0d0-4543-bf3c-7278bfb70e11</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[text()='ORG_EXT-1640']</value>
+         <value>//textarea[@id='P112_WF_TASK_INSTANCE_NOTES']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

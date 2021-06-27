@@ -4,6 +4,8 @@ import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
+import javax.xml.bind.annotation.XmlElementDecl.GLOBAL
+
 import com.kms.katalon.core.annotation.Keyword
 import com.kms.katalon.core.checkpoint.Checkpoint
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
@@ -28,26 +30,29 @@ public class HALO {
 		//Maximize the browser window
 		WebUI.maximizeWindow()
 
-		//Enter email id in Text box for Microsoft login
-		WebUI.setText(findTestObject('Microsoft and HALO login/Microsoft login/Enter_email'), GlobalVariable.Email)
+		if (WebUI.waitForElementVisible(findTestObject('Object Repository/Microsoft and HALO login/Microsoft login/Enter_email'),
+		20)) {
+			//Enter email id in textbox for microsoft login
+			WebUI.setText(findTestObject('Microsoft and HALO login/Microsoft login/Enter_email'), GlobalVariable.Email)
 
-		//Click on next button
-		WebUI.click(findTestObject('Microsoft and HALO login/Microsoft login/Next button'))
+			//Click on next button
+			WebUI.click(findTestObject('Microsoft and HALO login/Microsoft login/Next button'))
 
-		//Enter password
-		WebUI.setEncryptedText(findTestObject('Microsoft and HALO login/Microsoft login/Password'), GlobalVariable.UserPass)
+			//Enter password encrypted
+			WebUI.setEncryptedText(findTestObject('Microsoft and HALO login/Microsoft login/Password'), GlobalVariable.UserPass)
 
-		//Click sign in button
-		WebUI.click(findTestObject('Microsoft and HALO login/Microsoft login/SignIn'))
+			//Click signin button
+			WebUI.click(findTestObject('Microsoft and HALO login/Microsoft login/SignIn'))
 
-		//wait for authentication
-		WebUI.waitForPageLoad(GlobalVariable.Timeout)
+			//wait for authentication
+			WebUI.waitForPageLoad(GlobalVariable.Timeout)
 
-		//Check Check box for stay signed in
-		WebUI.check(findTestObject('Microsoft and HALO login/Microsoft login/Checkbox stay signed in'))
+			//Check checkbox for stay signed in
+			WebUI.check(findTestObject('Microsoft and HALO login/Microsoft login/Checkbox stay signed in'))
 
-		//Click Yes button
-		WebUI.click(findTestObject('Microsoft and HALO login/Microsoft login/Stay signed in YES'))
+			//Click Yes button
+			WebUI.click(findTestObject('Microsoft and HALO login/Microsoft login/Stay signed in YES'))
+		}
 
 		WebUI.waitForElementVisible(findTestObject('Microsoft and HALO login/HALO Login Page/Halo_Login Btn'), GlobalVariable.Timeout)
 

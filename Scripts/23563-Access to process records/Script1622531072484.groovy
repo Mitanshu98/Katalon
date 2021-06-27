@@ -78,6 +78,26 @@ WebUI.waitForElementVisible(findTestObject('Test Cases/Access to process records
 
 WebUI.click(findTestObject('Test Cases/Access to process records/Close Record Scope'))
 
+//New step added
+WebUI.waitForElementPresent(findTestObject('HALO Front-End/Common Elements/Basic Information box/Basic Information'), GlobalVariable.Timeout)
+
+WebUI.click(findTestObject('HALO Front-End/Common Elements/Basic Information box/Basic Information'))
+
+WebUI.waitForPageLoad(GlobalVariable.Timeout)
+
+WebUI.waitForElementVisible(findTestObject('HALO Front-End/Common Elements/Basic Information box/Entity name'), GlobalVariable.Timeout)
+
+WebUI.setText(findTestObject('HALO Front-End/Common Elements/Basic Information box/Entity name'), Title, FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.selectOptionByLabel(findTestObject('HALO Front-End/Common Elements/Basic Information box/Type'), Type, false, FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.click(findTestObject('HALO Front-End/Common Elements/Basic Information box/Save and close'))
+
+WebUI.delay(GlobalVariable.Delay)
+
+WebUI.waitForPageLoad(GlobalVariable.Timeout)
+
+//
 WebUI.waitForElementVisible(findTestObject('HALO Front-End/Common Elements/Record Close'), GlobalVariable.Timeout)
 
 WebUI.click(findTestObject('HALO Front-End/Common Elements/Record Close'))
@@ -126,6 +146,26 @@ WebUI.waitForElementVisible(findTestObject('Test Cases/Access to process records
 
 WebUI.click(findTestObject('Test Cases/Access to process records/Close Record Scope'))
 
+//New step added
+WebUI.waitForElementPresent(findTestObject('HALO Front-End/Common Elements/Basic Information box/Basic Information'), GlobalVariable.Timeout)
+
+WebUI.click(findTestObject('HALO Front-End/Common Elements/Basic Information box/Basic Information'))
+
+WebUI.waitForPageLoad(GlobalVariable.Timeout)
+
+WebUI.waitForElementVisible(findTestObject('HALO Front-End/Common Elements/Basic Information box/Entity name'), GlobalVariable.Timeout)
+
+WebUI.setText(findTestObject('HALO Front-End/Common Elements/Basic Information box/Entity name'), Title1, FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.selectOptionByLabel(findTestObject('HALO Front-End/Common Elements/Basic Information box/Type'), Type1, false, FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.click(findTestObject('HALO Front-End/Common Elements/Basic Information box/Save and close'))
+
+WebUI.delay(GlobalVariable.Delay)
+
+WebUI.waitForPageLoad(GlobalVariable.Timeout)
+
+//
 WebUI.waitForElementVisible(findTestObject('HALO Front-End/Common Elements/Record Close'), GlobalVariable.Timeout)
 
 WebUI.click(findTestObject('HALO Front-End/Common Elements/Record Close'))
@@ -188,6 +228,26 @@ WebUI.waitForElementVisible(findTestObject('Test Cases/Access to process records
 
 WebUI.click(findTestObject('Test Cases/Access to process records/Close Record Scope'))
 
+//New step added
+WebUI.waitForElementPresent(findTestObject('HALO Front-End/Common Elements/Basic Information box/Basic Information'), GlobalVariable.Timeout)
+
+WebUI.click(findTestObject('HALO Front-End/Common Elements/Basic Information box/Basic Information'))
+
+WebUI.waitForPageLoad(GlobalVariable.Timeout)
+
+WebUI.waitForElementVisible(findTestObject('HALO Front-End/Common Elements/Basic Information box/Entity name'), GlobalVariable.Timeout)
+
+WebUI.setText(findTestObject('HALO Front-End/Common Elements/Basic Information box/Entity name'), Title2, FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.selectOptionByLabel(findTestObject('HALO Front-End/Common Elements/Basic Information box/Type'), Type2, false, FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.click(findTestObject('HALO Front-End/Common Elements/Basic Information box/Save and close'))
+
+WebUI.delay(GlobalVariable.Delay)
+
+WebUI.waitForPageLoad(GlobalVariable.Timeout)
+
+//
 WebUI.waitForElementVisible(findTestObject('Test Cases/Access to process records/Organisation Entity/Save Record'), GlobalVariable.Timeout)
 
 WebUI.click(findTestObject('Test Cases/Access to process records/Organisation Entity/Save Record'))
@@ -226,9 +286,14 @@ WebUI.waitForElementVisible(findTestObject('HALO Front-End/Common Elements/Basic
 
 WebUI.setText(findTestObject('HALO Front-End/Common Elements/Basic Information box/Entity name'), Clinical_title)
 
+WebUI.selectOptionByLabel(findTestObject('HALO Front-End/Common Elements/Basic Information box/Type'), clinical_type, false, 
+    FailureHandling.CONTINUE_ON_FAILURE)
+
 WebUI.click(findTestObject('HALO Front-End/Common Elements/Basic Information box/Save and close'))
 
 WebUI.waitForPageLoad(GlobalVariable.Timeout)
+
+WebUI.delay(GlobalVariable.Delay)
 
 WebUI.waitForElementClickable(findTestObject('Test Cases/Access to process records/Clinical studies/menu'), GlobalVariable.Timeout)
 

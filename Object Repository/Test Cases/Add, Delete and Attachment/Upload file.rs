@@ -10,7 +10,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id=&quot;R95561128717940324_dropzone&quot;]</value>
+         <value>//span[text()='Drop files here (click to browse)']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
