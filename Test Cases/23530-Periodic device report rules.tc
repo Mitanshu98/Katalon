@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>23530-Periodic device report rules</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6d4ebb0c-d55d-4a95-85e1-2aaeeb3df743</testCaseGuid>
+   <variable>
+      <defaultValue>'Requirement Title'</defaultValue>
+      <description></description>
+      <id>cfd4ee51-7371-47d1-bf5b-fc6299b20fac</id>
+      <masked>false</masked>
+      <name>Title</name>
+   </variable>
+   <variable>
+      <defaultValue>'Medical device periodic reporting requirement'</defaultValue>
+      <description></description>
+      <id>f7d97096-4f56-4e9b-8bb5-57420381026e</id>
+      <masked>false</masked>
+      <name>Type</name>
+   </variable>
+   <variable>
+      <defaultValue>'Format(Clinical)'</defaultValue>
+      <description></description>
+      <id>5afd4c7c-1aa5-4e32-a97c-53435793612c</id>
+      <masked>false</masked>
+      <name>Format</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>23534-Organizational entity overview</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c4f1b46c-4f26-4a54-ab1c-2cb76ff68640</testCaseGuid>
+   <variable>
+      <defaultValue>'Requirement Title'</defaultValue>
+      <description></description>
+      <id>01607643-279d-433a-bb49-1adb9dd44b08</id>
+      <masked>false</masked>
+      <name>Title</name>
+   </variable>
+   <variable>
+      <defaultValue>'Affiliate'</defaultValue>
+      <description></description>
+      <id>66f53ff4-1b10-4eda-9f29-6d93ad516e1a</id>
+      <masked>false</masked>
+      <name>Type</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>23531-DSUR Periodic Reporting rules</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c15586d4-96ef-4d56-9b79-a3d894d71b66</testCaseGuid>
+   <variable>
+      <defaultValue>'\r\nRequirement title\r\n'</defaultValue>
+      <description></description>
+      <id>62d8174b-a336-4d07-9f59-6eca501f803a</id>
+      <masked>false</masked>
+      <name>Title</name>
+   </variable>
+   <variable>
+      <defaultValue>'Other'</defaultValue>
+      <description></description>
+      <id>7657a65f-b21c-4e5d-8315-e2cf8cf2471d</id>
+      <masked>false</masked>
+      <name>Type</name>
+   </variable>
+   <variable>
+      <defaultValue>'Denmark (DK)'</defaultValue>
+      <description></description>
+      <id>dea92b22-edc2-49ce-8817-0132e8c51218</id>
+      <masked>false</masked>
+      <name>Country</name>
+   </variable>
+   <variable>
+      <defaultValue>'Other'</defaultValue>
+      <description></description>
+      <id>134c0c5f-9dd2-40c9-817f-8982c813e81c</id>
+      <masked>false</masked>
+      <name>Guidance</name>
+   </variable>
+   <variable>
+      <defaultValue>'Other'</defaultValue>
+      <description>Timeline betwen DLP and submission date</description>
+      <id>cd77e456-2329-49a8-8f1e-cd4fa6845c15</id>
+      <masked>false</masked>
+      <name>DLP_Submission</name>
+   </variable>
+   <variable>
+      <defaultValue>'When there is an open IND'</defaultValue>
+      <description>When they are required</description>
+      <id>571f59b0-d780-4161-ba24-d43a22eabfa5</id>
+      <masked>false</masked>
+      <name>When_required</name>
+   </variable>
+   <variable>
+      <defaultValue>'Other local language'</defaultValue>
+      <description>Reprting language</description>
+      <id>7c3e044c-2797-49fb-a679-90de14d29a96</id>
+      <masked>false</masked>
+      <name>Language</name>
+   </variable>
+</TestCaseEntity>

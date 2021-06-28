@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>23529-PSUR Periodic reporting rules</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>26faf517-c4fd-4a73-815d-52bfd956e9b6</testCaseGuid>
+   <variable>
+      <defaultValue>'Requirement Title'</defaultValue>
+      <description></description>
+      <id>5fd5f3ad-9852-4a43-94a3-770c679f5dac</id>
+      <masked>false</masked>
+      <name>Title</name>
+   </variable>
+   <variable>
+      <defaultValue>'PSUR'</defaultValue>
+      <description></description>
+      <id>de6d75dd-d4a6-4261-9af6-85747f836c35</id>
+      <masked>false</masked>
+      <name>Type</name>
+   </variable>
+   <variable>
+      <defaultValue>'Italy (IT)'</defaultValue>
+      <description></description>
+      <id>3ca2eda1-a900-48af-949f-a862db1b98ff</id>
+      <masked>false</masked>
+      <name>Country</name>
+   </variable>
+   <variable>
+      <defaultValue>'English'</defaultValue>
+      <description></description>
+      <id>30d2a119-95f9-44be-a632-a35027873a0d</id>
+      <masked>false</masked>
+      <name>Language</name>
+   </variable>
+   <variable>
+      <defaultValue>'Within 3 months after annual safety data cutoff date'</defaultValue>
+      <description>What is submission date after DLP?</description>
+      <id>ad61b64a-40d7-4d4a-9609-baef80b5225f</id>
+      <masked>false</masked>
+      <name>Submission_DLP</name>
+   </variable>
+   <variable>
+      <defaultValue>'Every 6 months for first 2 years, then every year'</defaultValue>
+      <description>When are reports Required</description>
+      <id>1b0fbb57-3809-41b2-b0fb-5505c6424eb5</id>
+      <masked>false</masked>
+      <name>Reports</name>
+   </variable>
+</TestCaseEntity>

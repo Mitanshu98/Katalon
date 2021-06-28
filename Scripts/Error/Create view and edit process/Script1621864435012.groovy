@@ -139,22 +139,21 @@ WebUI.click(findTestObject('Test Cases/Create view and edit process/Refresh reco
 
 WebUI.delay(GlobalVariable.Delay)
 
-WebUI.refresh()
-
 WebUI.waitForElementClickable(findTestObject('Test Cases/Create view and edit process/record'), GlobalVariable.Timeout)
 
-WebUI.click(findTestObject('Test Cases/Create view and edit process/record', [('record') : New_Record]))
+WebUI.click(findTestObject('Test Cases/Create view and edit process/record', [('record') : NewRecord]))
 
 WebUI.waitForPageLoad(GlobalVariable.Timeout)
 
 WebUI.switchToFrame(findTestObject('HALO Front-End/Common Elements/Iframe(5)'), GlobalVariable.Timeout)
 
+/*
 WebUI.waitForElementClickable(findTestObject('Test Cases/Reports/Common Elements/1st Completed Task'), GlobalVariable.Timeout)
 
 WebUI.click(findTestObject('Test Cases/Reports/Common Elements/1st Completed Task'))
 
 WebUI.waitForPageLoad(GlobalVariable.Timeout)
-
+*/
 WebUI.waitForElementClickable(findTestObject('Test Cases/Access child form via Task option/Create SDEA Agreement'), GlobalVariable.Timeout)
 
 WebUI.click(findTestObject('Test Cases/Access child form via Task option/Create SDEA Agreement'))

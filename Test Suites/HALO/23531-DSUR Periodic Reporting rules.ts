@@ -15,7 +15,7 @@
       <guid>1099c51d-1a87-4338-bbe7-10f4bc0a2141</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Reports/23531-DSUR Periodic Reporting rules</testCaseId>
+      <testCaseId>Test Cases/23531-DSUR Periodic Reporting rules</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>23529-PSUR Periodic reporting rules</name>
+   <name>23625 Add, Delete attachment</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,47 +10,41 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>103835a6-0a8e-4697-8b27-db6b84fb9160</testSuiteGuid>
+   <testSuiteGuid>67aa24e7-c996-4f77-aaae-683edb293c90</testSuiteGuid>
    <testCaseLink>
-      <guid>6735ae4f-f8c6-44d2-beb7-f8829ab8cd8b</guid>
+      <guid>a957e8e1-dd2b-4253-866a-30b509613145</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/23529-PSUR Periodic reporting rules</testCaseId>
+      <testCaseId>Test Cases/23625- Add,Delete attachment</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>5fd5f3ad-9852-4a43-94a3-770c679f5dac</variableId>
+         <variableId>9c266f72-90c1-4d27-8bd6-5e9677584601</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>de6d75dd-d4a6-4261-9af6-85747f836c35</variableId>
+         <variableId>2ea39f46-453c-4aec-87d9-51f14a87ab9b</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>3ca2eda1-a900-48af-949f-a862db1b98ff</variableId>
+         <variableId>66e75bed-7b74-43c9-9fae-0bdac5daeefe</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>30d2a119-95f9-44be-a632-a35027873a0d</variableId>
+         <variableId>f7cc355d-f70d-49a6-9d7b-0279980a987f</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>ad61b64a-40d7-4d4a-9609-baef80b5225f</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>1b0fbb57-3809-41b2-b0fb-5505c6424eb5</variableId>
+         <variableId>09a95c2a-f024-419a-91f0-923edf47cf50</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

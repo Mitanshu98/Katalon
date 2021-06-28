@@ -15,7 +15,7 @@
       <guid>478e1d43-cff4-482d-a71e-b740e25a4763</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Reports/23535-SUSAR reporting requirements</testCaseId>
+      <testCaseId>Test Cases/23535-SUSAR reporting requirements</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>

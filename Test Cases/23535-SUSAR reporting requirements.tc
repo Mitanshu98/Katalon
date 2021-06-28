@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>23535-SUSAR reporting requirements</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>65cb2432-b364-4981-92bf-06b811bfa7b9</testCaseGuid>
+   <variable>
+      <defaultValue>'Requirement Title'</defaultValue>
+      <description></description>
+      <id>77e6ee26-eba3-4b62-97ae-62d2c7a31ca3</id>
+      <masked>false</masked>
+      <name>Title</name>
+   </variable>
+   <variable>
+      <defaultValue>'Data Monitoring Committee'</defaultValue>
+      <description></description>
+      <id>6b7af745-01da-4d4b-9d57-38be8d5a31f8</id>
+      <masked>false</masked>
+      <name>Type</name>
+   </variable>
+   <variable>
+      <defaultValue>'Iceland (IS)'</defaultValue>
+      <description></description>
+      <id>a4e8b574-b1cf-483f-85b0-7b9b87430864</id>
+      <masked>false</masked>
+      <name>Country</name>
+   </variable>
+</TestCaseEntity>

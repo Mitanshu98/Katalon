@@ -15,7 +15,7 @@
       <guid>3cb4d38d-6861-49fb-a47c-2cbbcc0322fe</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Reports/23534-Organizational entity overview</testCaseId>
+      <testCaseId>Test Cases/23534-Organizational entity overview</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>

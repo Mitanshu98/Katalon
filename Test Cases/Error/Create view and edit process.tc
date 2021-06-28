@@ -7,18 +7,18 @@ and Fill the external SDEA form</description>
    <comment></comment>
    <testCaseGuid>6196f5cc-a6fc-44d1-89dd-9d376e93984f</testCaseGuid>
    <variable>
-      <defaultValue>'Patient Medical'</defaultValue>
+      <defaultValue>'PatientMedical'</defaultValue>
       <description></description>
       <id>d38350c7-c3fd-44b1-bbe7-51e4d7b69c19</id>
       <masked>false</masked>
       <name>Title</name>
    </variable>
    <variable>
-      <defaultValue>'Patient Medical'</defaultValue>
+      <defaultValue>'\'PatientMedical\''</defaultValue>
       <description></description>
       <id>3da68c08-93fe-493b-90a7-20a625a12f44</id>
       <masked>false</masked>
-      <name>New_Record</name>
+      <name>NewRecord</name>
    </variable>
    <variable>
       <defaultValue>'Partner'</defaultValue>

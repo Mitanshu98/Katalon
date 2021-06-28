@@ -15,7 +15,7 @@
       <guid>fab15873-97c0-4b9f-96ca-4fc270196c73</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Reports/23527-Local QPPV safety responsible person requirements</testCaseId>
+      <testCaseId>Test Cases/23527-Local QPPV safety responsible person requirements</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>

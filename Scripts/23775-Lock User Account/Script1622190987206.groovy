@@ -40,7 +40,7 @@ WebUI.click(findTestObject('HALO Front-End/User administration/Users'))
 
 WebUI.waitForPageLoad(GlobalVariable.Timeout)
 
-WebUI.click(findTestObject('HALO Front-End/User administration/Pencil', [('userid') : Test]))
+WebUI.click(findTestObject('HALO Front-End/User administration/Pencil', [('user') : Test]))
 
 WebUI.waitForPageLoad(GlobalVariable.Timeout)
 

@@ -15,7 +15,7 @@
       <guid>830831ab-58fa-4eb2-a591-f47804dce21b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Reports/23530-Periodic device report rules</testCaseId>
+      <testCaseId>Test Cases/23530-Periodic device report rules</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>

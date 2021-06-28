@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>23533-Signal Detection management requirement</name>
+   <name>23986-Organizatinal KPI dashboard</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,17 +10,11 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>59f6d844-891b-4de7-b7c2-13cfead1c592</testSuiteGuid>
+   <testSuiteGuid>18002013-39a5-4e41-acc9-24bfe2618905</testSuiteGuid>
    <testCaseLink>
-      <guid>6af6c0b6-389c-484b-b861-e24bf025a018</guid>
+      <guid>28b5869c-b143-46df-9a3f-81475534e8a0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/23533-Signal Detection management requirement</testCaseId>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>199e8901-f944-4559-a7d4-905bf259d13a</variableId>
-      </variableLink>
+      <testCaseId>Test Cases/23986- Organizational KPI dashboard</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

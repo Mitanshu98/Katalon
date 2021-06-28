@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//td[text()=${userid}]/..//a</value>
+         <value>//td[text()=${user}]/..//a</value>
       </entry>
       <entry>
          <key>BASIC</key>

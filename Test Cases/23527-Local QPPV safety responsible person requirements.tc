@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To download the Local QPPV report from tabular reports</description>
+   <name>23527-Local QPPV safety responsible person requirements</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>50d4f937-2afb-4318-bd7b-8c7feceb03ef</testCaseGuid>
+   <variable>
+      <defaultValue>'Automation Test'</defaultValue>
+      <description></description>
+      <id>b3df522b-6da0-443b-a911-35e7076e76f2</id>
+      <masked>false</masked>
+      <name>Title</name>
+   </variable>
+   <variable>
+      <defaultValue>'QPPV'</defaultValue>
+      <description></description>
+      <id>982b62ae-6f23-4a7d-b497-5aa2c380c549</id>
+      <masked>false</masked>
+      <name>Type</name>
+   </variable>
+   <variable>
+      <defaultValue>'Italy (IT)'</defaultValue>
+      <description></description>
+      <id>ba690726-0a2c-4b30-8545-0b9d04734499</id>
+      <masked>false</masked>
+      <name>Country</name>
+   </variable>
+   <variable>
+      <defaultValue>'No'</defaultValue>
+      <description></description>
+      <id>d279e28a-bbf3-47c8-84ed-5612f7298486</id>
+      <masked>false</masked>
+      <name>Person</name>
+   </variable>
+</TestCaseEntity>
