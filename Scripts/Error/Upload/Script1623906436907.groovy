@@ -21,5 +21,7 @@ WebUI.openBrowser('https://ps.uci.edu/~franklin/doc/file_upload.html')
 
 WebUI.maximizeWindow()
 
-WebUI.uploadFile(findTestObject('null'), 'D:\\Scresht.png')
+WebUI.delay(10, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.closeBrowser()
 

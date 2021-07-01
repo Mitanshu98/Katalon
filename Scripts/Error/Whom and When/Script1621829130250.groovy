@@ -23,7 +23,7 @@ WebUI.openBrowser('www.google.com', FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.waitForPageLoad(GlobalVariable.Timeout, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.navigateToUrl('https://halodemo.insife.cloud:8080/ords/f?p=100:LOGIN_DESKTOP:250404183592:::::', FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.navigateToUrl(GlobalVariable.Url, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.waitForPageLoad(GlobalVariable.Timeout, FailureHandling.CONTINUE_ON_FAILURE)
 
@@ -36,8 +36,7 @@ WebUI.setText(findTestObject('Microsoft and HALO login/Microsoft login/Enter_ema
 WebUI.click(findTestObject('Microsoft and HALO login/Microsoft login/Next button'), FailureHandling.CONTINUE_ON_FAILURE)
 
 //Enter password encrypted
-WebUI.setEncryptedText(findTestObject('Microsoft and HALO login/Microsoft login/Password'), 'ZSBpLB3nxxkXHvLg/VAeWg==', 
-    FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.setEncryptedText(findTestObject('Microsoft and HALO login/Microsoft login/Password'), GlobalVariable.UserPass, FailureHandling.CONTINUE_ON_FAILURE)
 
 //Click signin button
 WebUI.click(findTestObject('Microsoft and HALO login/Microsoft login/SignIn'), FailureHandling.CONTINUE_ON_FAILURE)
@@ -58,7 +57,7 @@ WebUI.waitForElementVisible(findTestObject('Microsoft and HALO login/HALO Login 
 //Login and Verify user subscriptions and the Organization of the user
 WebUI.setText(findTestObject('Microsoft and HALO login/HALO Login Page/HALO_Username'), GlobalVariable.Email, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.setEncryptedText(findTestObject('Microsoft and HALO login/HALO Login Page/HALO_Password'), 'r0Zc9uoGivFWnlDK9UxeLSw1+U/R0MIL', 
+WebUI.setEncryptedText(findTestObject('Microsoft and HALO login/HALO Login Page/HALO_Password'), GlobalVariable.HaloPass, 
     FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.click(findTestObject('Microsoft and HALO login/HALO Login Page/Halo_Login Btn'), FailureHandling.CONTINUE_ON_FAILURE)

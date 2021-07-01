@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>URS 05.135 : In this Test case the Testuser is creating a new test user and setup roles for the user with Read only Access.</description>
+   <name>23646-Assign user to group user with read only Attribute</name>
+   <tag>URS 05.135</tag>
+   <comment></comment>
+   <testCaseGuid>3abe435e-eac6-4e7f-9a90-0293b2e1710f</testCaseGuid>
+   <variable>
+      <defaultValue>'Halopv002'</defaultValue>
+      <description></description>
+      <id>dfda2e6c-38d7-4d20-94dd-00a008633a48</id>
+      <masked>false</masked>
+      <name>Username</name>
+   </variable>
+   <variable>
+      <defaultValue>'MsjdgMj@#22332jhd-=bsn'</defaultValue>
+      <description></description>
+      <id>b7fb24a3-890b-4da2-97fb-022a0bb56a9d</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+</TestCaseEntity>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>Here the user can login through Azure login</description>
+   <description>URS 06.44 : In this Testcase the user can login through Azure login or through simple Login.</description>
    <name>23840-User Login option</name>
-   <tag></tag>
+   <tag>URS 06.44 </tag>
    <comment></comment>
    <testCaseGuid>00b2f5e5-3345-491a-9f01-d65e5828e56b</testCaseGuid>
 </TestCaseEntity>

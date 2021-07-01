@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>Here we are attach a record and remove it in next step</description>
+   <description>URS 03.50 : Here in this Testcase we are attaching a record and delete it after Workflow completion.</description>
    <name>23625- Add,Delete attachment</name>
-   <tag></tag>
+   <tag>URS 03.50 </tag>
    <comment></comment>
    <testCaseGuid>7c9c4bac-de81-43c0-bac3-4a04907e59d6</testCaseGuid>
    <variable>
