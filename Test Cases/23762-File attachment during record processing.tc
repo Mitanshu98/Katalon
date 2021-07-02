@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>URS 02.05 : In This test case the user is creating a new record and attach a file.</description>
+   <name>23762-File attachment during record processing</name>
+   <tag>URS 02.05</tag>
+   <comment></comment>
+   <testCaseGuid>66ee9b7b-0870-469b-bdab-04f41974cab1</testCaseGuid>
+   <variable>
+      <defaultValue>'HALO.jpg'</defaultValue>
+      <description>File name with extension</description>
+      <id>9c266f72-90c1-4d27-8bd6-5e9677584601</id>
+      <masked>false</masked>
+      <name>File</name>
+   </variable>
+   <variable>
+      <defaultValue>'D:\\HALO.jpg'</defaultValue>
+      <description>Location of the file to be uploaded</description>
+      <id>2ea39f46-453c-4aec-87d9-51f14a87ab9b</id>
+      <masked>false</masked>
+      <name>Location</name>
+   </variable>
+   <variable>
+      <defaultValue>'Automation Testing'</defaultValue>
+      <description>Routing Comments</description>
+      <id>66e75bed-7b74-43c9-9fae-0bdac5daeefe</id>
+      <masked>false</masked>
+      <name>Comments</name>
+   </variable>
+   <variable>
+      <defaultValue>'File attachment'</defaultValue>
+      <description>Title of the Record</description>
+      <id>f7cc355d-f70d-49a6-9d7b-0279980a987f</id>
+      <masked>false</masked>
+      <name>Title</name>
+   </variable>
+   <variable>
+      <defaultValue>'\'File attachment\''</defaultValue>
+      <description>Record name and Title must be same, Each Time when the Test run Take new Titlle.</description>
+      <id>4f773318-1d4f-4a8f-be4e-2f465fa73642</id>
+      <masked>false</masked>
+      <name>Record</name>
+   </variable>
+   <variable>
+      <defaultValue>'Partner'</defaultValue>
+      <description>Type of the Record</description>
+      <id>09a95c2a-f024-419a-91f0-923edf47cf50</id>
+      <masked>false</masked>
+      <name>Type</name>
+   </variable>
+</TestCaseEntity>

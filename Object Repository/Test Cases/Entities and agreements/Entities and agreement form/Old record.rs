@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[text()='ORG_INT-703']</value>
+         <value>//a[text()='ORG_EXT-1666']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

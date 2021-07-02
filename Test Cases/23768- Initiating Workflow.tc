@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>URS 02.16 : Create a new record complete its workflow and then initiate it and clone the Record</description>
+   <name>23768- Initiating Workflow</name>
+   <tag>URS 02.16</tag>
+   <comment></comment>
+   <testCaseGuid>a9f5ca72-bd8b-42dc-8d19-bc36cff466f9</testCaseGuid>
+   <variable>
+      <defaultValue>'Auto Clone Record'</defaultValue>
+      <description></description>
+      <id>edb3bbb9-c2dc-4c14-8681-311ecf29c5fd</id>
+      <masked>false</masked>
+      <name>Title</name>
+   </variable>
+   <variable>
+      <defaultValue>'Partner'</defaultValue>
+      <description></description>
+      <id>7be9604d-a262-4599-b73d-d0e80bad9965</id>
+      <masked>false</masked>
+      <name>Type</name>
+   </variable>
+   <variable>
+      <defaultValue>'Filling through automation.'</defaultValue>
+      <description>This variable is used for routing the comments.</description>
+      <id>96e24e91-eb63-4624-906f-840a4a4481af</id>
+      <masked>false</masked>
+      <name>Routing_Comments</name>
+   </variable>
+</TestCaseEntity>

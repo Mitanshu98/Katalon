@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description></description>
-   <name>Old record(entities (external))</name>
+   <description>This is a object for cloneing the Record</description>
+   <name>Clone Record</name>
    <tag></tag>
-   <elementGuidId>5ef1213c-f0a3-4219-94c7-0067cdb16be7</elementGuidId>
+   <elementGuidId>20d344db-6e14-4ed5-b263-e1eec7db3c25</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[text()='ORG_EXT-1173']</value>
+         <value>//a[text()='Clone record']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

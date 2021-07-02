@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description></description>
-   <name>Old record(entities (external))</name>
+   <description>The new record that will be created.</description>
+   <name>Record</name>
    <tag></tag>
-   <elementGuidId>5ef1213c-f0a3-4219-94c7-0067cdb16be7</elementGuidId>
+   <elementGuidId>2470cdf6-81a7-4d3b-b587-aa6c6a5a547c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[text()='ORG_EXT-1173']</value>
+         <value>//a[text()=${recordname}]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
