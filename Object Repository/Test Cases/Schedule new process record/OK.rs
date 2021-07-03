@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description></description>
-   <name>75</name>
+   <description>Confirm the craetion of the Record</description>
+   <name>OK</name>
    <tag></tag>
-   <elementGuidId>1498991b-ecf1-4538-84aa-0a3b744efca1</elementGuidId>
+   <elementGuidId>b9571f42-1737-43cf-8723-f37eeba22e3d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//table/tbody/tr[2]/td[2]/child::*</value>
+         <value>//button[@class='js-confirmBtn ui-button--hot']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

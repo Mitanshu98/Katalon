@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description></description>
-   <name>75</name>
+   <description>Schedule new record Yes</description>
+   <name>Schedule new records</name>
    <tag></tag>
-   <elementGuidId>1498991b-ecf1-4538-84aa-0a3b744efca1</elementGuidId>
+   <elementGuidId>79c6b269-33fc-4e2c-897d-3f5498527b7b</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//table/tbody/tr[2]/td[2]/child::*</value>
+         <value>//input[@id='P93_SCHEDULE_NEW_RECORDS_Y']/parent::*</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

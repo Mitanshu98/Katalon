@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>75</name>
+   <name>Scheduler</name>
    <tag></tag>
-   <elementGuidId>1498991b-ecf1-4538-84aa-0a3b744efca1</elementGuidId>
+   <elementGuidId>ec75615f-231a-4491-bd0a-8582da667c18</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//table/tbody/tr[2]/td[2]/child::*</value>
+         <value>//li[@id = 't_TreeNav_0']/descendant::a[text()='Scheduler']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

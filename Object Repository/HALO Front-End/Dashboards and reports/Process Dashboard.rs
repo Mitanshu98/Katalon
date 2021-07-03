@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>75</name>
+   <name>Process Dashboard</name>
    <tag></tag>
-   <elementGuidId>1498991b-ecf1-4538-84aa-0a3b744efca1</elementGuidId>
+   <elementGuidId>76644894-3f56-4049-98f1-cb1ece5dc5ff</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//table/tbody/tr[2]/td[2]/child::*</value>
+         <value>//span[text()='Process dashboard']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

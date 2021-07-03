@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>75</name>
+   <name>Workflow to trigger</name>
    <tag></tag>
-   <elementGuidId>1498991b-ecf1-4538-84aa-0a3b744efca1</elementGuidId>
+   <elementGuidId>efeb42b4-aa20-4b95-be0c-c62070e7adb6</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//table/tbody/tr[2]/td[2]/child::*</value>
+         <value>//select[@id='P93_SCHEDULE_WF_ID']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

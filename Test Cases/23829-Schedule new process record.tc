@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>URS 02.115 : In this Test case we are scheduleing a new record creation</description>
+   <name>23829-Schedule new process record</name>
+   <tag>URS 02.115</tag>
+   <comment></comment>
+   <testCaseGuid>115389dd-6de1-4e97-bc44-f1228afcaf88</testCaseGuid>
+   <variable>
+      <defaultValue>'Process record scheduling'</defaultValue>
+      <description>Use diffrent name title each time when running the script</description>
+      <id>f0948d44-2235-4272-bf17-099f8b9e2d6b</id>
+      <masked>false</masked>
+      <name>Title</name>
+   </variable>
+   <variable>
+      <defaultValue>'\'Process record scheduling\''</defaultValue>
+      <description>Title and show must be same.</description>
+      <id>f7ab5db5-26a4-4d4e-a338-d6a44a205f93</id>
+      <masked>false</masked>
+      <name>Show</name>
+   </variable>
+   <variable>
+      <defaultValue>'2021-07-03'</defaultValue>
+      <description></description>
+      <id>1275ff9e-0ecd-42ca-a00e-ac91a0d24b23</id>
+      <masked>false</masked>
+      <name>variable</name>
+   </variable>
+</TestCaseEntity>

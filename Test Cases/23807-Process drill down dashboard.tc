@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>URS 04.25 : In this Test case we are accessing drill down page with pie-chart and weekely breakdown chart.</description>
+   <name>23807-Process drill down dashboard</name>
+   <tag>URS 04.25</tag>
+   <comment></comment>
+   <testCaseGuid>cd4fbf87-a2d1-4354-b82b-6e9ff1383410</testCaseGuid>
+</TestCaseEntity>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description></description>
-   <name>75</name>
+   <description>Schedule the core Process to Entities and agreement</description>
+   <name>Schedule Core Process</name>
    <tag></tag>
-   <elementGuidId>1498991b-ecf1-4538-84aa-0a3b744efca1</elementGuidId>
+   <elementGuidId>d3c72d18-37d2-4ec9-9f35-d341aafb204e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//table/tbody/tr[2]/td[2]/child::*</value>
+         <value>//select[@id='P93_SCHEDULE_CORE_PROCESS']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description></description>
-   <name>75</name>
+   <description>Create the Scheduler</description>
+   <name>Create</name>
    <tag></tag>
-   <elementGuidId>1498991b-ecf1-4538-84aa-0a3b744efca1</elementGuidId>
+   <elementGuidId>5cfb3ba8-c542-4007-a822-e7b5cd93e0a8</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//table/tbody/tr[2]/td[2]/child::*</value>
+         <value>//button[@id='B81568884016506998']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

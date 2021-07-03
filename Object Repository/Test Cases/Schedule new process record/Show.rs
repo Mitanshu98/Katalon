@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description></description>
-   <name>75</name>
+   <description>Show in the Instance column</description>
+   <name>Show</name>
    <tag></tag>
-   <elementGuidId>1498991b-ecf1-4538-84aa-0a3b744efca1</elementGuidId>
+   <elementGuidId>eec47f2f-3b72-4f49-b86d-b275d12640d7</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//table/tbody/tr[2]/td[2]/child::*</value>
+         <value>//td[text()=${show}]/following-sibling::*/child::*</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

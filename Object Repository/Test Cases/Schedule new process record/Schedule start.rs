@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>75</name>
+   <name>Schedule start</name>
    <tag></tag>
-   <elementGuidId>1498991b-ecf1-4538-84aa-0a3b744efca1</elementGuidId>
+   <elementGuidId>0c701b80-9540-4d9f-984c-46b5856e2bfb</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//table/tbody/tr[2]/td[2]/child::*</value>
+         <value>//input[@id='P93_SCHEDULE_START_DATE']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
