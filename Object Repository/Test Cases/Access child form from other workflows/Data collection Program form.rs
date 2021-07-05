@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description></description>
-   <name>Old record(entities (external))</name>
+   <description>Data collection Program Form where we can enter all the form details.</description>
+   <name>Data collection Program form</name>
    <tag></tag>
-   <elementGuidId>5ef1213c-f0a3-4219-94c7-0067cdb16be7</elementGuidId>
+   <elementGuidId>3489b10b-70a5-46b8-a0e3-6af476afcea7</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[text()='ORG_EXT-1682']</value>
+         <value>//span[@class='t-Icon fa fa-file']/parent::*</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

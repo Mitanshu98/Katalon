@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description></description>
-   <name>Old record(entities (external))</name>
+   <description>Return from the Print window</description>
+   <name>Return</name>
    <tag></tag>
-   <elementGuidId>5ef1213c-f0a3-4219-94c7-0067cdb16be7</elementGuidId>
+   <elementGuidId>0901db5d-8642-49bd-82f6-665307284882</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[text()='ORG_EXT-1682']</value>
+         <value>//button[@id='B19355574968273822']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

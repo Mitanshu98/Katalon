@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description></description>
-   <name>Old record(entities (external))</name>
+   <description>Save Modify template Page</description>
+   <name>Save</name>
    <tag></tag>
-   <elementGuidId>5ef1213c-f0a3-4219-94c7-0067cdb16be7</elementGuidId>
+   <elementGuidId>8e23dce1-55af-4696-ab34-7196ee8ef148</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[text()='ORG_EXT-1682']</value>
+         <value>//button[@id='B76597867892751242']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

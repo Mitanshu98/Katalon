@@ -75,9 +75,9 @@ WebUI.waitForPageLoad(GlobalVariable.Timeout)
 
 WebUI.comment('Step 10')
 
-WebUI.waitForElementVisible(findTestObject('Test Cases/User subscribed to configured/Products old record'), GlobalVariable.Timeout)
+WebUI.waitForElementVisible(findTestObject('Test Cases/Reports/PSUR Periodic reporting rules/New Record'), GlobalVariable.Timeout)
 
-WebUI.click(findTestObject('Test Cases/User subscribed to configured/Products old record'))
+WebUI.click(findTestObject('Test Cases/Reports/PSUR Periodic reporting rules/New Record'))
 
 WebUI.waitForPageLoad(GlobalVariable.Timeout)
 

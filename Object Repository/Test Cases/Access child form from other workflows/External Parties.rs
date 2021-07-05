@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description></description>
-   <name>Old record(entities (external))</name>
+   <description>External parties tab is there in the Data collection Programs</description>
+   <name>External Parties</name>
    <tag></tag>
-   <elementGuidId>5ef1213c-f0a3-4219-94c7-0067cdb16be7</elementGuidId>
+   <elementGuidId>cd02ff74-bdf2-441d-bd2c-17796f282172</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[text()='ORG_EXT-1682']</value>
+         <value>//li[@id='SR_R31210802170823436_tab']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

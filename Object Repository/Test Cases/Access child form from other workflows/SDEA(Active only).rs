@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Old record(entities (external))</name>
+   <name>SDEA(Active only)</name>
    <tag></tag>
-   <elementGuidId>5ef1213c-f0a3-4219-94c7-0067cdb16be7</elementGuidId>
+   <elementGuidId>051068f5-3436-447c-a4f9-6a7edc1facc1</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[text()='ORG_EXT-1682']</value>
+         <value>//select[@id='P45_HANDLING_ORG_ADD_SDEA']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

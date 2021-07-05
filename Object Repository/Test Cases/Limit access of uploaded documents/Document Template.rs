@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description></description>
-   <name>Old record(entities (external))</name>
+   <description>Document Template Window button</description>
+   <name>Document Template</name>
    <tag></tag>
-   <elementGuidId>5ef1213c-f0a3-4219-94c7-0067cdb16be7</elementGuidId>
+   <elementGuidId>bc608fd7-002e-48ee-a3d4-65b7f08f6297</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[text()='ORG_EXT-1682']</value>
+         <value>//a[text()='Document Templates']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

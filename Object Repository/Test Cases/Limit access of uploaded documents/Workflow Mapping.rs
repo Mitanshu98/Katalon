@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description></description>
-   <name>Old record(entities (external))</name>
+   <description>Choose the workflow from the Process&lt; Workflow</description>
+   <name>Workflow Mapping</name>
    <tag></tag>
-   <elementGuidId>5ef1213c-f0a3-4219-94c7-0067cdb16be7</elementGuidId>
+   <elementGuidId>abe1f5b1-4e13-47c4-aa3c-85f66f151a39</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[text()='ORG_EXT-1682']</value>
+         <value>//select[@id='P123_WORKFLOW']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
