@@ -91,27 +91,28 @@ public class HALO {
 		WebUI.waitForPageLoad(GlobalVariable.Timeout)
 
 		WebUI.maximizeWindow()
-
-		//Enter email id in textbox for microsoft login
-		WebUI.setText(findTestObject('Microsoft and HALO login/Microsoft login/Enter_email'), GlobalVariable.Email)
-
-		//Click on next button
-		WebUI.click(findTestObject('Microsoft and HALO login/Microsoft login/Next button'))
-
-		//Enter password encrypted
-		WebUI.setEncryptedText(findTestObject('Microsoft and HALO login/Microsoft login/Password'), GlobalVariable.UserPass)
-
-		//Click signin button
-		WebUI.click(findTestObject('Microsoft and HALO login/Microsoft login/SignIn'))
-
-		//wait for authentication
-		WebUI.waitForPageLoad(GlobalVariable.Timeout)
-
-		//Check checkbox for stay signed in
-		WebUI.check(findTestObject('Microsoft and HALO login/Microsoft login/Checkbox stay signed in'))
-
-		//Click Yes button
-		WebUI.click(findTestObject('Microsoft and HALO login/Microsoft login/Stay signed in YES'))
+		if (WebUI.waitForElementVisible(findTestObject('Object Repository/Microsoft and HALO login/Microsoft login/Enter_email'),20)) {
+			//Enter email id in textbox for microsoft login
+			WebUI.setText(findTestObject('Microsoft and HALO login/Microsoft login/Enter_email'), GlobalVariable.Email)
+	
+			//Click on next button
+			WebUI.click(findTestObject('Microsoft and HALO login/Microsoft login/Next button'))
+	
+			//Enter password encrypted
+			WebUI.setEncryptedText(findTestObject('Microsoft and HALO login/Microsoft login/Password'), GlobalVariable.UserPass)
+	
+			//Click signin button
+			WebUI.click(findTestObject('Microsoft and HALO login/Microsoft login/SignIn'))
+	
+			//wait for authentication
+			WebUI.waitForPageLoad(GlobalVariable.Timeout)
+	
+			//Check checkbox for stay signed in
+			WebUI.check(findTestObject('Microsoft and HALO login/Microsoft login/Checkbox stay signed in'))
+	
+			//Click Yes button
+			WebUI.click(findTestObject('Microsoft and HALO login/Microsoft login/Stay signed in YES'))
+		}
 	}
 	@Keyword
 	public void HaloUserLogin(String User,String password) {
@@ -139,5 +140,30 @@ public class HALO {
 		WebUI.comment('Roles the user has subscribed')
 
 		WebUI.takeFullPageScreenshot()
+	}
+	@Keyword
+	public void Updatereadonly() {
+		WebUI.click(findTestObject('HALO Front-End/My settings/My settings'))
+
+		WebUI.waitForElementVisible(findTestObject('HALO Front-End/My settings/My roles'), GlobalVariable.Timeout)
+
+		WebUI.click(findTestObject('HALO Front-End/My settings/My roles'))
+
+		WebUI.delay(GlobalVariable.Delay)
+
+		WebUI.click(findTestObject('Test Cases/Drill down Page includes process/Generic organizational Entity Processing'))
+
+		WebUI.switchToFrame(findTestObject('HALO Front-End/Common Elements/Iframe(5)'), GlobalVariable.Timeout)
+
+		WebUI.waitForPageLoad(GlobalVariable.Timeout)
+
+		WebUI.waitForElementVisible(findTestObject('Test Cases/Assign user groups to users with read only attribute/Read only'),
+				GlobalVariable.Timeout)
+
+		WebUI.click(findTestObject('Test Cases/Assign user groups to users with read only attribute/Read only'))
+
+		WebUI.click(findTestObject('Test Cases/Drill down Page includes process/Update Subscription'))
+
+		WebUI.delay(GlobalVariable.Delay)
 	}
 }

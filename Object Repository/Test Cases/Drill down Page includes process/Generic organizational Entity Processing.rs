@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>old record</name>
+   <name>Generic organizational Entity Processing</name>
    <tag></tag>
-   <elementGuidId>fcefce71-ab63-4981-9107-0a42fc4aa603</elementGuidId>
+   <elementGuidId>5165c2ec-f39e-4f2d-a625-7df481719d78</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[text()='ORG_EXT-1655']</value>
+         <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//a[text()='Generic Organizational entity processing']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

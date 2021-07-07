@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>In this Test case we are creating a record in ICSR and save it, it got error for not filling all the mandatory field.</description>
+   <name>Core - Client-side field validation</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>df3b5375-85cc-417d-862b-2a77e18409d5</testCaseGuid>
+   <variable>
+      <defaultValue>'ICSR Intake Module'</defaultValue>
+      <description></description>
+      <id>c038e012-043d-4d1b-87e9-8e1545cde7a0</id>
+      <masked>false</masked>
+      <name>Title</name>
+   </variable>
+   <variable>
+      <defaultValue>'Report from study'</defaultValue>
+      <description></description>
+      <id>4de74a91-30d6-4259-af55-7172a185704f</id>
+      <masked>false</masked>
+      <name>Type</name>
+   </variable>
+</TestCaseEntity>

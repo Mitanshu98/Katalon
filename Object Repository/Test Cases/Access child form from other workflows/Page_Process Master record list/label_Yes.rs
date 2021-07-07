@@ -7,18 +7,18 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='P45_OTHER_PARTIES']/div/div/div/label</value>
+         <value>//label[text()='Yes']</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[(text() = 'Yes' or . = 'Yes') and @ref_element = 'Object Repository/Test Cases/Access child form from other workflows/Page_Process Master record list/iframe']</value>
+         <value>//*[(text() = 'Yes' or . = 'Yes')]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>#P45_OTHER_PARTIES > div.apex-item-grid.radio_group > div.apex-item-grid-row > div.apex-item-option > label.u-radio</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

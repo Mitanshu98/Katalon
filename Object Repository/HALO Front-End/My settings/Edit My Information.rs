@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description>External Party Needed</description>
-   <name>Yes</name>
+   <description>Edit my information is the page where we can edit the User Information</description>
+   <name>Edit My Information</name>
    <tag></tag>
-   <elementGuidId>f188a852-22d7-41a2-9e73-daa874919f1e</elementGuidId>
+   <elementGuidId>c2df09f1-a14e-49a4-930a-3285dd78d6ea</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//label[text()='Yes']</value>
+         <value>//span[text()='Edit my information']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

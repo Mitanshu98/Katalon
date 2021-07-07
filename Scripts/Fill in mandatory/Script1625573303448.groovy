@@ -17,11 +17,19 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.comment('Step 1 and 2')
+
 CustomKeywords.'HALO.HaloLogin'()
+
+WebUI.comment('This is a verify step for checking the roles of the user.')
+
+WebUI.takeFullPageScreenshot()
 
 WebUI.click(findTestObject('HALO Front-End/Processes/Process_Dropdown'))
 
 WebUI.waitForElementVisible(findTestObject('HALO Front-End/Processes/Entities and Agreement'), GlobalVariable.Timeout)
+
+WebUI.comment('Step 3')
 
 WebUI.click(findTestObject('HALO Front-End/Processes/Entities and Agreement'))
 
@@ -31,9 +39,13 @@ WebUI.click(findTestObject('Test Cases/Access child form via Task option/Entites
 
 WebUI.waitForPageLoad(GlobalVariable.Timeout)
 
+WebUI.comment('This is a verify step for checking the record page shall be opened.')
+
 WebUI.takeScreenshot()
 
 WebUI.waitForElementVisible(findTestObject('Test Cases/Reports/PSUR Periodic reporting rules/New Record'), GlobalVariable.Timeout)
+
+WebUI.comment('Step 4')
 
 WebUI.click(findTestObject('Test Cases/Reports/PSUR Periodic reporting rules/New Record'))
 
@@ -45,91 +57,29 @@ WebUI.click(findTestObject('HALO Front-End/Common Elements/Basic Information box
 
 WebUI.waitForElementVisible(findTestObject('HALO Front-End/Common Elements/Basic Information box/Entity name'), GlobalVariable.Timeout)
 
+WebUI.comment('Step 5')
+
 WebUI.setText(findTestObject('HALO Front-End/Common Elements/Basic Information box/Entity name'), Title)
 
 WebUI.selectOptionByLabel(findTestObject('HALO Front-End/Common Elements/Basic Information box/Type'), Type, false)
 
 WebUI.delay(GlobalVariable.Delay)
 
-WebUI.takeScreenshot()
-
 WebUI.click(findTestObject('HALO Front-End/Common Elements/Basic Information box/Save and close'))
 
 WebUI.delay(GlobalVariable.Delay)
 
-WebUI.waitForPageLoad(GlobalVariable.Timeout)
+WebUI.waitForElementVisible(findTestObject('Test Cases/User subscribed to configured/Description'), GlobalVariable.Timeout)
 
-WebUI.waitForElementClickable(findTestObject('Object Repository/Test Cases/Add, Delete and Attachment/Attachment button'), 
-    GlobalVariable.Timeout)
+WebUI.setText(findTestObject('Test Cases/User subscribed to configured/Description'), Description)
 
-WebUI.click(findTestObject('Test Cases/Add, Delete and Attachment/Attachment button'))
+WebUI.setText(findTestObject('Test Cases/User subscribed to configured/Notes'), Notes)
 
-WebUI.waitForPageLoad(GlobalVariable.Timeout)
+WebUI.click(findTestObject('Test Cases/Entities and agreements/Entities and agreement form/More menu'))
 
-WebUI.waitForElementVisible(findTestObject('Test Cases/Add, Delete and Attachment/Upload file'), GlobalVariable.Timeout)
+WebUI.click(findTestObject('Test Cases/Entities and agreements/Entities and agreement form/Record scope'))
 
-WebUI.uploadFileWithDragAndDrop(findTestObject('Test Cases/Add, Delete and Attachment/Upload file'), Location)
+WebUI.comment('This is a verify step for checking the record shall be created.')
 
-WebUI.delay(GlobalVariable.Delay)
-
-WebUI.click(findTestObject('Test Cases/Add, Delete and Attachment/Upload Button'))
-
-WebUI.delay(GlobalVariable.Delay)
-
-WebUI.takeScreenshot()
-
-WebUI.click(findTestObject('Test Cases/Add, Delete and Attachment/Upload Return'))
-
-WebUI.waitForPageLoad(GlobalVariable.Timeout)
-
-WebUI.waitForElementVisible(findTestObject('Test Cases/Add, Delete and Attachment/Complete task (comments)'), GlobalVariable.Timeout)
-
-WebUI.click(findTestObject('Test Cases/Add, Delete and Attachment/Complete task (comments)'))
-
-WebUI.waitForPageLoad(GlobalVariable.Timeout)
-
-WebUI.waitForElementVisible(findTestObject('Test Cases/Add, Delete and Attachment/Textarea'), GlobalVariable.Timeout)
-
-WebUI.setText(findTestObject('Test Cases/Add, Delete and Attachment/Textarea'), Comments)
-
-WebUI.click(findTestObject('Test Cases/Add, Delete and Attachment/Comp and forward'))
-
-WebUI.waitForPageLoad(GlobalVariable.Timeout)
-
-WebUI.waitForElementVisible(findTestObject('Test Cases/Reports/Common Elements/1st Completed Task'), GlobalVariable.Timeout)
-
-WebUI.click(findTestObject('Test Cases/Reports/Common Elements/1st Completed Task'))
-
-WebUI.waitForPageLoad(GlobalVariable.Timeout)
-
-WebUI.delay(GlobalVariable.Delay)
-
-WebUI.takeScreenshot()
-
-WebUI.click(findTestObject('Test Cases/Add, Delete and Attachment/Initiate Workflow'))
-
-WebUI.waitForPageLoad(GlobalVariable.Timeout)
-
-WebUI.delay(GlobalVariable.Delay)
-
-WebUI.waitForElementClickable(findTestObject('Object Repository/Test Cases/Add, Delete and Attachment/Attachment button'), 
-    GlobalVariable.Timeout)
-
-WebUI.click(findTestObject('Test Cases/Add, Delete and Attachment/Attachment button'))
-
-WebUI.waitForPageLoad(GlobalVariable.Timeout)
-
-WebUI.waitForElementVisible(findTestObject('Test Cases/Add, Delete and Attachment/Upload file'), GlobalVariable.Timeout)
-
-WebUI.uploadFileWithDragAndDrop(findTestObject('Test Cases/Add, Delete and Attachment/Upload file'), Location)
-
-WebUI.delay(GlobalVariable.Delay)
-
-WebUI.click(findTestObject('Test Cases/Add, Delete and Attachment/Upload Button'))
-
-WebUI.delay(GlobalVariable.Delay)
-
-WebUI.takeScreenshot()
-
-WebUI.closeBrowser()
+WebUI.takeFullPageScreenshot()
 

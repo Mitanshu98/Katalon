@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>URS 04.05 : In this Test case we are accessing Dashboard- Drill down page with Read only Access.</description>
+   <name>23755-Drill down page includes process recordsworkflow tasks</name>
+   <tag>URS 04.05 </tag>
+   <comment></comment>
+   <testCaseGuid>48ff834f-2a87-4906-a6e4-414d78d12173</testCaseGuid>
+</TestCaseEntity>

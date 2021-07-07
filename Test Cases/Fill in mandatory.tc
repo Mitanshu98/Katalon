@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Fill in mandatory</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>50fe3d38-e045-41da-9617-5ff6a2f7151a</testCaseGuid>
+   <variable>
+      <defaultValue>'Task Assignment'</defaultValue>
+      <description></description>
+      <id>a415f8b8-0f73-493e-9f93-4caa46db7d2c</id>
+      <masked>false</masked>
+      <name>Title</name>
+   </variable>
+   <variable>
+      <defaultValue>'Partner'</defaultValue>
+      <description></description>
+      <id>3a09025d-467f-4def-b97c-82fc6b29026d</id>
+      <masked>false</masked>
+      <name>Type</name>
+   </variable>
+   <variable>
+      <defaultValue>'Task assigning to doctors'</defaultValue>
+      <description></description>
+      <id>e45a0498-c5fb-4a56-bf15-df319671e3f9</id>
+      <masked>false</masked>
+      <name>Description</name>
+   </variable>
+   <variable>
+      <defaultValue>'Task assigning to doctors'</defaultValue>
+      <description></description>
+      <id>c65acac9-5450-4951-9eb7-ed4a0c869eef</id>
+      <masked>false</masked>
+      <name>Notes</name>
+   </variable>
+</TestCaseEntity>

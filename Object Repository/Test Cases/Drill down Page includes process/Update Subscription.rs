@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description>External Party Needed</description>
-   <name>Yes</name>
+   <description>Update Subscription button</description>
+   <name>Update Subscription</name>
    <tag></tag>
-   <elementGuidId>f188a852-22d7-41a2-9e73-daa874919f1e</elementGuidId>
+   <elementGuidId>bbd8e849-9f91-4dd7-9c65-05d8b3b284c8</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//label[text()='Yes']</value>
+         <value>//button[@id='B36753012883349708263']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

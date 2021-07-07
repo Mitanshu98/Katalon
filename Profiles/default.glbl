@@ -15,6 +15,11 @@
       <name>Delay</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
+      <description>Delay to see the element</description>
+      <initValue>20</initValue>
+      <name>Long_Delay</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
       <description>user emailid</description>
       <initValue>'mitanshu.gupta@insife.com'</initValue>
       <name>Email</name>

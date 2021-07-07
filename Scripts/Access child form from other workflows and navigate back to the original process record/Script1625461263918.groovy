@@ -55,10 +55,9 @@ WebUI.click(findTestObject('Test Cases/Access child form from other workflows/Da
 
 WebUI.waitForPageLoad(GlobalVariable.Timeout)
 
-WebUI.waitForElementVisible(findTestObject('Test Cases/Access child form from other workflows/Page_Process Master record list/label_Yes'), 
-    GlobalVariable.Timeout)
+WebUI.waitForElementVisible(findTestObject('Test Cases/Access child form from other workflows/Yes'), GlobalVariable.Timeout)
 
-WebUI.click(findTestObject('Test Cases/Access child form from other workflows/Page_Process Master record list/label_Yes'))
+WebUI.click(findTestObject('Test Cases/Access child form from other workflows/Yes'))
 
 WebUI.delay(GlobalVariable.Delay)
 

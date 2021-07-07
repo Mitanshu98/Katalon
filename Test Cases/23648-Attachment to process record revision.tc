@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
-   <name>Attachment to process record revision</name>
-   <tag></tag>
+   <description>URS 02.110 : Creating a record in Entites and agreement (External) and attach a file ,complete the workflow ,initiate the Workflow and again attach a file.</description>
+   <name>23648-Attachment to process record revision</name>
+   <tag>URS 02.110</tag>
    <comment></comment>
    <testCaseGuid>2bc9ac05-e339-4d50-a011-2160d0b91c05</testCaseGuid>
    <variable>
@@ -27,7 +27,7 @@
       <name>Comments</name>
    </variable>
    <variable>
-      <defaultValue>'Process record revision>'</defaultValue>
+      <defaultValue>'Process record revision'</defaultValue>
       <description>Title of the Record</description>
       <id>f7cc355d-f70d-49a6-9d7b-0279980a987f</id>
       <masked>false</masked>

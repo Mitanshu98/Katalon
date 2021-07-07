@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description>External Party Needed</description>
-   <name>Yes</name>
+   <description>it is a search field for the country in Record Scope</description>
+   <name>Search Field(Country)</name>
    <tag></tag>
-   <elementGuidId>f188a852-22d7-41a2-9e73-daa874919f1e</elementGuidId>
+   <elementGuidId>fb573e7d-7fc0-401c-bac5-7377a4e173db</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//label[text()='Yes']</value>
+         <value>//div[@id='PopupLov_119_P119_NEWTERRITORY_dlg']/descendant::input[@class='a-PopupLOV-search apex-item-text']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description>External Party Needed</description>
-   <name>Yes</name>
+   <description>ICSR workflow in Process</description>
+   <name>ICSRs</name>
    <tag></tag>
-   <elementGuidId>f188a852-22d7-41a2-9e73-daa874919f1e</elementGuidId>
+   <elementGuidId>c9fea22b-1624-4151-a820-5ebed995ceae</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//label[text()='Yes']</value>
+         <value>//li[@id = 't_TreeNav_0']/descendant::a[text()='ICSRs']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
