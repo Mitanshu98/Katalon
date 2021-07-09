@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description>External Party Needed</description>
-   <name>Yes</name>
+   <description>Partner</description>
+   <name>Partner</name>
    <tag></tag>
-   <elementGuidId>f188a852-22d7-41a2-9e73-daa874919f1e</elementGuidId>
+   <elementGuidId>5e868915-d778-4e43-8ac5-f1a572db7a40</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//label[contains(text(),'Yes')]</value>
+         <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//li[text()='Automation Test']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

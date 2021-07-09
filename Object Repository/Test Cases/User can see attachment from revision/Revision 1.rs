@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description>External Party Needed</description>
-   <name>Yes</name>
+   <description>Revision 1 where attachment is there in the Record</description>
+   <name>Revision 1</name>
    <tag></tag>
-   <elementGuidId>f188a852-22d7-41a2-9e73-daa874919f1e</elementGuidId>
+   <elementGuidId>27a28f7e-e71d-4b9a-ae87-8c2e439310d9</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//label[contains(text(),'Yes')]</value>
+         <value>//a[contains(text(),'Revision 1')]</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

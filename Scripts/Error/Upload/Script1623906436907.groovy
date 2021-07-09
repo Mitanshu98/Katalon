@@ -17,11 +17,51 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('https://ps.uci.edu/~franklin/doc/file_upload.html')
+WebUI.openBrowser(GlobalVariable.Url)
 
-WebUI.maximizeWindow()
+		//Maximize the browser window
+		WebUI.maximizeWindow()
 
-WebUI.delay(10, FailureHandling.STOP_ON_FAILURE)
+		if (WebUI.waitForElementVisible(findTestObject('Object Repository/Microsoft and HALO login/Microsoft login/Enter_email'),
+		20)) {
+//Enter email id in textbox for microsoft login
+WebUI.setText(findTestObject('Microsoft and HALO login/Microsoft login/Enter_email'), GlobalVariable.Email)
 
-WebUI.closeBrowser()
+//Click on next button
+WebUI.click(findTestObject('Microsoft and HALO login/Microsoft login/Next button'))
 
+//Enter password encrypted
+WebUI.setEncryptedText(findTestObject('Microsoft and HALO login/Microsoft login/Password'), GlobalVariable.UserPass)
+
+//Click signin button
+WebUI.click(findTestObject('Microsoft and HALO login/Microsoft login/SignIn'))
+
+//wait for authentication
+WebUI.waitForPageLoad(GlobalVariable.Timeout)
+
+//Check checkbox for stay signed in
+WebUI.check(findTestObject('Microsoft and HALO login/Microsoft login/Checkbox stay signed in'))
+
+//Click Yes button
+WebUI.click(findTestObject('Microsoft and HALO login/Microsoft login/Stay signed in YES'))
+}
+
+WebUI.waitForElementVisible(findTestObject('Microsoft and HALO login/HALO Login Page/Halo_Login Btn'), GlobalVariable.Timeout)
+
+//*******************************************STEP 2:*******************************************************
+//Login and Verify user subscriptions and the Organization of the user
+WebUI.setText(findTestObject('Microsoft and HALO login/HALO Login Page/HALO_Username'), GlobalVariable.Email)
+
+WebUI.setEncryptedText(findTestObject('Microsoft and HALO login/HALO Login Page/HALO_Password'), GlobalVariable.HaloPass)
+
+WebUI.click(findTestObject('Microsoft and HALO login/HALO Login Page/Halo_Login Btn'))
+
+WebUI.waitForPageLoad(GlobalVariable.Timeout)
+
+WebUI.click(findTestObject('HALO Front-End/My settings/My settings'))
+
+WebUI.waitForElementVisible(findTestObject('HALO Front-End/My settings/My roles'), GlobalVariable.Timeout)
+
+WebUI.click(findTestObject('HALO Front-End/My settings/My roles'))
+
+WebUI.delay(GlobalVariable.Delay)

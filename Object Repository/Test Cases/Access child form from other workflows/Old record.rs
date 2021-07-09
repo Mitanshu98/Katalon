@@ -6,12 +6,11 @@
    <elementGuidId>58075b31-3938-4b93-88ea-25c4472c2c12</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//a[text()='DATACOL-1756']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//a[text()='DATACOL-1701']</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

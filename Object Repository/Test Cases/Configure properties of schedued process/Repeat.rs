@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description>External Party Needed</description>
-   <name>Yes</name>
+   <description>Is repeat needed= Yes</description>
+   <name>Repeat</name>
    <tag></tag>
-   <elementGuidId>f188a852-22d7-41a2-9e73-daa874919f1e</elementGuidId>
+   <elementGuidId>36444542-8096-4453-9a21-666a212aaef0</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -11,6 +11,7 @@
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

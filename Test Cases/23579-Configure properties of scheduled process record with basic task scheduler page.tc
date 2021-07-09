@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>URS 05.162 : In this Test case we are creating a record in data collection program and Configure properties of scheduled process record with basic task scheduler page.</description>
+   <name>23579-Configure properties of scheduled process record with basic task scheduler page</name>
+   <tag>URS 05.162</tag>
+   <comment></comment>
+   <testCaseGuid>958f8d7c-f146-437f-aa26-d7b3719a62b1</testCaseGuid>
+   <variable>
+      <defaultValue>'Automation'</defaultValue>
+      <description></description>
+      <id>d5010b0e-6d7f-4b83-b4ac-1f22ce2c5133</id>
+      <masked>false</masked>
+      <name>Title</name>
+   </variable>
+   <variable>
+      <defaultValue>'Demo Scheduler'</defaultValue>
+      <description></description>
+      <id>8cb304e5-6ba0-45cf-b40c-908eb049d911</id>
+      <masked>false</masked>
+      <name>Schedule_Title</name>
+   </variable>
+   <variable>
+      <defaultValue>'2021-07-09'</defaultValue>
+      <description></description>
+      <id>2fd27975-be81-42bb-bfba-863cff203758</id>
+      <masked>false</masked>
+      <name>Start</name>
+   </variable>
+   <variable>
+      <defaultValue>'2021-07-19'</defaultValue>
+      <description></description>
+      <id>c92159ce-ef77-417f-ae87-5a80194c794c</id>
+      <masked>false</masked>
+      <name>End</name>
+   </variable>
+</TestCaseEntity>

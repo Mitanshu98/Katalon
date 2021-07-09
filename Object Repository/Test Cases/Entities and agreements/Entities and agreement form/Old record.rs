@@ -6,11 +6,11 @@
    <elementGuidId>2086323a-938b-4c21-bfb6-04a82533fbb0</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//a[text()='ORG_EXT-1605']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//a[text()='ORG_EXT-1666']</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

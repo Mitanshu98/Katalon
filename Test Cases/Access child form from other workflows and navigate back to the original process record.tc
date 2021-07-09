@@ -19,4 +19,11 @@
       <masked>false</masked>
       <name>Type</name>
    </variable>
+   <variable>
+      <defaultValue>'Peters Agreement'</defaultValue>
+      <description></description>
+      <id>d672e9a0-4d48-4f86-8ab8-696c459262dd</id>
+      <masked>false</masked>
+      <name>External_Parties</name>
+   </variable>
 </TestCaseEntity>

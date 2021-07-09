@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description>External Party Needed</description>
-   <name>Yes</name>
+   <description>Schedule End Date</description>
+   <name>Schedule End</name>
    <tag></tag>
-   <elementGuidId>f188a852-22d7-41a2-9e73-daa874919f1e</elementGuidId>
+   <elementGuidId>525ebabe-0afa-4870-9b8d-8cf2c4294436</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//label[contains(text(),'Yes')]</value>
+         <value>//input[@id='P81_SCHEDULE_END_DATE']</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

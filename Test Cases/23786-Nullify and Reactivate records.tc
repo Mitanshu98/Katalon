@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>URS 02.120 : In this test case we are creating a record, Nullify it and Reactivate it.</description>
+   <name>23786-Nullify and Reactivate records</name>
+   <tag>URS 02.120</tag>
+   <comment></comment>
+   <testCaseGuid>003948c2-e200-482c-8f18-b36cfff6b6e3</testCaseGuid>
+   <variable>
+      <defaultValue>'Customer Meeting'</defaultValue>
+      <description></description>
+      <id>41a74e2d-d98b-4b8d-b56e-6336ed2d0684</id>
+      <masked>false</masked>
+      <name>title</name>
+   </variable>
+   <variable>
+      <defaultValue>'\'Customer Meeting\''</defaultValue>
+      <description></description>
+      <id>cca6a56c-253d-49d5-b414-da01237209d9</id>
+      <masked>false</masked>
+      <name>Record</name>
+   </variable>
+   <variable>
+      <defaultValue>'Partner'</defaultValue>
+      <description></description>
+      <id>a8ea4f3c-488b-4aab-a13e-6769e91b71ee</id>
+      <masked>false</masked>
+      <name>type</name>
+   </variable>
+   <variable>
+      <defaultValue>'Extra Record'</defaultValue>
+      <description></description>
+      <id>18299729-1b02-47ff-99a2-468df7183e6d</id>
+      <masked>false</masked>
+      <name>Comment</name>
+   </variable>
+</TestCaseEntity>

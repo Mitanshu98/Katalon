@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description>External Party Needed</description>
-   <name>Yes</name>
+   <description>Return from the Partner Page</description>
+   <name>1st-Return</name>
    <tag></tag>
-   <elementGuidId>f188a852-22d7-41a2-9e73-daa874919f1e</elementGuidId>
+   <elementGuidId>3bedd57d-3907-40e1-a337-e26cce31571c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//label[contains(text(),'Yes')]</value>
+         <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//button[@id='B65959322779210939']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

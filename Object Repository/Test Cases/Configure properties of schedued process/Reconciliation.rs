@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description>External Party Needed</description>
-   <name>Yes</name>
+   <description>It is a workflow present in Data collection program</description>
+   <name>Reconciliation</name>
    <tag></tag>
-   <elementGuidId>f188a852-22d7-41a2-9e73-daa874919f1e</elementGuidId>
+   <elementGuidId>e7c90a97-028f-41a5-b691-38e297085a3e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//label[contains(text(),'Yes')]</value>
+         <value>//span[text()='Data collection program - Reconciliation']</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

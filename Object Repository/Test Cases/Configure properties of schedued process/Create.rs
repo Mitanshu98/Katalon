@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description>External Party Needed</description>
-   <name>Yes</name>
+   <description>Create the Schedule button</description>
+   <name>Create</name>
    <tag></tag>
-   <elementGuidId>f188a852-22d7-41a2-9e73-daa874919f1e</elementGuidId>
+   <elementGuidId>acbb2218-5f7c-4b5f-b39b-2e59abb8b67e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//label[contains(text(),'Yes')]</value>
+         <value>//button[@id='B34411416588030037']</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

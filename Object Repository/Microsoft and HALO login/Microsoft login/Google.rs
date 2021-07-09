@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description>External Party Needed</description>
-   <name>Yes</name>
+   <description></description>
+   <name>Google</name>
    <tag></tag>
-   <elementGuidId>f188a852-22d7-41a2-9e73-daa874919f1e</elementGuidId>
+   <elementGuidId>35b6e9bb-22ea-4c46-8164-b8f3bc21857e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//label[contains(text(),'Yes')]</value>
+         <value>/html/body/div[1]/div[3]/form/div[1]/div[1]/div[3]/center/input[1]</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

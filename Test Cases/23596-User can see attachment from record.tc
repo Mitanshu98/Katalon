@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>URS 02.11 : Here in this test case we are creating a record and attach a file and complete the workflow and initiate it and again complete it and sees the diffrent Record revisions.
+</description>
+   <name>23596-User can see attachment from record</name>
+   <tag>URS 02.11 </tag>
+   <comment></comment>
+   <testCaseGuid>ef93312d-5789-43d7-a5e9-05cf565c08a7</testCaseGuid>
+   <variable>
+      <defaultValue>'Product\r\n'</defaultValue>
+      <description></description>
+      <id>6fe3437a-3283-4b3b-9d56-ec47256a1380</id>
+      <masked>false</masked>
+      <name>Title</name>
+   </variable>
+   <variable>
+      <defaultValue>'Vaccine'</defaultValue>
+      <description></description>
+      <id>fb72aad2-e50a-43cc-a5f8-d622eadce469</id>
+      <masked>false</masked>
+      <name>Type</name>
+   </variable>
+   <variable>
+      <defaultValue>'D:\\HALO.jpg'</defaultValue>
+      <description></description>
+      <id>00221675-f907-4426-b5b1-ac8c71f7590f</id>
+      <masked>false</masked>
+      <name>Location</name>
+   </variable>
+   <variable>
+      <defaultValue>'All Good\r\n'</defaultValue>
+      <description></description>
+      <id>a8bb65b0-f04d-4ee0-8d63-59cd340bf43e</id>
+      <masked>false</masked>
+      <name>Comments</name>
+   </variable>
+</TestCaseEntity>

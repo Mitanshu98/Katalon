@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description>External Party Needed</description>
-   <name>Yes</name>
+   <description></description>
+   <name>SDEA(Active only)</name>
    <tag></tag>
-   <elementGuidId>f188a852-22d7-41a2-9e73-daa874919f1e</elementGuidId>
+   <elementGuidId>051068f5-3436-447c-a4f9-6a7edc1facc1</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//label[contains(text(),'Yes')]</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//select[@id='P45_HANDLING_ORG_ADD_SDEA']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

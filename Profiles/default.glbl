@@ -41,7 +41,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>This is a encrypted password for Halo Environment</description>
-      <initValue>'r0Zc9uoGivFWnlDK9UxeLSw1+U/R0MIL'</initValue>
+      <initValue>'Wv5Ut/ecpITXmQiPI8SQjQJOQgOfhlZb'</initValue>
       <name>HaloPass</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>SDEA(Active only)</name>
+   <name>Seaarch</name>
    <tag></tag>
-   <elementGuidId>051068f5-3436-447c-a4f9-6a7edc1facc1</elementGuidId>
+   <elementGuidId>274831b6-4434-4d8e-a890-fef975ef51b4</elementGuidId>
    <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@class='pR49Ae gsfi']</value>
+      </entry>
       <entry>
          <key>BASIC</key>
          <value></value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//select[@id='P45_HANDLING_ORG_ADD_SDEA']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

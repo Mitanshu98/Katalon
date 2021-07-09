@@ -44,28 +44,92 @@ WebUI.waitForElementVisible(findTestObject('Test Cases/Access child form from ot
 
 WebUI.click(findTestObject('Test Cases/Access child form from other workflows/Old record'))
 
+/*
 WebUI.waitForPageLoad(GlobalVariable.Timeout)
 
+WebUI.waitForElementVisible(findTestObject('Test Cases/Access child form from other workflows/Record Name'), GlobalVariable.Timeout)
+
+WebUI.setText(findTestObject('Test Cases/Access child form from other workflows/Record Name'), Title)
+
+WebUI.selectOptionByLabel(findTestObject('Test Cases/Access child form from other workflows/Record Type'), Type, false)
+
+WebUI.click(findTestObject('Test Cases/Access child form from other workflows/Create'))
+*/
 WebUI.switchToFrame(findTestObject('HALO Front-End/Common Elements/Iframe(5)'), GlobalVariable.Timeout)
+
+WebUI.waitForPageLoad(GlobalVariable.Timeout)
 
 WebUI.waitForElementVisible(findTestObject('Test Cases/Access child form from other workflows/Data collection Program form'), 
     GlobalVariable.Timeout)
 
 WebUI.click(findTestObject('Test Cases/Access child form from other workflows/Data collection Program form'))
 
+WebUI.switchToDefaultContent()
+
 WebUI.waitForPageLoad(GlobalVariable.Timeout)
-
-WebUI.waitForElementVisible(findTestObject('Test Cases/Access child form from other workflows/Yes'), GlobalVariable.Timeout)
-
-WebUI.click(findTestObject('Test Cases/Access child form from other workflows/Yes'))
 
 WebUI.delay(GlobalVariable.Delay)
 
-WebUI.waitForElementVisible(findTestObject('Test Cases/Access child form from other workflows/External Parties'), GlobalVariable.Timeout)
+WebUI.switchToFrame(findTestObject('HALO Front-End/Common Elements/Iframe(5)'), GlobalVariable.Timeout)
 
-WebUI.click(findTestObject('Test Cases/Access child form from other workflows/External Parties'))
+WebUI.waitForElementVisible(findTestObject('Test Cases/Access child form from other workflows/Yes'), GlobalVariable.Timeout)
 
-WebUI.waitForElementVisible(findTestObject(null), 0)
+WebUI.click(findTestObject('Test Cases/Access child form from other workflows/Yes'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.selectOptionByLabel(findTestObject(null), '', false)
+WebUI.delay(GlobalVariable.Delay)
+
+WebUI.waitForElementVisible(findTestObject('Test Cases/Access child form from other workflows/External Parties/External Parties'), 
+    GlobalVariable.Timeout)
+
+WebUI.click(findTestObject('Test Cases/Access child form from other workflows/External Parties/External Parties'))
+
+WebUI.waitForElementVisible(findTestObject('Test Cases/Access child form from other workflows/External Parties/Partner-Button'), 
+    GlobalVariable.Timeout)
+
+WebUI.click(findTestObject('Test Cases/Access child form from other workflows/External Parties/Partner-Button'))
+
+WebUI.switchToDefaultContent()
+
+WebUI.delay(GlobalVariable.Delay, FailureHandling.CONTINUE_ON_FAILURE)
+
+/*
+WebUI.setText(findTestObject('Test Cases/Access child form from other workflows/External Parties/Search-Field'), 'Denmark (DK)', 
+    FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.click(findTestObject('Test Cases/Access child form from other workflows/External Parties/Search-button'), FailureHandling.CONTINUE_ON_FAILURE)
+*/
+WebUI.waitForElementVisible(findTestObject('Test Cases/Access child form from other workflows/External Parties/Partner'), 
+    GlobalVariable.Timeout, FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.click(findTestObject('Test Cases/Access child form from other workflows/External Parties/Partner'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.switchToFrame(findTestObject('HALO Front-End/Common Elements/Iframe(5)'), GlobalVariable.Timeout, FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.delay(GlobalVariable.Delay)
+
+WebUI.selectOptionByLabel(findTestObject('Test Cases/Access child form from other workflows/External Parties/SDEA(Active only)'), 
+    'Peters Agreement', false)
+
+WebUI.delay(GlobalVariable.Delay)
+
+WebUI.click(findTestObject('Test Cases/Access child form from other workflows/External Parties/Add to Program'))
+
+WebUI.delay(GlobalVariable.Delay)
+
+WebUI.waitForElementVisible(findTestObject('Test Cases/Access child form from other workflows/External Parties/External Parties'), 
+    GlobalVariable.Timeout)
+
+WebUI.click(findTestObject('Test Cases/Access child form from other workflows/External Parties/External Parties'))
+
+WebUI.delay(GlobalVariable.Delay)
+
+WebUI.click(findTestObject('Test Cases/Access child form from other workflows/External Parties/Open-Partner'))
+
+WebUI.waitForPageLoad(GlobalVariable.Timeout)
+
+WebUI.delay(GlobalVariable.Delay)
+
+WebUI.click(findTestObject('Test Cases/Access child form from other workflows/External Parties/1st-Return'))
+
+WebUI.closeBrowser()
 
