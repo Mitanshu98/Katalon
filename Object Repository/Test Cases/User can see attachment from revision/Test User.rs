@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description></description>
-   <name>Azure Login</name>
+   <description>Pencil edit button of the Test user in the user list</description>
+   <name>Test User</name>
    <tag></tag>
-   <elementGuidId>6a02d869-8cd8-4e52-b1d7-934d483bd19b</elementGuidId>
+   <elementGuidId>0df0cffd-fe6e-4b7b-ae47-ece79fe4b194</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>//button[@id=&quot;B20022662028675667&quot;]</value>
-      </entry>
       <entry>
          <key>BASIC</key>
          <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//td[contains(text(),${user})]/preceding-sibling::td/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

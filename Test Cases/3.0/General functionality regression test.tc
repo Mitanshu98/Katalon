@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>3.0 : This test case will test browser compatibility with following functions.
+
+1.	Verify that it is possible to log into the application - both via single-sign-on and via normal login (username and password)
+2.	Verify that it is possible to create a new record
+3.	Verify that it is possible to open an existing record
+4.	Verify that it is possible to Complete the workflow on a record
+5.	Verify that it is possible to initiate the workflow on a completed record
+6.	Verify that it is possible to clone a record</description>
+   <name>General functionality regression test</name>
+   <tag>3.0</tag>
+   <comment></comment>
+   <testCaseGuid>8e9fe1bd-6a0e-4440-b4c2-4785114a04e0</testCaseGuid>
+</TestCaseEntity>

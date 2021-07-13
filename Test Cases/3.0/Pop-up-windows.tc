@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>3.0   This test case will verify the browser compatibility with following functions:
+
+1.	Verify that it is possible to open a child form (via the main record form – i.e., by opening a Task Activity)
+2.	Verify that the Audit log window can be opened
+3.	Verify that it is possible to navigate back to the child form and then to the main record
+</description>
+   <name>Pop-up-windows</name>
+   <tag>3.0</tag>
+   <comment></comment>
+   <testCaseGuid>f0246af0-c8e6-4cf8-90fe-a9d10623ef79</testCaseGuid>
+   <variable>
+      <defaultValue>'English'</defaultValue>
+      <description></description>
+      <id>12cd8b58-0a22-4704-b514-4868fac2c281</id>
+      <masked>false</masked>
+      <name>Language</name>
+   </variable>
+</TestCaseEntity>

@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description></description>
-   <name>old record</name>
+   <description>This is direct close button for the Icsr Record</description>
+   <name>Close ICSR</name>
    <tag></tag>
-   <elementGuidId>ff4cb9d5-cd0d-4de7-aa0b-593f26a5171c</elementGuidId>
+   <elementGuidId>2c8258f0-a82a-4928-b80a-d7ff488cde62</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[text()='ICSR-Proce-1854']</value>
+         <value>//span[@id='ui-id-2']/following-sibling::button[@class='ui-dialog-titlebar-close']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

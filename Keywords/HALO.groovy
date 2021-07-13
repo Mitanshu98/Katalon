@@ -166,4 +166,19 @@ public class HALO {
 
 		WebUI.delay(GlobalVariable.Delay)
 	}
+	@Keyword
+	public void Record_Id() {
+		WebUI.waitForElementVisible(findTestObject('Test Cases/Entities and agreements/Entities and agreement form/More menu'),
+				GlobalVariable.Timeout)
+
+		WebUI.click(findTestObject('Test Cases/Entities and agreements/Entities and agreement form/More menu'))
+
+		WebUI.click(findTestObject('Test Cases/Initiating Workflow/Record Revision'))
+
+		WebUI.delay(2)
+
+		Record_Id = WebUI.getText(findTestObject('Test Cases/Schedule of Initiation of workflows on existing record/Master_Id'))
+
+		WebUI.click(findTestObject('Test Cases/User can see attachment from revision/Revision close'))
+	}
 }

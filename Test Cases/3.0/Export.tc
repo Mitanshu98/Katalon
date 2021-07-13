@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Halo 3.0 : In this testcase we are checking
+1.	It is possible to generate a Word-based document by using the Print feature on a record.
+2.	It is possible to download a CSV file by using the Download feature on an Interactive report.
+</description>
+   <name>Export</name>
+   <tag>Halo 3.0</tag>
+   <comment></comment>
+   <testCaseGuid>b5e698b1-61ea-4962-9fc3-59a4dd796052</testCaseGuid>
+   <variable>
+      <defaultValue>'ICSR_copy'</defaultValue>
+      <description>Name of the Template</description>
+      <id>1b5688a0-32f4-406a-94b5-4c25c54483c1</id>
+      <masked>false</masked>
+      <name>Template</name>
+   </variable>
+</TestCaseEntity>

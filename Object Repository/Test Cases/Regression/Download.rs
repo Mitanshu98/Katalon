@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description></description>
-   <name>old record</name>
+   <description>Download present in Workflow history</description>
+   <name>Download</name>
    <tag></tag>
-   <elementGuidId>ff4cb9d5-cd0d-4de7-aa0b-593f26a5171c</elementGuidId>
+   <elementGuidId>cf1067d2-1f02-4d76-87be-3a339f0f9a13</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[text()='ICSR-Proce-1854']</value>
+         <value>//button[@id='R149054927808333833_actions_menu_12i']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>old record</name>
+   <name>Event Save</name>
    <tag></tag>
-   <elementGuidId>fcefce71-ab63-4981-9107-0a42fc4aa603</elementGuidId>
+   <elementGuidId>8b8ec8fe-c612-40cc-b8d7-e777770405d3</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[text()='ORG_EXT-1024']</value>
+         <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//button[@id='B88989013709265315']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description></description>
-   <name>old record</name>
+   <description>Audit log window where we can see all the changes made iin the Record</description>
+   <name>View audit log</name>
    <tag></tag>
-   <elementGuidId>ff4cb9d5-cd0d-4de7-aa0b-593f26a5171c</elementGuidId>
+   <elementGuidId>ba3291ab-da85-46ae-a0bc-f334fb5604ee</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[text()='ICSR-Proce-1854']</value>
+         <value>//a[text()='View audit log']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

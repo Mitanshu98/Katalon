@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>URS 06.41 : In this test case User to check the halo environment with different URLs.
+
+</description>
+   <name>23856-User not allowed to access unauthorized page by manual manipulation of URLs</name>
+   <tag>URS 06.41 </tag>
+   <comment></comment>
+   <testCaseGuid>320e5fe2-7670-462d-9d2c-21bab2cb5272</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>cd471ee5-fbea-4c16-9914-65e6a0f627c5</id>
+      <masked>false</masked>
+      <name>url</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>2fc42636-9857-4abf-ad10-6167a6cb66f8</id>
+      <masked>false</masked>
+      <name>newurl</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>71decf4d-011e-44a5-9096-1c67905f1720</id>
+      <masked>false</masked>
+      <name>newurl1</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>fd26324a-1139-4d2a-b2ed-72056b1d74b8</id>
+      <masked>false</masked>
+      <name>newurl2</name>
+   </variable>
+</TestCaseEntity>

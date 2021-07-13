@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Core - Client-side field validation</name>
+   <name>Upload and Download</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,23 +10,17 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>010a5df3-ebc9-4c5b-8ea8-82f812da69b5</testSuiteGuid>
+   <testSuiteGuid>2580c95a-6593-4d27-8065-7e6248f9b107</testSuiteGuid>
    <testCaseLink>
-      <guid>7f7ce8e5-4261-4602-90d6-311f0d82f644</guid>
+      <guid>0f9639b7-bafd-42e6-a875-3b46bb28f70b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/3.0/Core - Client-side field validation</testCaseId>
+      <testCaseId>Test Cases/3.0/Upload and Download</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>c038e012-043d-4d1b-87e9-8e1545cde7a0</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>4de74a91-30d6-4259-af55-7172a185704f</variableId>
+         <variableId>949c6c76-66d5-4cd2-8d37-eb91bd33d723</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

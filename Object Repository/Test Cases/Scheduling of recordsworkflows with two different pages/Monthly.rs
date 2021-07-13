@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>old record</name>
+   <name>Monthly</name>
    <tag></tag>
-   <elementGuidId>fcefce71-ab63-4981-9107-0a42fc4aa603</elementGuidId>
+   <elementGuidId>75f83ede-fc4a-4181-8610-5aa0a65af77b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[text()='ORG_EXT-1024']</value>
+         <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//label[contains(text(),'Monthly')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

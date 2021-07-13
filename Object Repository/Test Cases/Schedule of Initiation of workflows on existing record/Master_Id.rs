@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description></description>
-   <name>old record</name>
+   <description>It is the record Id of the record created in the workflow</description>
+   <name>Master_Id</name>
    <tag></tag>
-   <elementGuidId>ff4cb9d5-cd0d-4de7-aa0b-593f26a5171c</elementGuidId>
+   <elementGuidId>bd9994da-8fa6-46d1-9ede-2651e77702c6</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[text()='ICSR-Proce-1854']</value>
+         <value>//table[@id='152120227706807555_orig']/tbody/tr[2]/td[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

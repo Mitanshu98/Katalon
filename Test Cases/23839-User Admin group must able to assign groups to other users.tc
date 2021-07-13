@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>URS 05.145 : In this Test case we are verifying that the without user admin role Testuser can not assign role to the other user.</description>
+   <name>23839-User Admin group must able to assign groups to other users</name>
+   <tag>URS 05.145</tag>
+   <comment></comment>
+   <testCaseGuid>c5f74442-e1c9-45d6-a755-d29eb8dc278f</testCaseGuid>
+   <variable>
+      <defaultValue>'ASSIGN TEST USER'</defaultValue>
+      <description>To always remove the existing created user and remove the user admin role.</description>
+      <id>4df9657e-5ec4-4c7e-abe1-c0450d91049e</id>
+      <masked>false</masked>
+      <name>User_Name</name>
+   </variable>
+   <variable>
+      <defaultValue>'Asdnk23snnjBJjbj@#jnkj'</defaultValue>
+      <description></description>
+      <id>728aebce-4801-40ba-b6d6-26e4a45a3154</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+   <variable>
+      <defaultValue>'4541'</defaultValue>
+      <description></description>
+      <id>8db3e398-fe61-4756-adc1-b8a73f6ece59</id>
+      <masked>false</masked>
+      <name>User_id</name>
+   </variable>
+   <variable>
+      <defaultValue>'Test02'</defaultValue>
+      <description></description>
+      <id>802e98ea-3415-4fc6-ba93-8677598de0af</id>
+      <masked>false</masked>
+      <name>new_user</name>
+   </variable>
+</TestCaseEntity>

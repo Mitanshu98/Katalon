@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>old record</name>
+   <name>Error-Ok</name>
    <tag></tag>
-   <elementGuidId>fcefce71-ab63-4981-9107-0a42fc4aa603</elementGuidId>
+   <elementGuidId>ce19a682-41a1-4150-9a4a-0919da19e17e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[text()='ORG_EXT-1024']</value>
+         <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//button[text()='OK']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description></description>
-   <name>old record</name>
+   <description>It is a radio button for Schedular to set the repeation of Scheduler</description>
+   <name>Repeat-No</name>
    <tag></tag>
-   <elementGuidId>ff4cb9d5-cd0d-4de7-aa0b-593f26a5171c</elementGuidId>
+   <elementGuidId>a5ffdfba-d30d-4a01-9113-c3d1541d0d5b</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[text()='ICSR-Proce-1854']</value>
+         <value>//input[@id='P93_REPEAT_1']/following-sibling::*</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

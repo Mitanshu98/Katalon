@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>URS 02.116 : In this test case we are creating a record in Entities(External) and complete its workflow and create a schedule for that record.</description>
+   <name>23828-Schedule initiation of workflows on existing process records</name>
+   <tag>URS 02.116</tag>
+   <comment></comment>
+   <testCaseGuid>c74ee904-0b92-4c97-9c44-d345c8eb035c</testCaseGuid>
+   <variable>
+      <defaultValue>'Testing Master Id'</defaultValue>
+      <description></description>
+      <id>a1ed3ce5-e271-4b52-aeae-9a5aef66c911</id>
+      <masked>false</masked>
+      <name>Title</name>
+   </variable>
+   <variable>
+      <defaultValue>'Partner'</defaultValue>
+      <description></description>
+      <id>362caafc-358a-457f-a0f5-15322ec67549</id>
+      <masked>false</masked>
+      <name>Type</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>It should be empty because we are fetching record id from the web.</description>
+      <id>88ca1376-6878-42dd-9ae4-e9a57589d154</id>
+      <masked>false</masked>
+      <name>Record_Id</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>It should be empty because we are fetching Schedule id from the web.</description>
+      <id>e23cb625-14d8-4c5d-b3ca-7db66521a5a0</id>
+      <masked>false</masked>
+      <name>Schedule_Id</name>
+   </variable>
+   <variable>
+      <defaultValue>'Demo Testing'</defaultValue>
+      <description></description>
+      <id>ebdd646e-347a-4a70-860c-bafeefc1fbe1</id>
+      <masked>false</masked>
+      <name>Schedule_title</name>
+   </variable>
+   <variable>
+      <defaultValue>'2021-07-12'</defaultValue>
+      <description></description>
+      <id>224f3dd0-5342-4505-a854-d52c95e1515d</id>
+      <masked>false</masked>
+      <name>Schedule_Date</name>
+   </variable>
+   <variable>
+      <defaultValue>'Routing Comments'</defaultValue>
+      <description></description>
+      <id>95eaafc6-a817-495a-aa46-c3a572ce11f8</id>
+      <masked>false</masked>
+      <name>Comments</name>
+   </variable>
+</TestCaseEntity>

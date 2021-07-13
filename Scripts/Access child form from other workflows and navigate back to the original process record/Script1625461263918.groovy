@@ -44,9 +44,9 @@ WebUI.waitForElementVisible(findTestObject('Test Cases/Access child form from ot
 
 WebUI.click(findTestObject('Test Cases/Access child form from other workflows/Old record'))
 
-/*
 WebUI.waitForPageLoad(GlobalVariable.Timeout)
 
+/*
 WebUI.waitForElementVisible(findTestObject('Test Cases/Access child form from other workflows/Record Name'), GlobalVariable.Timeout)
 
 WebUI.setText(findTestObject('Test Cases/Access child form from other workflows/Record Name'), Title)
@@ -74,7 +74,9 @@ WebUI.switchToFrame(findTestObject('HALO Front-End/Common Elements/Iframe(5)'), 
 
 WebUI.waitForElementVisible(findTestObject('Test Cases/Access child form from other workflows/Yes'), GlobalVariable.Timeout)
 
-WebUI.click(findTestObject('Test Cases/Access child form from other workflows/Yes'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementNotChecked(findTestObject('Test Cases/Access child form from other workflows/Yes'), GlobalVariable.Delay)
+
+WebUI.click(findTestObject('Test Cases/Access child form from other workflows/Yes'))
 
 WebUI.delay(GlobalVariable.Delay)
 

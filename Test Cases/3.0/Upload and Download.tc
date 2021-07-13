@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>3.0 : This test case verifies the browser compatibility with the following functions:
+
+1.	Verify that it is possible to upload a file from the local PC to a record in HALOPV ([attachment icon] > Upload)
+2.	Verify that it is possible to download a file using the Download link.
+
+</description>
+   <name>Upload and Download</name>
+   <tag>3.0</tag>
+   <comment></comment>
+   <testCaseGuid>d73d2c5b-70fc-4c1f-b618-5990f0f1e74a</testCaseGuid>
+   <variable>
+      <defaultValue>'D:\\INSIFE-HALOPV 3.0-CORE-Upload and download-REG-OQ-423-41.docx'</defaultValue>
+      <description></description>
+      <id>949c6c76-66d5-4cd2-8d37-eb91bd33d723</id>
+      <masked>false</masked>
+      <name>Location</name>
+   </variable>
+</TestCaseEntity>

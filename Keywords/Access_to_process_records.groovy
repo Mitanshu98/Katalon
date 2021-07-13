@@ -21,112 +21,112 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable
 
 public class Access_to_process_records {
-	@Keyword 
+	@Keyword
 	public void Yes(){
 		WebUI.click(findTestObject('HALO Front-End/Application management/Application management'))
-		
+
 		WebUI.waitForElementPresent(findTestObject('HALO Front-End/Application management/Process workflows'), GlobalVariable.Timeout)
-		
+
 		WebUI.click(findTestObject('HALO Front-End/Application management/Process workflows'))
-		
+
 		WebUI.waitForPageLoad(GlobalVariable.Timeout)
-		
+
 		WebUI.setText(findTestObject('Test Cases/Assign Electronic signature/Search Box'), 'Entities')
-		
+
 		WebUI.click(findTestObject('Test Cases/Assign Electronic signature/Search Button'))
-		
+
 		WebUI.waitForElementVisible(findTestObject('Test Cases/Access to process records/Process workflow-Entities(internal)'),
-			GlobalVariable.Timeout)
-		
+				GlobalVariable.Timeout)
+
 		WebUI.click(findTestObject('Test Cases/Access to process records/Process workflow-Entities(internal)'))
-		
+
 		WebUI.waitForPageLoad(GlobalVariable.Timeout)
-		
+
 		WebUI.switchToFrame(findTestObject('HALO Front-End/Common Elements/Iframe(5)'), 1)
-		
+
 		WebUI.waitForElementVisible(findTestObject('Test Cases/Access to process records/Advanced Settings'), GlobalVariable.Timeout)
-		
+
 		WebUI.click(findTestObject('Test Cases/Access to process records/Advanced Settings'))
-		
+
 		WebUI.waitForElementVisible(findTestObject('Test Cases/Access to process records/Product and compound Yes'), GlobalVariable.Timeout)
-		
+
 		WebUI.click(findTestObject('Test Cases/Access to process records/Product and compound Yes'))
-		
+
 		WebUI.click(findTestObject('Test Cases/Access to process records/Include territory Yes'))
-		
+
 		WebUI.click(findTestObject('Test Cases/Access to process records/Include study Yes'))
-		
+
 		WebUI.click(findTestObject('Test Cases/Access to process records/Include organizational study Yes'))
-		
+
 		WebUI.delay(GlobalVariable.Delay)
-		
+
 		WebUI.comment('This is a verify step where Workflows page shall be displayed.')
-		
+
 		WebUI.takeScreenshot()
-		
+
 		WebUI.click(findTestObject('Test Cases/Entities and agreements/Save'))
-		
+
 		WebUI.delay(GlobalVariable.Delay)
-		
+
 		WebUI.click(findTestObject('Test Cases/Entities and agreements/Close'))
-		
+
 		WebUI.switchToDefaultContent()
-		
+
 		WebUI.waitForPageLoad(GlobalVariable.Timeout)
 	}
 	@Keyword
 	public void No() {
 		WebUI.click(findTestObject('HALO Front-End/Application management/Application management'))
-		
+
 		WebUI.waitForElementPresent(findTestObject('HALO Front-End/Application management/Process workflows'), GlobalVariable.Timeout)
-		
+
 		WebUI.click(findTestObject('HALO Front-End/Application management/Process workflows'))
-		
+
 		WebUI.waitForPageLoad(GlobalVariable.Timeout)
-		
+
 		WebUI.setText(findTestObject('Test Cases/Assign Electronic signature/Search Box'), 'Entities')
-		
+
 		WebUI.click(findTestObject('Test Cases/Assign Electronic signature/Search Button'))
-		
+
 		WebUI.waitForElementVisible(findTestObject('Test Cases/Access to process records/Process workflow-Entities(internal)'),
-			GlobalVariable.Timeout)
-		
+				GlobalVariable.Timeout)
+
 		WebUI.click(findTestObject('Test Cases/Access to process records/Process workflow-Entities(internal)'))
-		
+
 		WebUI.waitForPageLoad(GlobalVariable.Timeout)
-		
+
 		WebUI.switchToFrame(findTestObject('HALO Front-End/Common Elements/Iframe(5)'), GlobalVariable.Timeout)
-		
+
 		WebUI.waitForElementVisible(findTestObject('Test Cases/Access to process records/Advanced Settings'), GlobalVariable.Timeout)
-		
+
 		WebUI.click(findTestObject('Test Cases/Access to process records/Advanced Settings'))
-		
+
 		WebUI.waitForElementVisible(findTestObject('Test Cases/Access to process records/Product and compound No'), GlobalVariable.Timeout)
-		
+
 		WebUI.click(findTestObject('Test Cases/Access to process records/Product and compound No'))
-		
+
 		WebUI.click(findTestObject('Test Cases/Access to process records/Include Territory No'))
-		
+
 		WebUI.click(findTestObject('Test Cases/Access to process records/Include Study No'))
-		
+
 		WebUI.click(findTestObject('Test Cases/Access to process records/Include organizationalstudy No'))
-		
+
 		WebUI.delay(GlobalVariable.Delay)
-		
+
 		WebUI.click(findTestObject('Test Cases/Entities and agreements/Save'))
-		
+
 		WebUI.delay(GlobalVariable.Delay)
-		
+
 		WebUI.comment('This is a verify step where Workflows page shall be displayed.')
-		
+
 		WebUI.takeScreenshot()
-		
+
 		WebUI.click(findTestObject('Test Cases/Entities and agreements/Close'))
-		
+
 		WebUI.switchToDefaultContent()
-		
+
 		WebUI.waitForPageLoad(GlobalVariable.Timeout)
-		
+
 		WebUI.delay(GlobalVariable.Delay)
 	}
 }

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>URS 05.161</description>
+   <name>23830-Scheduling of records workflows with two different pages</name>
+   <tag>URS 05.161</tag>
+   <comment></comment>
+   <testCaseGuid>84a2ee32-359a-4b52-a552-e2521a2cf843</testCaseGuid>
+   <variable>
+      <defaultValue>'Password expiry'</defaultValue>
+      <description></description>
+      <id>7f07631f-99aa-4d34-a92e-db8bffabbbdd</id>
+      <masked>false</masked>
+      <name>Title</name>
+   </variable>
+   <variable>
+      <defaultValue>'\'Password expiry\''</defaultValue>
+      <description></description>
+      <id>ec2be005-0809-49fd-9d06-c1002e5795db</id>
+      <masked>false</masked>
+      <name>Show</name>
+   </variable>
+   <variable>
+      <defaultValue>'Entities and agreements'</defaultValue>
+      <description></description>
+      <id>3242e164-eeb0-4eb0-9c98-10376dcc1e36</id>
+      <masked>false</masked>
+      <name>Schedule_Process</name>
+   </variable>
+   <variable>
+      <defaultValue>'Entities management (External)'</defaultValue>
+      <description></description>
+      <id>bc4fc905-8065-4bfb-b7e8-9f5e67c75d45</id>
+      <masked>false</masked>
+      <name>Workflow</name>
+   </variable>
+   <variable>
+      <defaultValue>'Root organization'</defaultValue>
+      <description></description>
+      <id>761547c8-5956-447a-8425-e83ff6f8e76c</id>
+      <masked>false</masked>
+      <name>Organization</name>
+   </variable>
+   <variable>
+      <defaultValue>'2021-07-10'</defaultValue>
+      <description></description>
+      <id>af638123-1946-4da2-9ac8-844c5f05dad6</id>
+      <masked>false</masked>
+      <name>Start_Date</name>
+   </variable>
+   <variable>
+      <defaultValue>'Second Record'</defaultValue>
+      <description></description>
+      <id>bcb3909f-9fb2-4d99-addf-ef75b6db74ad</id>
+      <masked>false</masked>
+      <name>Data_Title</name>
+   </variable>
+   <variable>
+      <defaultValue>'Reset of password'</defaultValue>
+      <description></description>
+      <id>81e4c523-1b40-41c6-a01c-3423f76473a4</id>
+      <masked>false</masked>
+      <name>Data_schedule_Title</name>
+   </variable>
+   <variable>
+      <defaultValue>'2021-07-10'</defaultValue>
+      <description></description>
+      <id>7b9fa97b-69eb-46e3-aae4-fd2cae6f94d6</id>
+      <masked>false</masked>
+      <name>Data_Start</name>
+   </variable>
+   <variable>
+      <defaultValue>'2021-07-19'</defaultValue>
+      <description></description>
+      <id>877f9ca6-043e-4255-843f-3755845a0d84</id>
+      <masked>false</masked>
+      <name>Data_End</name>
+   </variable>
+</TestCaseEntity>
