@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description>This is the existing record that is used after the 2 workflow out of 4</description>
-   <name>Exiting Record 2</name>
+   <description></description>
+   <name>other indow</name>
    <tag></tag>
-   <elementGuidId>b9ecd856-5a6d-40da-818d-282bee5d1709</elementGuidId>
+   <elementGuidId>514db3dd-55b3-4b28-94b8-688d5cfab43c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[text()=${ID}]</value>
+         <value>//a[contains(text(),'Open record in HALO')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

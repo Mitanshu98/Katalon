@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description>This is the existing record that is used after the 2 workflow out of 4</description>
-   <name>Exiting Record 2</name>
+   <description></description>
+   <name>User_Type</name>
    <tag></tag>
-   <elementGuidId>b9ecd856-5a6d-40da-818d-282bee5d1709</elementGuidId>
+   <elementGuidId>06082d29-125d-424d-9299-f9c66112e8ba</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[text()=${ID}]</value>
+         <value>//select[@id='P47_USERTYPE']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

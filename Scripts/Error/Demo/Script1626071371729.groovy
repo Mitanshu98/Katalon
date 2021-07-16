@@ -16,13 +16,22 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import org.openqa.selenium.interactions.Action;
+import org.openqa.selenium.interactions.Actions;
+ 
+web_driver = new ChromeDriver();
+ 
+/* create an object for the Actions class and pass the driver argument */
+Actions action = new Actions(web_driver);
+ 
+action.perform(WebUI.openBrowser('https://www.google.co.in/'));
+
 
 WebUI.openBrowser('https://www.google.co.in/')
 
 WebUI.navigateToUrl('https://www.apple.com/in/')
 
-Actions action = new Actions(driver)
+actions.click(findTestObject('Microsoft and HALO login/Mac'))
 
-action.click('Microsoft and HALO login/Mac').build().perform()
 
 

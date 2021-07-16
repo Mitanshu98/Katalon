@@ -12,4 +12,11 @@
    <tag>3.0</tag>
    <comment></comment>
    <testCaseGuid>8e9fe1bd-6a0e-4440-b4c2-4785114a04e0</testCaseGuid>
+   <variable>
+      <defaultValue>'\'ICSR-Proce-1855\''</defaultValue>
+      <description></description>
+      <id>33b5128e-4f8e-469d-9c4a-54f80989f818</id>
+      <masked>false</masked>
+      <name>Record</name>
+   </variable>
 </TestCaseEntity>

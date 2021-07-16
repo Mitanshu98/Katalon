@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Whom and When</name>
+   <name>outlook</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>72beb511-9112-404d-914b-c011d9087664</testCaseGuid>
+   <testCaseGuid>d9406825-3af5-4c76-b29f-3bf64e4e0302</testCaseGuid>
 </TestCaseEntity>
