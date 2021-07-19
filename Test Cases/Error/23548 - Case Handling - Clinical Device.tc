@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>URS 05.17 : In this test case we are creating a record in ICSR Reprting requiremnts with Case Handling - Clinical device.</description>
+   <name>23548 - Case Handling - Clinical Device</name>
+   <tag>URS 05.17</tag>
+   <comment></comment>
+   <testCaseGuid>59e5f74a-c728-437d-889f-e02e5df6875a</testCaseGuid>
+   <variable>
+      <defaultValue>'Case Handler - Clinical Device'</defaultValue>
+      <description></description>
+      <id>35ab3395-d316-4e04-9197-14755a93c8a6</id>
+      <masked>false</masked>
+      <name>Title</name>
+   </variable>
+   <variable>
+      <defaultValue>'Clinical - Device'</defaultValue>
+      <description></description>
+      <id>afaaff98-d38a-4281-803c-5a5198e27874</id>
+      <masked>false</masked>
+      <name>Type</name>
+   </variable>
+</TestCaseEntity>

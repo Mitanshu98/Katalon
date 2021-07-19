@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>URS 05.17 : In this test case we are creating a record in ICSR Reprting requiremnts with Submission - Post marketing device.</description>
-   <name>23555-Submission - Post Marketing Device</name>
+   <description>URS 05.17 : In this test case we are creating a record in ICSR Reprting requiremnts with Case Handling - Solicated Drug</description>
+   <name>23551 - Case Handling - Solicited Drug</name>
    <tag>URS 05.17</tag>
    <comment></comment>
    <testCaseGuid>72beb511-9112-404d-914b-c011d9087664</testCaseGuid>
    <variable>
-      <defaultValue>'Post marketing testing'</defaultValue>
+      <defaultValue>'Case Handler - Solicated Drug'</defaultValue>
       <description></description>
       <id>3bff2f6d-7765-4240-b083-a44a483e3451</id>
       <masked>false</masked>
       <name>Title</name>
    </variable>
    <variable>
-      <defaultValue>'Post-marketing - Device'</defaultValue>
+      <defaultValue>'Solicited - Drug'</defaultValue>
       <description></description>
       <id>61264cea-3e07-4a4b-853d-8791de0b61f5</id>
       <masked>false</masked>

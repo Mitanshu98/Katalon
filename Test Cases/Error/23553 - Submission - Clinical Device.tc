@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>URS 05.17 : In this test case we are creating a record in ICSR Reprting requiremnts with Submission - Clinical device.</description>
+   <name>23553 - Submission - Clinical Device</name>
+   <tag>URS 05.17</tag>
+   <comment></comment>
+   <testCaseGuid>a3851d4b-32d6-4477-bb7e-b5937906f55e</testCaseGuid>
+   <variable>
+      <defaultValue>'Submission - Clinical device'</defaultValue>
+      <description></description>
+      <id>11745039-b47c-4e32-8815-e49a5ed660ac</id>
+      <masked>false</masked>
+      <name>Title</name>
+   </variable>
+   <variable>
+      <defaultValue>'Clinical - Device'</defaultValue>
+      <description></description>
+      <id>2b8b4a55-cd29-4c1e-b1bf-d8e501f7b861</id>
+      <masked>false</masked>
+      <name>Type</name>
+   </variable>
+</TestCaseEntity>

@@ -24,63 +24,92 @@ public class Whom {
 	@Keyword
 	public void Complete_workflow(){
 		WebUI.waitForPageLoad(GlobalVariable.Timeout, FailureHandling.CONTINUE_ON_FAILURE)
-		
+
 		WebUI.waitForElementClickable(findTestObject('Test Cases/Reports/Common Elements/1st Completed Task'), GlobalVariable.Timeout,
-			FailureHandling.CONTINUE_ON_FAILURE)
-		
+				FailureHandling.CONTINUE_ON_FAILURE)
+
 		WebUI.click(findTestObject('Test Cases/Reports/Common Elements/1st Completed Task'), FailureHandling.CONTINUE_ON_FAILURE)
-		
+
 		WebUI.waitForPageLoad(GlobalVariable.Timeout, FailureHandling.CONTINUE_ON_FAILURE)
-		
+
 		WebUI.delay(2)
-		
+
 		WebUI.waitForElementClickable(findTestObject('Test Cases/Reports/Common Elements/1st Completed Task'), GlobalVariable.Timeout,
-			FailureHandling.CONTINUE_ON_FAILURE)
-		
+				FailureHandling.CONTINUE_ON_FAILURE)
+
 		WebUI.click(findTestObject('Test Cases/Reports/Common Elements/1st Completed Task'), FailureHandling.CONTINUE_ON_FAILURE)
-		
+
 		WebUI.waitForPageLoad(GlobalVariable.Timeout, FailureHandling.CONTINUE_ON_FAILURE)
-		
+
 		WebUI.delay(2)
-		
+
 		WebUI.waitForElementClickable(findTestObject('Test Cases/Reports/Common Elements/1st Completed Task'), GlobalVariable.Timeout,
-			FailureHandling.CONTINUE_ON_FAILURE)
-		
+				FailureHandling.CONTINUE_ON_FAILURE)
+
 		WebUI.click(findTestObject('Test Cases/Reports/Common Elements/1st Completed Task'), FailureHandling.CONTINUE_ON_FAILURE)
-		
+
 		WebUI.waitForPageLoad(GlobalVariable.Timeout, FailureHandling.CONTINUE_ON_FAILURE)
-		
+
 		WebUI.delay(2)
-		
+
 		WebUI.waitForElementVisible(findTestObject('Test Cases/Reports/Common Elements/1st Completed Task'), GlobalVariable.Timeout)
-		
+
 		WebUI.click(findTestObject('Test Cases/Reports/Common Elements/1st Completed Task'))
+		
+		WebUI.delay(2)
 	}
 	@Keyword
 	public void Table() {
 		WebUI.waitForElementClickable(findTestObject('HALO Front-End/Common Elements/Record Close'), GlobalVariable.Timeout)
-		
+
 		WebUI.click(findTestObject('HALO Front-End/Common Elements/Record Close'))
-		
+
 		WebUI.waitForPageLoad(GlobalVariable.Timeout)
-		
+
 		WebUI.switchToDefaultContent()
-		
+
 		WebUI.click(findTestObject('HALO Front-End/Dashboards and reports/Dashboards and reports'))
-		
+
 		WebUI.waitForElementClickable(findTestObject('HALO Front-End/Dashboards and reports/Tabular reports'), GlobalVariable.Timeout,
-			)
-		
+				)
+
 		WebUI.click(findTestObject('HALO Front-End/Dashboards and reports/Tabular reports'))
-		
+
 		WebUI.waitForPageLoad(GlobalVariable.Timeout)
-		
+
 		WebUI.waitForElementClickable(findTestObject('Test Cases/Reports/Tabular Reports/Requirements Dropdown'), GlobalVariable.Timeout,
-			)
-		
+				)
+
 		WebUI.click(findTestObject('Test Cases/Reports/Tabular Reports/Requirements Dropdown'))
-		
+
 		WebUI.delay(GlobalVariable.Delay)
-		
+	}
+	@Keyword
+	public void download() {
+		WebUI.click(findTestObject('Test Cases/Reports/Tabular Reports/Action'))
+
+		WebUI.waitForElementClickable(findTestObject('Test Cases/Reports/Tabular Reports/Download'), GlobalVariable.Timeout)
+
+		WebUI.click(findTestObject('Test Cases/Reports/Tabular Reports/Download'))
+
+		WebUI.waitForPageLoad(GlobalVariable.Timeout)
+
+		WebUI.waitForElementVisible(findTestObject('Test Cases/Reports/Tabular Reports/CSV'), GlobalVariable.Timeout)
+
+		WebUI.click(findTestObject('Test Cases/Reports/Tabular Reports/CSV'))
+
+		WebUI.delay(GlobalVariable.Delay)
+
+		WebUI.click(findTestObject('Test Cases/Reports/Tabular Reports/Download button'))
+
+		WebUI.click(findTestObject('Test Cases/Reports/Tabular Reports/Cancel Button'))
+
+		WebUI.waitForPageLoad(GlobalVariable.Timeout)
+
+		WebUI.switchToDefaultContent()
+
+		WebUI.waitForElementClickable(findTestObject('Test Cases/Reports/Tabular Reports/tabular record close'), GlobalVariable.Timeout)
+
+		WebUI.click(findTestObject('Test Cases/Reports/Tabular Reports/tabular record close'))
 	}
 }

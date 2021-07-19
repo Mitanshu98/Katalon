@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>URS 05.17 : In this test case we are creating a record in ICSR Reprting requiremnts with Submission - Spontaneous Drug.</description>
+   <name>23557 - Submission - Spontaneous Drug</name>
+   <tag>URS 05.17</tag>
+   <comment></comment>
+   <testCaseGuid>ca5589c7-4043-4390-b778-7acdfb469894</testCaseGuid>
+   <variable>
+      <defaultValue>'Submission - Spontaneous - Drug'</defaultValue>
+      <description></description>
+      <id>c88d4fef-3204-46ca-96e9-56dd1ce3765b</id>
+      <masked>false</masked>
+      <name>Title</name>
+   </variable>
+   <variable>
+      <defaultValue>'Spontaneous - Drug'</defaultValue>
+      <description></description>
+      <id>2864b989-afd9-4989-a703-f5e2704a9952</id>
+      <masked>false</masked>
+      <name>Type</name>
+   </variable>
+</TestCaseEntity>

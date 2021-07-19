@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>URS 05.17 : In this test case we are creating a record in ICSR Reprting requiremnts with Case Handling - Post marketing Device.</description>
+   <name>23550 - Case Handling - Post Marketing Device</name>
+   <tag>URS 05.17</tag>
+   <comment></comment>
+   <testCaseGuid>19155f77-502c-47cd-ae4c-4d0be8899aed</testCaseGuid>
+   <variable>
+      <defaultValue>'Case handler - Post marketing Device'</defaultValue>
+      <description></description>
+      <id>7554f375-3854-41f4-8d2a-0de05a7b25fe</id>
+      <masked>false</masked>
+      <name>Title</name>
+   </variable>
+   <variable>
+      <defaultValue>'Post-marketing - Device'</defaultValue>
+      <description></description>
+      <id>6d88f66b-08eb-49f0-b69d-d809fe6d0623</id>
+      <masked>false</masked>
+      <name>Type</name>
+   </variable>
+</TestCaseEntity>

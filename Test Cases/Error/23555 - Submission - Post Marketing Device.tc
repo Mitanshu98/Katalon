@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>URS 05.17 : In this test case we are creating a record in ICSR Reprting requiremnts with Submission - Post marketing Devie.
+</description>
+   <name>23555 - Submission - Post Marketing Device</name>
+   <tag>URS 05.17</tag>
+   <comment></comment>
+   <testCaseGuid>b7b0ff96-a59f-4cf8-a542-d4b77a51d3d2</testCaseGuid>
+   <variable>
+      <defaultValue>'Submission - Post Marketing Device'</defaultValue>
+      <description></description>
+      <id>9c032159-752d-41ae-91e4-249fd42533c4</id>
+      <masked>false</masked>
+      <name>Title</name>
+   </variable>
+   <variable>
+      <defaultValue>'Post-marketing - Device'</defaultValue>
+      <description></description>
+      <id>929c5c27-f7f9-4834-b0ec-c2a290fabb54</id>
+      <masked>false</masked>
+      <name>Type</name>
+   </variable>
+</TestCaseEntity>

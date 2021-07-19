@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>23555 - Submission(Post marketing device)</name>
+   <name>23552 - Case Handling - Spontaneous Drug</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,23 +10,23 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>6452f60c-900e-4695-bb14-14efaf5bf793</testSuiteGuid>
+   <testSuiteGuid>47afd52f-3586-4ebb-9be9-4d761edec2c1</testSuiteGuid>
    <testCaseLink>
-      <guid>03376ef4-6753-48bd-9929-e15616c3c531</guid>
+      <guid>086e0cad-1d70-4503-b064-4c32ffde17cc</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Error/23555-Submission - Post Marketing Device</testCaseId>
+      <testCaseId>Test Cases/Error/23552 - Case Handling - Spontaneous Drug</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>3bff2f6d-7765-4240-b083-a44a483e3451</variableId>
+         <variableId>a6199cbf-402f-422b-b026-34465ef30147</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>61264cea-3e07-4a4b-853d-8791de0b61f5</variableId>
+         <variableId>227b6f9c-2b34-443c-9fff-ea7ee581035f</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

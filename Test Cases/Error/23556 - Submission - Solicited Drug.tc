@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>URS 05.17 : In this test case we are creating a record in ICSR Reprting requiremnts with Submission - Solicated Drug.</description>
+   <name>23556 - Submission - Solicited Drug</name>
+   <tag>URS 05.17</tag>
+   <comment></comment>
+   <testCaseGuid>fd12c8a6-3dc2-4c65-9dea-af8edaa37ccf</testCaseGuid>
+   <variable>
+      <defaultValue>'Submission - Solicited Drug'</defaultValue>
+      <description></description>
+      <id>e09fbe05-777b-47d6-8d76-8a71346c8f2f</id>
+      <masked>false</masked>
+      <name>Title</name>
+   </variable>
+   <variable>
+      <defaultValue>'Solicited - Drug'</defaultValue>
+      <description></description>
+      <id>31670ba8-a1a1-4b6f-bd0a-f16e95704478</id>
+      <masked>false</masked>
+      <name>Type</name>
+   </variable>
+</TestCaseEntity>

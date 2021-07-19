@@ -1,7 +1,7 @@
  /*
- Title:- Whom and When (Submission - Post Marketing Device)
+ Title:- Whom and When (Submission - Clinical Device)
  Owner:- Mitanshu Gupta
- Description:- In this test case we are creating a record in ICSR Reprting requiremnts with Submission - Post marketing device.
+ Description:- In this test case we are creating a record in ICSR Reprting requiremnts with Submission - Clinical device.
  Environment:- HALO 3.0(https://halocodebase.insife.cloud:8080/ords/f?p=100)
 */ import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
@@ -119,39 +119,41 @@ WebUI.delay(GlobalVariable.Delay)
 
 WebUI.check(findTestObject('Test Cases/Reports/Whom and When/Is submission of expedieted report'))
 
-WebUI.delay(GlobalVariable.Delay)
+WebUI.delay(2)
 
 WebUI.check(findTestObject('Test Cases/Reports/Whom and When/Domestic'))
 
-WebUI.delay(GlobalVariable.Delay)
+WebUI.delay(2)
 
 WebUI.check(findTestObject('Test Cases/Reports/Whom and When/Foreign'))
 
-WebUI.selectOptionByLabel(findTestObject('Test Cases/Reports/Whom and When/Reporting Criteria/Submissin report'), 'CIOMS', 
-    false)
+WebUI.delay(2)
 
-WebUI.delay(GlobalVariable.Delay)
+WebUI.check(findTestObject('Test Cases/Reports/Whom and When/Reporting Criteria/Public health threat'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.check(findTestObject('Test Cases/Reports/Whom and When/Reporting Criteria/Other Seriousness'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.check(findTestObject('Test Cases/Reports/Whom and When/Reporting Criteria/Serious detoration'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.check(findTestObject('Test Cases/Reports/Whom and When/Reporting Criteria/Life Threatening'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.check(findTestObject('Test Cases/Reports/Whom and When/Reporting Criteria/Non - Serious'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.check(findTestObject('Test Cases/Reports/Whom and When/Reporting Criteria/Other Seriousness'), FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.delay(GlobalVariable.Delay)
-
-WebUI.check(findTestObject('Test Cases/Reports/Whom and When/Casuality/realated-realated'), FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.check(findTestObject('Test Cases/Reports/Whom and When/Casuality/Unknown-realated'), FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.check(findTestObject('Test Cases/Reports/Whom and When/Casuality/Unrealated-realated'), FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.delay(GlobalVariable.Delay)
+WebUI.delay(2)
 
 WebUI.selectOptionByLabel(findTestObject('Test Cases/Reports/Whom and When/Listednesss/Listedness'), 'Local datasheet', 
     false, FailureHandling.CONTINUE_ON_FAILURE)
 
+WebUI.check(findTestObject('Test Cases/Reports/Whom and When/Listednesss/Listed'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.check(findTestObject('Test Cases/Reports/Whom and When/Listednesss/Unlisted'), FailureHandling.CONTINUE_ON_FAILURE)
+
 WebUI.delay(2)
+
+WebUI.check(findTestObject('Test Cases/Reports/Whom and When/Listednesss/Initial'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.check(findTestObject('Test Cases/Reports/Whom and When/Listednesss/Follow-up'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.delay(2)
+
+WebUI.selectOptionByLabel(findTestObject('Test Cases/Reports/Whom and When/Reporting Criteria/Submissin report'), 'CIOMS', 
+    false)
 
 WebUI.comment('This is a verifying step for checking ICSR Requirements details form will be saved.')
 
@@ -191,60 +193,33 @@ WebUI.comment('This is a verifying step for checking Tabular reports page shal b
 
 WebUI.takeFullPageScreenshot()
 
-WebUI.waitForElementVisible(findTestObject('Test Cases/Reports/Whom and When/Report/Submission - Post marketing device'), 
-    GlobalVariable.Timeout)
+WebUI.waitForElementVisible(findTestObject('Test Cases/Reports/Whom and When/Report/Submission - Clinical device'), GlobalVariable.Timeout)
 
-WebUI.click(findTestObject('Test Cases/Reports/Whom and When/Report/Submission - Post marketing device'))
+WebUI.click(findTestObject('Test Cases/Reports/Whom and When/Report/Submission - Clinical device'))
 
 WebUI.waitForPageLoad(GlobalVariable.Timeout)
 
 WebUI.delay(GlobalVariable.Delay)
 
-WebUI.switchToFrame(findTestObject('Test Cases/Reports/Tabular Reports/Iframe(2)'), 2)
+WebUI.switchToFrame(findTestObject('Test Cases/Reports/Tabular Reports/Iframe(2)'), GlobalVariable.Timeout)
 
 WebUI.comment('This is a verifying step for checking data elements discribe in action column shall be displayed.')
 
 WebUI.takeFullPageScreenshot()
 
-WebUI.scrollToElement(findTestObject('Test Cases/Reports/Whom and When/scroll/2nd scroll bar'), GlobalVariable.Timeout)
+WebUI.scrollToElement(findTestObject('Test Cases/Reports/Whom and When/scroll/Sub_cli_dev_1'), GlobalVariable.Timeout)
 
 WebUI.takeFullPageScreenshot()
 
-WebUI.scrollToElement(findTestObject('Test Cases/Reports/Whom and When/scroll/Non-Serious'), GlobalVariable.Timeout)
+WebUI.scrollToElement(findTestObject('Test Cases/Reports/Whom and When/scroll/Sub_cli_dev_2'), GlobalVariable.Timeout)
 
 WebUI.takeFullPageScreenshot()
 
 WebUI.comment('Step 13,14,15,16 and 17')
 
-WebUI.click(findTestObject('Test Cases/Reports/Tabular Reports/Action'))
-
-WebUI.waitForElementClickable(findTestObject('Test Cases/Reports/Tabular Reports/Download'), GlobalVariable.Timeout)
-
-WebUI.click(findTestObject('Test Cases/Reports/Tabular Reports/Download'))
-
-WebUI.waitForPageLoad(GlobalVariable.Timeout)
-
-WebUI.waitForElementVisible(findTestObject('Test Cases/Reports/Tabular Reports/CSV'), GlobalVariable.Timeout)
-
-WebUI.click(findTestObject('Test Cases/Reports/Tabular Reports/CSV'))
-
-WebUI.delay(GlobalVariable.Delay)
-
-WebUI.click(findTestObject('Test Cases/Reports/Tabular Reports/Download button'))
-
-WebUI.click(findTestObject('Test Cases/Reports/Tabular Reports/Cancel Button'))
-
-WebUI.waitForPageLoad(GlobalVariable.Timeout)
-
-WebUI.switchToDefaultContent()
-
-WebUI.waitForElementClickable(findTestObject('Test Cases/Reports/Tabular Reports/tabular record close'), GlobalVariable.Timeout)
-
-WebUI.click(findTestObject('Test Cases/Reports/Tabular Reports/tabular record close'))
+CustomKeywords.'whom_and_when.Whom.download'()
 
 WebUI.comment('Step 18')
 
 WebUI.closeBrowser()
-
-CustomKeywords.'Access_to_process_records.No'()
 

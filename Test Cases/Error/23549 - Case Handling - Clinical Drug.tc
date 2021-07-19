@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>URS 05.17 : In this test case we are creating a record in ICSR Reprting requiremnts with Case Handling - Clinical Drug</description>
+   <name>23549 - Case Handling - Clinical Drug</name>
+   <tag>URS 05.17</tag>
+   <comment></comment>
+   <testCaseGuid>fc76c176-e6a9-49e8-bca5-0bbb7414b6d1</testCaseGuid>
+   <variable>
+      <defaultValue>'Case Handler - Clinical Drug'</defaultValue>
+      <description></description>
+      <id>20529967-1b46-4b28-b3f9-05ba8a3f7282</id>
+      <masked>false</masked>
+      <name>Title</name>
+   </variable>
+   <variable>
+      <defaultValue>'Clinical - Drug'</defaultValue>
+      <description></description>
+      <id>6a70bc16-180a-4115-babd-c8658eeed9a7</id>
+      <masked>false</masked>
+      <name>Type</name>
+   </variable>
+</TestCaseEntity>

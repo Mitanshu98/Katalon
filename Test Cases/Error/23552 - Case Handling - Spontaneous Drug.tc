@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>URS 05.17 : In this test case we are creating a record in ICSR Reprting requiremnts with Case Handling - Spontaneous Drug</description>
+   <name>23552 - Case Handling - Spontaneous Drug</name>
+   <tag>URS 05.17</tag>
+   <comment></comment>
+   <testCaseGuid>ef9bae6d-398d-4838-ae45-6ffe3572664c</testCaseGuid>
+   <variable>
+      <defaultValue>'Case Handling - Spontaneous drug'</defaultValue>
+      <description></description>
+      <id>a6199cbf-402f-422b-b026-34465ef30147</id>
+      <masked>false</masked>
+      <name>Title</name>
+   </variable>
+   <variable>
+      <defaultValue>'Spontaneous - Drug'</defaultValue>
+      <description></description>
+      <id>227b6f9c-2b34-443c-9fff-ea7ee581035f</id>
+      <masked>false</masked>
+      <name>Type</name>
+   </variable>
+</TestCaseEntity>
