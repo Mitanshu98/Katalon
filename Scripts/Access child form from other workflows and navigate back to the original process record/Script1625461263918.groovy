@@ -23,8 +23,6 @@ CustomKeywords.'HALO.HaloLogin'()
 
 WebUI.comment('')
 
-WebUI.takeFullPageScreenshot()
-
 WebUI.click(findTestObject('HALO Front-End/Processes/Process_Dropdown'))
 
 WebUI.waitForElementVisible(findTestObject('HALO Front-End/Processes/Data collection programs'), GlobalVariable.Timeout)
@@ -40,13 +38,14 @@ WebUI.click(findTestObject('Test Cases/Access child form from other workflows/Da
 
 WebUI.waitForPageLoad(GlobalVariable.Timeout)
 
-WebUI.waitForElementVisible(findTestObject('Test Cases/Access child form from other workflows/Old record'), GlobalVariable.Timeout)
+WebUI.waitForElementVisible(findTestObject('Test Cases/Access child form from other workflows/Create New Wizard'), GlobalVariable.Timeout)
 
-WebUI.click(findTestObject('Test Cases/Access child form from other workflows/Old record'))
+WebUI.click(findTestObject('Test Cases/Access child form from other workflows/Create New Wizard'))
+
+WebUI.switchToFrame(findTestObject('HALO Front-End/Common Elements/Iframe(5)'), GlobalVariable.Timeout)
 
 WebUI.waitForPageLoad(GlobalVariable.Timeout)
 
-/*
 WebUI.waitForElementVisible(findTestObject('Test Cases/Access child form from other workflows/Record Name'), GlobalVariable.Timeout)
 
 WebUI.setText(findTestObject('Test Cases/Access child form from other workflows/Record Name'), Title)
@@ -54,8 +53,6 @@ WebUI.setText(findTestObject('Test Cases/Access child form from other workflows/
 WebUI.selectOptionByLabel(findTestObject('Test Cases/Access child form from other workflows/Record Type'), Type, false)
 
 WebUI.click(findTestObject('Test Cases/Access child form from other workflows/Create'))
-*/
-WebUI.switchToFrame(findTestObject('HALO Front-End/Common Elements/Iframe(5)'), GlobalVariable.Timeout)
 
 WebUI.waitForPageLoad(GlobalVariable.Timeout)
 
@@ -70,11 +67,7 @@ WebUI.waitForPageLoad(GlobalVariable.Timeout)
 
 WebUI.delay(GlobalVariable.Delay)
 
-WebUI.switchToFrame(findTestObject('HALO Front-End/Common Elements/Iframe(5)'), GlobalVariable.Timeout)
-
 WebUI.waitForElementVisible(findTestObject('Test Cases/Access child form from other workflows/Yes'), GlobalVariable.Timeout)
-
-WebUI.verifyElementNotChecked(findTestObject('Test Cases/Access child form from other workflows/Yes'), GlobalVariable.Delay)
 
 WebUI.click(findTestObject('Test Cases/Access child form from other workflows/Yes'))
 

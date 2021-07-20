@@ -210,7 +210,7 @@ WebUI.comment('This is a verifying step for checking Tabular reports page shal b
 
 WebUI.takeFullPageScreenshot()
 
-WebUI.delay(GlobalVariable.Long_Delay)
+WebUI.delay(900)
 
 WebUI.waitForElementVisible(findTestObject('Test Cases/Reports/Whom and When/Report/Whom and When'), GlobalVariable.Timeout)
 
@@ -230,7 +230,7 @@ WebUI.delay(GlobalVariable.Delay)
 
 WebUI.comment('This is a verifying step for checking data elements discribe in action column shall be displayed.')
 
-WebUI.takeScreenshot()
+WebUI.takeFullPageScreenshot()
 
 WebUI.scrollToElement(findTestObject('Test Cases/Reports/Whom and When/scroll/Whom_1'), GlobalVariable.Timeout)
 

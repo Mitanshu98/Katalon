@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Old Record</name>
+   <name>Lock Releated process record_Yes</name>
    <tag></tag>
-   <elementGuidId>4ce017f8-c0d0-49bb-8bde-740b5b3cd564</elementGuidId>
+   <elementGuidId>1de1f781-5376-4c1d-822c-9a71cf6346f5</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[text()='ORG_EXT-1792']</value>
+         <value>//div[@id=&quot;P19_WF_TASK_LOCK_PROC_REC&quot;]/descendant::label[text()='Yes']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

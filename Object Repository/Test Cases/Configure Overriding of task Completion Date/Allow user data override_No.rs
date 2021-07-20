@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Old Record</name>
+   <name>Allow user data override_No</name>
    <tag></tag>
-   <elementGuidId>4ce017f8-c0d0-49bb-8bde-740b5b3cd564</elementGuidId>
+   <elementGuidId>6b1a2b18-b8c1-45bc-9b0f-47a29090776d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[text()='ORG_EXT-1792']</value>
+         <value>//div[@id=&quot;P19_WF_TASK_ALLOWDATEOVERRIDE&quot;]/descendant::label[text()='No']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>23774 - Lock process record when specific task is active</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6a2f0197-30df-4cea-b5fc-13b0dfde9a1b</testCaseGuid>
+   <variable>
+      <defaultValue>'Demo Testing'</defaultValue>
+      <description></description>
+      <id>d0d9f51d-1ef6-40a5-93fe-4565c6212c1c</id>
+      <masked>false</masked>
+      <name>Title</name>
+   </variable>
+   <variable>
+      <defaultValue>'Partner'</defaultValue>
+      <description></description>
+      <id>5dd34ce4-c07a-4680-bd3f-435d8972263e</id>
+      <masked>false</masked>
+      <name>Type</name>
+   </variable>
+   <variable>
+      <defaultValue>'No Comments'</defaultValue>
+      <description></description>
+      <id>a33f5c8e-1749-46e2-ad42-5ab11c234b90</id>
+      <masked>false</masked>
+      <name>Rou_Comments</name>
+   </variable>
+</TestCaseEntity>
