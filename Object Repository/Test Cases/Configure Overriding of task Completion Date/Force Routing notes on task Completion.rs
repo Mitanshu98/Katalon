@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description>Taking the old record for the testing</description>
-   <name>Old record</name>
+   <description>it is setting that is present in Advanced</description>
+   <name>Force Routing notes on task Completion</name>
    <tag></tag>
-   <elementGuidId>2086323a-938b-4c21-bfb6-04a82533fbb0</elementGuidId>
+   <elementGuidId>9943d05a-a65e-42b4-92bf-0094f3aa79ac</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[text()='ORG_EXT-1978']</value>
+         <value>//div[@id=&quot;P19_WF_TASK_SHOW_NOTES&quot;]/descendant::label[text()='Yes']</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

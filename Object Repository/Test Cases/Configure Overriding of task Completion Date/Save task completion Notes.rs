@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description>Taking the old record for the testing</description>
-   <name>Old record</name>
+   <description></description>
+   <name>Save task completion Notes</name>
    <tag></tag>
-   <elementGuidId>2086323a-938b-4c21-bfb6-04a82533fbb0</elementGuidId>
+   <elementGuidId>bd3f42ae-314d-422e-b4d4-6c550e54fc40</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[text()='ORG_EXT-1978']</value>
+         <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//button[@id='B94312465309754947']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

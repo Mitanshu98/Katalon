@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description>Taking the old record for the testing</description>
-   <name>Old record</name>
+   <description>This is a Process workflow in Apllication Management</description>
+   <name>Process Entities External</name>
    <tag></tag>
-   <elementGuidId>2086323a-938b-4c21-bfb6-04a82533fbb0</elementGuidId>
+   <elementGuidId>5ec8e6f8-6530-4f69-bbef-2086ca338c5a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[text()='ORG_EXT-1978']</value>
+         <value>//div[@class='a-IRR-tableContainer']/descendant::a[text()='Entities management (External)']</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

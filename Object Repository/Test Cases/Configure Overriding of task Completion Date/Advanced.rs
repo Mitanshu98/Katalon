@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description>Taking the old record for the testing</description>
-   <name>Old record</name>
+   <description>Advanced Tab present in the Edit tasks>Entities(External)>Process Workflow> Application Management</description>
+   <name>Advanced</name>
    <tag></tag>
-   <elementGuidId>2086323a-938b-4c21-bfb6-04a82533fbb0</elementGuidId>
+   <elementGuidId>fab2a31d-76b8-498b-937c-7c369f726e6d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[text()='ORG_EXT-1978']</value>
+         <value>//li[@id='SR_R125049840415445389_tab']</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

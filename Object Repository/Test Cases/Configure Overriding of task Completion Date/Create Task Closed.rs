@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description>Taking the old record for the testing</description>
-   <name>Old record</name>
+   <description></description>
+   <name>Create Task Closed</name>
    <tag></tag>
-   <elementGuidId>2086323a-938b-4c21-bfb6-04a82533fbb0</elementGuidId>
+   <elementGuidId>3e6f53f7-fb10-440c-b5d0-fa59c490cf6c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[text()='ORG_EXT-1978']</value>
+         <value>//span[@id='ui-id-2']/following-sibling::button[@class='ui-dialog-titlebar-close']</value>
       </entry>
       <entry>
          <key>BASIC</key>
