@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>iframe</name>
+   <name>External Partner Form</name>
    <tag></tag>
-   <elementGuidId>fd260f8f-3f69-40e2-9321-9d7096842d5e</elementGuidId>
+   <elementGuidId>1df79f31-b2ce-4d2f-aa2e-42ddca306d75</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;apex_dialog_2&quot;]/iframe</value>
+         <value>//span[@class='t-Icon fa fa-building-o']/parent::*</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

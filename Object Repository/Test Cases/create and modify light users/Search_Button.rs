@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>iframe</name>
+   <name>Search_Button</name>
    <tag></tag>
-   <elementGuidId>fd260f8f-3f69-40e2-9321-9d7096842d5e</elementGuidId>
+   <elementGuidId>7174d0e7-f547-49f9-9bde-d980a4cb95f2</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;apex_dialog_2&quot;]/iframe</value>
+         <value>//button[@id='R40386000343504203241_search_button']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
