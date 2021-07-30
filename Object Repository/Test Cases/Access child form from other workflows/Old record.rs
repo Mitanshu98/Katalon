@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[text()='DATACOL-1756']</value>
+         <value>//a[text()='DATACOL-2064']</value>
       </entry>
       <entry>
          <key>BASIC</key>

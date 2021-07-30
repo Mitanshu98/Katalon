@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//td[text()='Automation']/parent::*/descendant::img[@class='apex-edit-pencil']</value>
+         <value>//img[@class='apex-edit-pencil']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

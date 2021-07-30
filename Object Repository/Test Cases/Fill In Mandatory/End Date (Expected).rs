@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Data collection programs</name>
+   <name>End Date (Expected)</name>
    <tag></tag>
-   <elementGuidId>b3dd77fe-aecd-48c1-a98f-2c9e06c3f548</elementGuidId>
+   <elementGuidId>a71e3d06-9a1a-4daa-9123-b1adc628717e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//li[@id = 't_TreeNav_0']/descendant::a[text()='Data Collection Programs']</value>
+         <value>//input[@id='P45_SP_ENDDATE_EXPECTED']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

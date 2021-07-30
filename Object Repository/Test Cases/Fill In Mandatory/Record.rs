@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Data collection programs</name>
+   <name>Record</name>
    <tag></tag>
-   <elementGuidId>b3dd77fe-aecd-48c1-a98f-2c9e06c3f548</elementGuidId>
+   <elementGuidId>cddcb589-8f56-4ca5-b6e4-8e721ce75a2e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//li[@id = 't_TreeNav_0']/descendant::a[text()='Data Collection Programs']</value>
+         <value>//a[contains(text(),'DATACOL-${record}')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>23763 - Fill in mandatory task actions to progress a workflow</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>50fe3d38-e045-41da-9617-5ff6a2f7151a</testCaseGuid>
+   <variable>
+      <defaultValue>'Mandatory data collection'</defaultValue>
+      <description></description>
+      <id>a415f8b8-0f73-493e-9f93-4caa46db7d2c</id>
+      <masked>false</masked>
+      <name>Title</name>
+   </variable>
+   <variable>
+      <defaultValue>'Market research program'</defaultValue>
+      <description></description>
+      <id>3a09025d-467f-4def-b97c-82fc6b29026d</id>
+      <masked>false</masked>
+      <name>Type</name>
+   </variable>
+   <variable>
+      <defaultValue>'Task assigning to doctors'</defaultValue>
+      <description></description>
+      <id>e45a0498-c5fb-4a56-bf15-df319671e3f9</id>
+      <masked>false</masked>
+      <name>Description</name>
+   </variable>
+   <variable>
+      <defaultValue>'Task assigning to doctors'</defaultValue>
+      <description></description>
+      <id>c65acac9-5450-4951-9eb7-ed4a0c869eef</id>
+      <masked>false</masked>
+      <name>Notes</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>13a1f97a-fa20-4eb0-a7ab-3a7a1ce2a31c</id>
+      <masked>false</masked>
+      <name>Record_Id</name>
+   </variable>
+   <variable>
+      <defaultValue>'Testing purpose'</defaultValue>
+      <description></description>
+      <id>e6114a36-afb4-4bc1-b9f8-59ceaa084cd8</id>
+      <masked>false</masked>
+      <name>Objective</name>
+   </variable>
+   <variable>
+      <defaultValue>'04-JUL-2021'</defaultValue>
+      <description></description>
+      <id>7fb176a4-a688-4b5a-88e1-d7f09d6503cd</id>
+      <masked>false</masked>
+      <name>Start_date</name>
+   </variable>
+   <variable>
+      <defaultValue>'20-JUL-2021'</defaultValue>
+      <description>expected End Date</description>
+      <id>46c87704-2e96-4875-b02f-d018d4a87380</id>
+      <masked>false</masked>
+      <name>End_date</name>
+   </variable>
+</TestCaseEntity>

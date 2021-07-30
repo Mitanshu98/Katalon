@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Data collection programs</name>
+   <name>Data collection form(close)</name>
    <tag></tag>
-   <elementGuidId>b3dd77fe-aecd-48c1-a98f-2c9e06c3f548</elementGuidId>
+   <elementGuidId>deed8864-d6c9-4c6a-92ff-69f9e5dd04d5</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//li[@id = 't_TreeNav_0']/descendant::a[text()='Data Collection Programs']</value>
+         <value>//button[@id='B65985203013434128']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
