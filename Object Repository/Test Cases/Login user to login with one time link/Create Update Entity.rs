@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description></description>
-   <name>Audit log button</name>
+   <description>Create Update Entity</description>
+   <name>Create Update Entity</name>
    <tag></tag>
-   <elementGuidId>89beced3-f2ea-4e5f-b4ef-92702189d008</elementGuidId>
+   <elementGuidId>4b42b3b5-a2a2-4fe2-89dc-18784732d48e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//button[@id='B54632017267206325']</value>
+         <value>//td[contains(text(),'Create/Update Entity')]/preceding-sibling::*/descendant::img</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

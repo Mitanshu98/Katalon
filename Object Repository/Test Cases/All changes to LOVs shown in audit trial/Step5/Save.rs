@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//button[@id='B57875718197508144']</value>
+         <value>//button[@id='B82524752235672767']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

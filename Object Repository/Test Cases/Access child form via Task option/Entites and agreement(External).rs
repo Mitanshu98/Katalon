@@ -6,12 +6,11 @@
    <elementGuidId>af8888d4-dc9d-48ac-b045-79524fa00e55</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//span[text()='Entities management (External)']</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//span[text()='Entities Management (External)']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

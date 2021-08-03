@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description></description>
-   <name>NUMVAL2 T6</name>
+   <description>It is a Workflows Configuration forthe Entities agreement(Internal)</description>
+   <name>Process Entities (Internal)</name>
    <tag></tag>
-   <elementGuidId>491a6db2-b0ec-494d-81dd-db5b8fb11625</elementGuidId>
+   <elementGuidId>93c105f8-16a3-4a7d-aadd-9209e96d72ad</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//select[@id='P97_LOVCOL6']</value>
+         <value>//a[contains(text(),'Entities Management (Internal)')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -91,9 +91,9 @@ WebUI.waitForPageLoad(Timeout)
 
 WebUI.switchToFrame(findTestObject('HALO Front-End/Common Elements/Iframe(5)'), 1)
 
-WebUI.waitForElementVisible(findTestObject('Test Cases/Assign Electronic signature/Edit Tasks'), Timeout)
+WebUI.waitForElementVisible(findTestObject('Test Cases/Login user to login with one time link/Edit Tasks'), Timeout)
 
-WebUI.click(findTestObject('Test Cases/Assign Electronic signature/Edit Tasks'))
+WebUI.click(findTestObject('Test Cases/Login user to login with one time link/Edit Tasks'))
 
 WebUI.waitForPageLoad(Timeout)
 

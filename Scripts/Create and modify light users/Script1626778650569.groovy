@@ -70,11 +70,13 @@ WebUI.waitForElementVisible(findTestObject('Test Cases/create and modify light u
 
 WebUI.click(findTestObject('Test Cases/create and modify light users/External Partner Form'))
 
+WebUI.comment('Step 9')
+
 WebUI.waitForPageLoad(GlobalVariable.Timeout)
 
-WebUI.waitForElementVisible(findTestObject('Test Cases/create and modify light users/person'), GlobalVariable.Timeout)
+WebUI.waitForElementClickable(findTestObject('Test Cases/create and modify light users/person'), GlobalVariable.Timeout)
 
-WebUI.comment('Step 9')
+WebUI.click(findTestObject('Test Cases/create and modify light users/person'))
 
 WebUI.click(findTestObject('Test Cases/create and modify light users/person'))
 
@@ -223,17 +225,17 @@ WebUI.waitForElementVisible(findTestObject('Test Cases/create and modify light u
 
 WebUI.click(findTestObject('Test Cases/create and modify light users/person'))
 
+WebUI.click(findTestObject('Test Cases/create and modify light users/person'))
+
 WebUI.waitForPageLoad(GlobalVariable.Timeout)
 
-WebUI.click(findTestObject('Test Cases/create and modify light users/Johntest'))
+WebUI.click(findTestObject('Test Cases/create and modify light users/Johntest', [('Testuser') : User_Email]))
 
 WebUI.waitForElementVisible(findTestObject('Test Cases/create and modify light users/Phone number'), GlobalVariable.Timeout)
 
 WebUI.setText(findTestObject('Test Cases/create and modify light users/Phone number'), '7204635004')
 
 WebUI.click(findTestObject('Test Cases/create and modify light users/Save'))
-
-WebUI.comment('Step 17')
 
 WebUI.closeBrowser()
 

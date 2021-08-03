@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//span[@class='ui-button-icon ui-icon ui-icon-closethick']</value>
+         <value>//span[text()='Audit Log']/following-sibling::*</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Edit_Agreement location</name>
+   <name>Message</name>
    <tag></tag>
-   <elementGuidId>f65da2f5-a552-48b9-820e-fc435c60bca3</elementGuidId>
+   <elementGuidId>498258ca-9cff-4455-bab1-40f3ef1f6935</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//td[text()='Agreement locations']/..//img</value>
+         <value>//div[@class='a-GV-bdy']/descendant::div[@class=&quot;a-GV-w-scroll&quot;]/descendant::table/tbody/tr/td[6]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

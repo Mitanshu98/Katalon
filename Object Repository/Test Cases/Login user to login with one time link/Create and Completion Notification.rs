@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>NUMVAL2 T6</name>
+   <name>Create and Completion Notification</name>
    <tag></tag>
-   <elementGuidId>491a6db2-b0ec-494d-81dd-db5b8fb11625</elementGuidId>
+   <elementGuidId>7e78c1da-fd15-4023-a1e0-b3c58923c138</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//select[@id='P97_LOVCOL6']</value>
+         <value>//span[contains(text(),'Creation- and Completion notifications')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

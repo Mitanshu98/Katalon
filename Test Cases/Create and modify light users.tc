@@ -13,7 +13,7 @@
       <name>User_Name</name>
    </variable>
    <variable>
-      <defaultValue>'John.test@test.com'</defaultValue>
+      <defaultValue>'JOHN.TEST1@TEST.COM'</defaultValue>
       <description></description>
       <id>3516a92e-c9ef-4539-a70d-8c633d0b8c63</id>
       <masked>false</masked>

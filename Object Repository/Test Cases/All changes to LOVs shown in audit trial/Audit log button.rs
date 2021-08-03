@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>NUMVAL2 T6</name>
+   <name>Audit log button</name>
    <tag></tag>
-   <elementGuidId>491a6db2-b0ec-494d-81dd-db5b8fb11625</elementGuidId>
+   <elementGuidId>89beced3-f2ea-4e5f-b4ef-92702189d008</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//select[@id='P97_LOVCOL6']</value>
+         <value>//button[@id='B79281051305370948']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

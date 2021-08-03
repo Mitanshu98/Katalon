@@ -10,7 +10,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//li[@id = 't_TreeNav_0']/descendant::a[text()='Entities and agreements']</value>
+         <value>//li[@id = 't_TreeNav_0']/descendant::a[text()='Entities and Agreements']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

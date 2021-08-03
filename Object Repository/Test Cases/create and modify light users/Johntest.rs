@@ -6,12 +6,11 @@
    <elementGuidId>5097c709-b3ff-458e-91ef-9cac09c62448</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[contains(text(),'JOHN.TEST@INSIFE.COM')]</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'${Testuser}')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

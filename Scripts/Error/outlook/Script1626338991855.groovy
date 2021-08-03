@@ -21,88 +21,43 @@ WebUI.comment('Step 1 and 2')
 
 CustomKeywords.'HALO.HaloLogin'()
 
-WebUI.comment('This is a verify step for checking the roles of the user.')
+WebUI.click(findTestObject('HALO Front-End/Application management/Application management'))
 
-WebUI.takeFullPageScreenshot()
+WebUI.waitForElementVisible(findTestObject('HALO Front-End/Application management/Process workflows'), GlobalVariable.Timeout)
 
-WebUI.comment('Step 3')
+WebUI.click(findTestObject('HALO Front-End/Application management/Process workflows'))
 
-WebUI.click(findTestObject('HALO Front-End/User administration/User administration'))
+WebUI.waitForElementVisible(findTestObject('Test Cases/Login user to login with one time link/Process Entities (Internal)'), 
+    GlobalVariable.Timeout)
 
-WebUI.waitForElementClickable(findTestObject('HALO Front-End/User administration/Users'), GlobalVariable.Timeout)
-
-WebUI.click(findTestObject('HALO Front-End/User administration/Users'))
-
-WebUI.waitForPageLoad(GlobalVariable.Timeout)
-
-WebUI.waitForElementClickable(findTestObject('Test Cases/Assign user to group user/Create new user'), GlobalVariable.Timeout)
-
-WebUI.click(findTestObject('Test Cases/Assign user to group user/Create new user'))
+WebUI.click(findTestObject('Test Cases/Login user to login with one time link/Process Entities (Internal)'))
 
 WebUI.waitForPageLoad(GlobalVariable.Timeout)
 
 WebUI.switchToFrame(findTestObject('HALO Front-End/Common Elements/Iframe(5)'), GlobalVariable.Timeout)
 
-WebUI.comment('Step 4')
+WebUI.waitForElementVisible(findTestObject('Test Cases/Login user to login with one time link/Edit Tasks'), GlobalVariable.Timeout)
 
-WebUI.waitForElementVisible(findTestObject('Test Cases/Assign user to group user/User Login'), GlobalVariable.Timeout)
+WebUI.click(findTestObject('Test Cases/Login user to login with one time link/Edit Tasks'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Test Cases/Assign user to group user/User Login'), 'nhvnmb')
+WebUI.waitForElementVisible(findTestObject('Test Cases/Login user to login with one time link/Create Update Entity'), GlobalVariable.Timeout)
 
-WebUI.delay(GlobalVariable.Delay)
+WebUI.click(findTestObject('Test Cases/Login user to login with one time link/Create Update Entity'))
 
-WebUI.setText(findTestObject('Test Cases/Notification/User_Name'), 'Mitanshu test')
+WebUI.waitForElementVisible(findTestObject('Test Cases/Login user to login with one time link/Create and Completion Notification'), 
+    GlobalVariable.Timeout)
 
-WebUI.selectOptionByLabel(findTestObject('Test Cases/Notification/User_Type'), 'Light user', false)
+WebUI.click(findTestObject('Test Cases/Login user to login with one time link/Create and Completion Notification'))
 
-WebUI.delay(0)
+WebUI.waitForElementVisible(findTestObject('Test Cases/Login user to login with one time link/Type'), GlobalVariable.Timeout, 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Test Cases/Notification/Contact Details'))
+WebUI.selectOptionByLabel(findTestObject('Test Cases/Login user to login with one time link/Type'), 'On Create', false, 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('Test Cases/Notification/Input_email'), GlobalVariable.Timeout)
+WebUI.selectOptionByLabel(findTestObject('Test Cases/Login user to login with one time link/Group'), 'Generic Organizational entity processing', 
+    false, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.setText(findTestObject('Test Cases/Notification/Input_email'), 'mitanshu.gupta@insife.com')
+WebUI.setText(findTestObject('Test Cases/Login user to login with one time link/Message'), 'Link for the User {STANDARDLINK}', 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.delay(0)
-
-WebUI.click(findTestObject('Test Cases/Notification/Notification and workflow'))
-
-WebUI.waitForElementVisible(findTestObject('Test Cases/Notification/Email_ Notification'), GlobalVariable.Timeout)
-
-WebUI.click(findTestObject('Test Cases/Notification/Email_ Notification'))
-
-WebUI.click(findTestObject('Test Cases/Assign user to group user/Roles/Setup roles'))
-
-WebUI.waitForPageLoad(GlobalVariable.Timeout)
-
-WebUI.waitForElementVisible(findTestObject('Test Cases/Assign user to group user/Roles/Add role'), GlobalVariable.Timeout)
-
-WebUI.click(findTestObject('Test Cases/Assign user to group user/Roles/Add role'))
-
-WebUI.waitForPageLoad(GlobalVariable.Timeout)
-
-WebUI.waitForElementVisible(findTestObject('Test Cases/Assign user to group user/Roles/Search'), GlobalVariable.Timeout)
-
-WebUI.click(findTestObject('Test Cases/Assign user to group user/Roles/Search'))
-
-WebUI.delay(GlobalVariable.Delay)
-
-WebUI.switchToDefaultContent()
-
-WebUI.setText(findTestObject('Test Cases/Assign user to group user/Orgentitiy/Search Field'), 'Generic Organizational entity processing')
-
-WebUI.click(findTestObject('Test Cases/Assign user to group user/Orgentitiy/Search field-2'))
-
-WebUI.waitForElementVisible(findTestObject('Test Cases/Assign user to group user/Roles/searchfiled'), GlobalVariable.Timeout)
-
-WebUI.click(findTestObject('Test Cases/Assign user to group user/Roles/searchfiled'))
-
-WebUI.switchToFrame(findTestObject('HALO Front-End/Common Elements/Iframe(5)'), GlobalVariable.Timeout)
-
-WebUI.delay(GlobalVariable.Delay)
-
-WebUI.waitForElementClickable(findTestObject('Test Cases/Assign user to group user/Roles/Setup subscription'), GlobalVariable.Timeout)
-
-WebUI.click(findTestObject('Test Cases/Assign user to group user/Roles/Setup subscription'))
-
-WebUI.comment('This is a verify step for checking the subscription of the created user.')

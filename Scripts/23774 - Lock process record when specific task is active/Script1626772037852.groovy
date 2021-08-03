@@ -44,11 +44,11 @@ WebUI.waitForPageLoad(GlobalVariable.Timeout)
 
 WebUI.switchToFrame(findTestObject('HALO Front-End/Common Elements/Iframe(5)'), GlobalVariable.Timeout)
 
-WebUI.waitForElementVisible(findTestObject('Test Cases/Assign Electronic signature/Edit Tasks'), GlobalVariable.Timeout)
+WebUI.waitForElementVisible(findTestObject('Test Cases/Login user to login with one time link/Edit Tasks'), GlobalVariable.Timeout)
 
 WebUI.comment('Step 4')
 
-WebUI.click(findTestObject('Test Cases/Assign Electronic signature/Edit Tasks'))
+WebUI.click(findTestObject('Test Cases/Login user to login with one time link/Edit Tasks'))
 
 WebUI.waitForElementVisible(findTestObject('Test Cases/Configure Overriding of task Completion Date/Old task'), GlobalVariable.Timeout)
 
