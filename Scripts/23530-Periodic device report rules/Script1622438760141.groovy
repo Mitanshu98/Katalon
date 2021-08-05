@@ -136,7 +136,7 @@ CustomKeywords.'reports.Record'()
 
 WebUI.comment('This is a verify step for checking the Tabular reports shall be displayed.')
 
-WebUI.takeScreenshot()
+WebUI.takeFullPageScreenshot()
 
 WebUI.waitForElementVisible(findTestObject('Test Cases/Reports/Tabular Reports/Periodic device report rules'), GlobalVariable.Timeout)
 

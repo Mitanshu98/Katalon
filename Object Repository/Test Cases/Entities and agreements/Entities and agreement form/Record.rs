@@ -6,11 +6,11 @@
    <elementGuidId>5a35089e-dffc-47db-b29d-827280fac4fc</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[text()=${nullify}]</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//a[text()='${nullify}']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

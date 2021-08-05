@@ -44,4 +44,9 @@
       <initValue>'Wv5Ut/ecpITXmQiPI8SQjQJOQgOfhlZb'</initValue>
       <name>HaloPass</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Short Delay for shorter time</description>
+      <initValue>2</initValue>
+      <name>Short_Delay</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

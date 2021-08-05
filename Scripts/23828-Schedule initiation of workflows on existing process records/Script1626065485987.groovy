@@ -170,8 +170,6 @@ WebUI.takeFullPageScreenshot()
 
 Schedule_Id = WebUI.getText(findTestObject('Test Cases/Schedule of Initiation of workflows on existing record/Schedule Configuration Id'))
 
-System.out.println('Schedule_Id' + Schedule_Id)
-
 WebUI.click(findTestObject('Test Cases/Schedule new process record/Activate_Update_schedule'))
 
 WebUI.delay(10)

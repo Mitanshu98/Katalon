@@ -112,6 +112,16 @@ WebUI.comment('Step 9 : This is a verifying step for checking View/Edit process 
 
 WebUI.takeScreenshot()
 
+WebUI.click(findTestObject('Test Cases/Entities and agreements/Entities and agreement form/More menu'))
+
+WebUI.click(findTestObject('Test Cases/Initiating Workflow/Record Revision'))
+
+WebUI.delay(2)
+
+Record_Id = WebUI.getText(findTestObject('Test Cases/Schedule of Initiation of workflows on existing record/Master_Id'))
+
+WebUI.click(findTestObject('Test Cases/User can see attachment from revision/Revision close'))
+
 WebUI.comment('Step 10')
 
 WebUI.click(findTestObject('HALO Front-End/Common Elements/Record Close'))
@@ -135,11 +145,15 @@ WebUI.comment('This is a verifying step for checking Nullified records shall be 
 
 WebUI.takeFullPageScreenshot()
 
-WebUI.waitForElementVisible(findTestObject('Test Cases/Entities and agreements/Entities and agreement form/Record'), GlobalVariable.Timeout)
+WebUI.setText(findTestObject('Test Cases/Fill In Mandatory/Record Search'), Record_Id)
+
+WebUI.click(findTestObject('Test Cases/Fill In Mandatory/Record search button'))
+
+WebUI.waitForElementVisible(findTestObject('Test Cases/Fill In Mandatory/Record search button'), GlobalVariable.Timeout)
 
 WebUI.comment('Step 12')
 
-WebUI.click(findTestObject('Test Cases/Entities and agreements/Entities and agreement form/Record', [('nullify') : Record]))
+WebUI.click(findTestObject('Test Cases/Entities and agreements/Entities and agreement form/Record', [('nullify') : title]))
 
 WebUI.switchToFrame(findTestObject('HALO Front-End/Common Elements/Iframe(5)'), GlobalVariable.Timeout)
 

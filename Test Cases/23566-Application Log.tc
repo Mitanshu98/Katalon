@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>URS 06.05 : In this Test case the user is checking the the application log of the user with diffrent ways of logging.</description>
    <name>23566-Application Log</name>
-   <tag></tag>
+   <tag>URS 06.05</tag>
    <comment></comment>
    <testCaseGuid>add9533d-114d-4350-be37-d5fe9a4744c1</testCaseGuid>
    <variable>

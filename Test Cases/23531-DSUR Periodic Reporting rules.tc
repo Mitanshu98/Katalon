@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>URS 05.17 : In this test case we are creating a record in DSUR Periodic reporting rules and complete the workflow and then checking the fields of DSUR Periodic reporting rules in the Tabular reports
+</description>
    <name>23531-DSUR Periodic Reporting rules</name>
-   <tag></tag>
+   <tag>URS 05.17</tag>
    <comment></comment>
    <testCaseGuid>c15586d4-96ef-4d56-9b79-a3d894d71b66</testCaseGuid>
    <variable>

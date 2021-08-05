@@ -55,7 +55,7 @@ public class Whom {
 		WebUI.waitForElementVisible(findTestObject('Test Cases/Reports/Common Elements/1st Completed Task'), GlobalVariable.Timeout)
 
 		WebUI.click(findTestObject('Test Cases/Reports/Common Elements/1st Completed Task'))
-		
+
 		WebUI.delay(2)
 	}
 	@Keyword

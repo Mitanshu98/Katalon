@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>URS 05.17 : In this test case we are creating a record in Entity and agreements(internal) and complete the workflow and then checking the fields of Entities and agreement(internal) in the Tabular reports</description>
    <name>23534-Organizational entity overview</name>
-   <tag></tag>
+   <tag>URS 05.17</tag>
    <comment></comment>
    <testCaseGuid>c4f1b46c-4f26-4a54-ab1c-2cb76ff68640</testCaseGuid>
    <variable>
@@ -18,5 +18,12 @@
       <id>66f53ff4-1b10-4eda-9f29-6d93ad516e1a</id>
       <masked>false</masked>
       <name>Type</name>
+   </variable>
+   <variable>
+      <defaultValue>'Hello '</defaultValue>
+      <description></description>
+      <id>39b7d08e-58da-46e2-9088-d6ffd8a86954</id>
+      <masked>false</masked>
+      <name>comm</name>
    </variable>
 </TestCaseEntity>

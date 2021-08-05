@@ -1,11 +1,9 @@
-/*
+ /*
  Title:- Organizational entity overview - Distributors (Report ID 307)
  Owner:- Mitanshu Gupta
  Description:- In this test case we are creating a record in Entity and agreements(internal) and complete the workflow and then checking the fields of Entities and agreement(internal) in the Tabular reports.
  Environment:- HALO 3.0(https://halocodebase.insife.cloud:8080/ords/f?p=100)
- */
-
-import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
+ */ import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 import com.kms.katalon.core.model.FailureHandling as FailureHandling
@@ -49,11 +47,11 @@ WebUI.click(findTestObject('Test Cases/Entities and agreements/Process-Entities 
 
 WebUI.waitForPageLoad(GlobalVariable.Timeout)
 
-WebUI.waitForElementVisible(findTestObject('Test Cases/Reports/PSUR Periodic reporting rules/New Record'), GlobalVariable.Timeout)
+WebUI.waitForElementVisible(findTestObject('Test Cases/Reports/PSUR Periodic reporting rules/Old recrd'), GlobalVariable.Timeout)
 
 WebUI.comment('Step 5')
 
-WebUI.click(findTestObject('Test Cases/Reports/PSUR Periodic reporting rules/New Record'))
+WebUI.click(findTestObject('Test Cases/Reports/PSUR Periodic reporting rules/Old recrd'))
 
 WebUI.waitForPageLoad(GlobalVariable.Timeout)
 
@@ -88,15 +86,30 @@ WebUI.comment('This is a verify step for checking the record is created.')
 
 WebUI.takeFullPageScreenshot()
 
+WebUI.delay(GlobalVariable.Delay)
+
 WebUI.waitForElementClickable(findTestObject('Test Cases/Reports/Common Elements/1st Completed Task'), GlobalVariable.Timeout)
 
 WebUI.click(findTestObject('Test Cases/Reports/Common Elements/1st Completed Task'))
 
-WebUI.waitForPageLoad(GlobalVariable.Timeout)
-
 WebUI.delay(GlobalVariable.Delay)
 
-WebUI.waitForElementClickable(findTestObject('Test Cases/Reports/Common Elements/1st Completed Task'), GlobalVariable.Timeout)
+/*
+WebUI.waitForElementVisible(findTestObject('Test Cases/Add, Delete and Attachment/Complete task (comments)'), GlobalVariable.Timeout)
+
+WebUI.click(findTestObject('Test Cases/Add, Delete and Attachment/Complete task (comments)'))
+
+WebUI.waitForPageLoad(GlobalVariable.Timeout)
+
+WebUI.waitForElementVisible(findTestObject('Test Cases/Add, Delete and Attachment/Textarea'), GlobalVariable.Timeout)
+
+WebUI.setText(findTestObject('Test Cases/Add, Delete and Attachment/Textarea'), comm)
+
+WebUI.click(findTestObject('Test Cases/Add, Delete and Attachment/Comp and forward'))
+
+WebUI.waitForPageLoad(GlobalVariable.Timeout)
+*/
+WebUI.waitForElementVisible(findTestObject('Test Cases/Reports/Common Elements/1st Completed Task'), GlobalVariable.Timeout)
 
 WebUI.click(findTestObject('Test Cases/Reports/Common Elements/1st Completed Task'))
 
@@ -150,11 +163,9 @@ WebUI.waitForElementVisible(findTestObject('Test Cases/Reports/Tabular Reports/O
 
 WebUI.click(findTestObject('Test Cases/Reports/Tabular Reports/Organizatinal Entitiy'))
 
-CustomKeywords.'reports.Report_Download'()
+CustomKeywords.'reports.OEO_Download'()
 
 WebUI.comment('Step 13')
-
-CustomKeywords.'HALO.Logout'()
 
 WebUI.closeBrowser()
 

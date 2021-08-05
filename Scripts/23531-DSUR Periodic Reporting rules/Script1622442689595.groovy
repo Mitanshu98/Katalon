@@ -1,7 +1,7 @@
  /*
 Title:- Non-expedited reporting requirements overview  DSUR Periodic Reporting rules (Report ID 200)
 Owner:- Mitanshu Gupta
-Description:-
+Description:- In this test case we are creating a record in DSUR Periodic reporting rules and complete the workflow and then checking the fields of DSUR Periodic reporting rules in the Tabular reports.
 Environment:- HALO 3.0(https://halocodebase.insife.cloud:8080/ords/f?p=100)
 */ import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
@@ -144,7 +144,7 @@ CustomKeywords.'reports.Record'()
 
 WebUI.comment('This is a verify step for checking the Tabular reports shall be displayed.')
 
-WebUI.takeScreenshot()
+WebUI.takeFullPageScreenshot()
 
 WebUI.waitForElementVisible(findTestObject('Test Cases/Reports/Tabular Reports/DSUR'), GlobalVariable.Timeout)
 
@@ -152,11 +152,9 @@ WebUI.click(findTestObject('Test Cases/Reports/Tabular Reports/DSUR'))
 
 WebUI.comment('Step 10,11,12,13,14 and 15')
 
-CustomKeywords.'reports.Report_Download'()
+CustomKeywords.'reports.DSUR_Download'()
 
 WebUI.comment('Step 16')
-
-CustomKeywords.'HALO.Logout'()
 
 WebUI.closeBrowser()
 

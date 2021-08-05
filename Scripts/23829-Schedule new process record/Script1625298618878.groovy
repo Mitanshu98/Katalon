@@ -1,12 +1,9 @@
-/*
+ /*
  Title:- Schedule new process Record
  Owner:- Mitanshu Gupta
  Description:- Here in this test case we are Creating a record through Scheduler.
  Environment:- HALO 3.0(https://halocodebase.insife.cloud:8080/ords/f?p=100)
-*/
-
-
-import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+*/ import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
@@ -24,6 +21,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import groovy.time.TimeCategory as TimeCategory
 
 WebUI.comment('Step 1 and 2')
 
@@ -55,7 +53,12 @@ WebUI.comment('Step 4')
 
 WebUI.setText(findTestObject('Test Cases/Schedule new process record/Schedule Name'), Title)
 
-WebUI.setText(findTestObject('Test Cases/Schedule new process record/Schedule start'), variable)
+//Here we are taking the current Date
+today = new Date()
+
+Start_Date = today.format('yyyy-MM-dd')
+
+WebUI.setText(findTestObject('Test Cases/Schedule new process record/Schedule start'), Start_Date)
 
 WebUI.delay(GlobalVariable.Delay)
 
@@ -67,15 +70,15 @@ WebUI.waitForElementVisible(findTestObject('Test Cases/Schedule new process reco
 
 WebUI.click(findTestObject('Test Cases/Schedule new process record/Schedule new records'))
 
-WebUI.selectOptionByLabel(findTestObject('Test Cases/Schedule new process record/Schedule Core Process'), 'Entities and agreements', 
+WebUI.selectOptionByLabel(findTestObject('Test Cases/Schedule new process record/Schedule Core Process'), 'Entities and Agreements Module', 
     false)
 
-WebUI.delay(2)
+WebUI.delay(GlobalVariable.Short_Delay)
 
-WebUI.selectOptionByLabel(findTestObject('Test Cases/Schedule new process record/Workflow to trigger'), 'Entities management (External)', 
+WebUI.selectOptionByLabel(findTestObject('Test Cases/Schedule new process record/Workflow to trigger'), 'Entities Management (External)', 
     false)
 
-WebUI.delay(2)
+WebUI.delay(GlobalVariable.Short_Delay)
 
 WebUI.selectOptionByLabel(findTestObject('Test Cases/Schedule new process record/Organizational Entity'), 'Root organization', 
     false)
@@ -85,6 +88,8 @@ WebUI.click(findTestObject('Test Cases/Schedule new process record/Create'))
 WebUI.delay(10)
 
 WebUI.comment('Step 5')
+
+Schedule_Id = WebUI.getText(findTestObject('Test Cases/Schedule of Initiation of workflows on existing record/Schedule Configuration Id'))
 
 WebUI.click(findTestObject('Test Cases/Schedule new process record/Activate_Update_schedule'))
 
@@ -98,11 +103,11 @@ WebUI.switchToDefaultContent()
 
 WebUI.refresh()
 
-WebUI.waitForElementVisible(findTestObject('Test Cases/Schedule new process record/Show'), GlobalVariable.Timeout)
+WebUI.waitForElementVisible(findTestObject('Test Cases/Schedule new process record/Show', [('show') : Schedule_Id]), GlobalVariable.Timeout)
 
 WebUI.comment('Step 6')
 
-WebUI.click(findTestObject('Test Cases/Schedule new process record/Show', [('show') : Show]))
+WebUI.click(findTestObject('Test Cases/Schedule new process record/Show', [('show') : Schedule_Id]))
 
 WebUI.waitForPageLoad(GlobalVariable.Timeout)
 
@@ -132,7 +137,7 @@ WebUI.waitForElementVisible(findTestObject('Test Cases/Schedule new process reco
 
 WebUI.comment('Step 8')
 
-WebUI.click(findTestObject('Test Cases/Schedule new process record/New_Record', [('Task') : Show]))
+WebUI.click(findTestObject('Test Cases/Schedule new process record/New_Record', [('Task') : Title]))
 
 WebUI.comment('This is a verify step for View/Edit process record page shall be opened.')
 

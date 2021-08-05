@@ -42,7 +42,7 @@
    </variable>
    <variable>
       <defaultValue>'2021-07-12'</defaultValue>
-      <description></description>
+      <description>This should be greater then the current date.</description>
       <id>224f3dd0-5342-4505-a854-d52c95e1515d</id>
       <masked>false</masked>
       <name>Schedule_Date</name>

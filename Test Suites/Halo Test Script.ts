@@ -40,7 +40,7 @@
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/HALO/23533-Signal Detection management requirement</testSuiteEntity>
+         <testSuiteEntity>Test Suites/HALO/23533-Signal notification requirements</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -58,7 +58,7 @@
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/HALO/23535-SUSAR reporting requirements</testSuiteEntity>
+         <testSuiteEntity>Test Suites/HALO/23535 - Periodic SUSAR reporting requirements</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>

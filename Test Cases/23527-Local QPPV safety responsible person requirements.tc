@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>To download the Local QPPV report from tabular reports</description>
+   <description>URS 05.17 : To download the Local QPPV report from tabular reports</description>
    <name>23527-Local QPPV safety responsible person requirements</name>
-   <tag></tag>
+   <tag>URS 05.17</tag>
    <comment></comment>
    <testCaseGuid>50d4f937-2afb-4318-bd7b-8c7feceb03ef</testCaseGuid>
    <variable>

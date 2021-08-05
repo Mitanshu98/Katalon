@@ -146,7 +146,7 @@ WebUI.click(findTestObject('Test Cases/Reports/Tabular Reports/PSUR'))
 
 WebUI.comment('Step 10,11,12,13 and 14')
 
-CustomKeywords.'reports.Report_Download'()
+CustomKeywords.'reports.PSUR_Download'()
 
 WebUI.comment('Step 15')
 

@@ -21,43 +21,49 @@ WebUI.comment('Step 1 and 2')
 
 CustomKeywords.'HALO.HaloLogin'()
 
-WebUI.click(findTestObject('HALO Front-End/Application management/Application management'))
+WebUI.click(findTestObject('Object Repository/HALO Front-End/Application management/Application management'))
 
-WebUI.waitForElementVisible(findTestObject('HALO Front-End/Application management/Process workflows'), GlobalVariable.Timeout)
-
-WebUI.click(findTestObject('HALO Front-End/Application management/Process workflows'))
-
-WebUI.waitForElementVisible(findTestObject('Test Cases/Login user to login with one time link/Process Entities (Internal)'), 
+WebUI.waitForElementVisible(findTestObject('Object Repository/HALO Front-End/Application management/Process workflows'), 
     GlobalVariable.Timeout)
 
-WebUI.click(findTestObject('Test Cases/Login user to login with one time link/Process Entities (Internal)'))
+WebUI.click(findTestObject('Object Repository/HALO Front-End/Application management/Process workflows'))
+
+WebUI.waitForElementVisible(findTestObject('Object Repository/Test Cases/Login user to login with one time link/Process Entities (Internal)'), 
+    GlobalVariable.Timeout)
+
+WebUI.click(findTestObject('Object Repository/Test Cases/Login user to login with one time link/Process Entities (Internal)'))
 
 WebUI.waitForPageLoad(GlobalVariable.Timeout)
 
-WebUI.switchToFrame(findTestObject('HALO Front-End/Common Elements/Iframe(5)'), GlobalVariable.Timeout)
+WebUI.switchToFrame(findTestObject('Object Repository/HALO Front-End/Common Elements/Iframe(5)'), GlobalVariable.Timeout)
 
-WebUI.waitForElementVisible(findTestObject('Test Cases/Login user to login with one time link/Edit Tasks'), GlobalVariable.Timeout)
-
-WebUI.click(findTestObject('Test Cases/Login user to login with one time link/Edit Tasks'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.waitForElementVisible(findTestObject('Test Cases/Login user to login with one time link/Create Update Entity'), GlobalVariable.Timeout)
-
-WebUI.click(findTestObject('Test Cases/Login user to login with one time link/Create Update Entity'))
-
-WebUI.waitForElementVisible(findTestObject('Test Cases/Login user to login with one time link/Create and Completion Notification'), 
+WebUI.waitForElementVisible(findTestObject('Object Repository/Test Cases/Login user to login with one time link/Edit Tasks'), 
     GlobalVariable.Timeout)
 
-WebUI.click(findTestObject('Test Cases/Login user to login with one time link/Create and Completion Notification'))
+WebUI.click(findTestObject('Object Repository/Test Cases/Login user to login with one time link/Edit Tasks'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('Test Cases/Login user to login with one time link/Type'), GlobalVariable.Timeout, 
-    FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.waitForElementVisible(findTestObject('Object Repository/Test Cases/Login user to login with one time link/Create Update Entity'), 
+    GlobalVariable.Timeout)
 
-WebUI.selectOptionByLabel(findTestObject('Test Cases/Login user to login with one time link/Type'), 'On Create', false, 
-    FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('Object Repository/Test Cases/Login user to login with one time link/Create Update Entity'))
 
-WebUI.selectOptionByLabel(findTestObject('Test Cases/Login user to login with one time link/Group'), 'Generic Organizational entity processing', 
-    false, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('Object Repository/Page_Workflows/span_Creation- and Completion notifications'))
 
-WebUI.setText(findTestObject('Test Cases/Login user to login with one time link/Message'), 'Link for the User {STANDARDLINK}', 
-    FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.delay(3)
+
+WebUI.doubleClick(findTestObject('Object Repository/Page_Workflows/td_Routeback_R86745126998172990_ig_grid_vc_cur'))
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Workflows/select_Backend-jobOn CompleteOn Create'), '1', 
+    true)
+
+WebUI.click(findTestObject('Object Repository/Page_Workflows/td_Aggregate Report ApprovalAggregate Repor_6ab4a0'))
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Workflows/select_Aggregate Report ApprovalAggregate R_afec85'), 
+    '1341', true)
+
+WebUI.doubleClick(findTestObject('Object Repository/Page_Workflows/body_Task informationAdvancedActionsKPIsNot_13fa12'))
+
+WebUI.setText(findTestObject('Object Repository/Page_Workflows/textarea_concat(id(, , C86872805475767555, _813b41'), 'Hi from Automation')
+
+WebUI.click(findTestObject('Object Repository/Page_Workflows/div_'))
 

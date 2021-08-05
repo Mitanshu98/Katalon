@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//ul[@class='t-LinksList t-LinksList--showIcons']/descendant::span[text()='Entities / agreements management (Internal)']</value>
+         <value>//ul[@class='t-LinksList t-LinksList--showIcons']/descendant::span[text()='Entities Management (Internal)']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -33,4 +33,11 @@
       <masked>false</masked>
       <name>Comment</name>
    </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6b6656db-1353-4220-83e9-e496e030d7ec</id>
+      <masked>false</masked>
+      <name>Record_Id</name>
+   </variable>
 </TestCaseEntity>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>URS 05.17 : In this test case we are creating a record in signal notification requirement and complete the workflow and then checking the fields of signal notification requirement in the Tabular reports
+</description>
+   <name>23533-Signal notification requirements</name>
+   <tag>URS 05.17</tag>
+   <comment></comment>
+   <testCaseGuid>5e25dbcd-e6a0-4ad4-929d-ec674bd0765d</testCaseGuid>
+   <variable>
+      <defaultValue>'Record through Automation'</defaultValue>
+      <description></description>
+      <id>199e8901-f944-4559-a7d4-905bf259d13a</id>
+      <masked>false</masked>
+      <name>Title</name>
+   </variable>
+</TestCaseEntity>

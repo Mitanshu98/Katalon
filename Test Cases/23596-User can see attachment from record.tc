@@ -22,7 +22,7 @@
    </variable>
    <variable>
       <defaultValue>'D:\\HALO.jpg'</defaultValue>
-      <description></description>
+      <description>While Running the script we have to take care of the attachment files loxation</description>
       <id>00221675-f907-4426-b5b1-ac8c71f7590f</id>
       <masked>false</masked>
       <name>Location</name>

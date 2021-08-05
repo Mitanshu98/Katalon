@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>URS 05.17 : In this test case we are creating a record in Periodic device report rules and complete the workflow and then checking the fields of Periodic device report rules in the Tabular reports
+</description>
    <name>23530-Periodic device report rules</name>
-   <tag></tag>
+   <tag>URS 05.17</tag>
    <comment></comment>
    <testCaseGuid>6d4ebb0c-d55d-4a95-85e1-2aaeeb3df743</testCaseGuid>
    <variable>

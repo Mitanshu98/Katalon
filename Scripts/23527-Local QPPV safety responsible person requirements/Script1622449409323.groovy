@@ -105,7 +105,7 @@ WebUI.delay(GlobalVariable.Delay, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.comment('This is a verify step for checking the Local OPPV/Safety responsible requirements form page shall be displayed.')
 
-WebUI.takeScreenshot()
+WebUI.takeFullPageScreenshot()
 
 WebUI.delay(GlobalVariable.Delay, FailureHandling.CONTINUE_ON_FAILURE)
 
@@ -132,8 +132,6 @@ WebUI.comment('Step 10,11,12,13,14 and 15')
 CustomKeywords.'reports.Report_Download'()
 
 WebUI.comment('Step 16')
-
-CustomKeywords.'HALO.Logout'()
 
 WebUI.closeBrowser()
 

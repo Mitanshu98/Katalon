@@ -13,17 +13,17 @@
       <name>Title</name>
    </variable>
    <variable>
-      <defaultValue>'\'Process record scheduling\''</defaultValue>
-      <description>Title and show must be same.</description>
-      <id>f7ab5db5-26a4-4d4e-a338-d6a44a205f93</id>
-      <masked>false</masked>
-      <name>Show</name>
-   </variable>
-   <variable>
-      <defaultValue>'2021-07-03'</defaultValue>
-      <description></description>
+      <defaultValue>''</defaultValue>
+      <description>This Should be empty as it takes the current date Automatically</description>
       <id>1275ff9e-0ecd-42ca-a00e-ac91a0d24b23</id>
       <masked>false</masked>
-      <name>variable</name>
+      <name>Start_Date</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>This should be empty</description>
+      <id>0317d000-b785-462e-924d-1b1e88bdfc49</id>
+      <masked>false</masked>
+      <name>Schedule_Id</name>
    </variable>
 </TestCaseEntity>

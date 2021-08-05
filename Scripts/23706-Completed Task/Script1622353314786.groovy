@@ -58,7 +58,5 @@ WebUI.takeScreenshot()
 
 WebUI.comment('Step 5')
 
-CustomKeywords.'HALO.Logout'()
-
 WebUI.closeBrowser()
 

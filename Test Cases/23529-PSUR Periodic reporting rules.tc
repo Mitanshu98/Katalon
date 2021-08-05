@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>URS 05.17 : In this test case we are creating a record in PSUR and complete the workflow and then checking the fields of PSUR in the Tabular reports
+</description>
    <name>23529-PSUR Periodic reporting rules</name>
-   <tag></tag>
+   <tag>URS 05.17</tag>
    <comment></comment>
    <testCaseGuid>26faf517-c4fd-4a73-815d-52bfd956e9b6</testCaseGuid>
    <variable>

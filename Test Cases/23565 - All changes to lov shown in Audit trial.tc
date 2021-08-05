@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>URS 05.181 : In this test case we are checking the Audit Page for List value metadata(Expert) using the Test Metadata.</description>
+   <name>23565 - All changes to lov shown in Audit trial</name>
+   <tag>URS 05.181</tag>
+   <comment></comment>
+   <testCaseGuid>f75e900f-5329-401e-a194-dd6c929d4e1e</testCaseGuid>
+</TestCaseEntity>
