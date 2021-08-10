@@ -1,4 +1,9 @@
-import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+ /*
+ Title:- Fill in mandatory task actions to progress a workflow
+ Owner:- Mitanshu Gupta
+ Description:- Here in this test case we are checking the mandatory fields needed to complete the Active Task in Data Collection Program.
+ Environment:- HALO 3.0(https://halocodebase.insife.cloud:8080/ords/f?p=100)
+ */ import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
@@ -71,7 +76,7 @@ WebUI.setText(findTestObject('Test Cases/User subscribed to configured/Descripti
 
 WebUI.setText(findTestObject('Test Cases/User subscribed to configured/Notes'), Notes)
 
-WebUI.delay(2)
+WebUI.delay(GlobalVariable.Short_Delay)
 
 WebUI.comment('This is a verifying step for checking the record shall be created.')
 
@@ -84,18 +89,20 @@ WebUI.click(findTestObject('Test Cases/Entities and agreements/Entities and agre
 
 WebUI.click(findTestObject('Test Cases/Initiating Workflow/Record Revision'))
 
-WebUI.delay(2)
+WebUI.delay(GlobalVariable.Short_Delay)
 
 Record_Id = WebUI.getText(findTestObject('Test Cases/Schedule of Initiation of workflows on existing record/Master_Id'))
 
 WebUI.click(findTestObject('Test Cases/User can see attachment from revision/Revision close'))
+
+WebUI.delay(GlobalVariable.Delay)
 
 WebUI.waitForElementVisible(findTestObject('Test Cases/Access child form from other workflows/Data collection Program form'), 
     GlobalVariable.Timeout)
 
 WebUI.click(findTestObject('Test Cases/Access child form from other workflows/Data collection Program form'))
 
-WebUI.delay(2)
+WebUI.delay(GlobalVariable.Short_Delay)
 
 WebUI.click(findTestObject('Test Cases/Fill In Mandatory/Data collection form(close)'))
 
@@ -103,7 +110,7 @@ WebUI.acceptAlert()
 
 WebUI.comment('This is a verify step for checking the record shall be created.')
 
-WebUI.delay(2)
+WebUI.delay(GlobalVariable.Short_Delay)
 
 WebUI.click(findTestObject('HALO Front-End/Common Elements/Record Close'))
 
@@ -117,7 +124,7 @@ WebUI.setText(findTestObject('Test Cases/Fill In Mandatory/Record Search'), Reco
 
 WebUI.click(findTestObject('Test Cases/Fill In Mandatory/Record search button'))
 
-WebUI.delay(2)
+WebUI.delay(GlobalVariable.Short_Delay)
 
 WebUI.comment('Step 8 : This is a verifying step for checking the record page shall be displayed.')
 
@@ -129,7 +136,11 @@ WebUI.click(findTestObject('Test Cases/Fill In Mandatory/Record', [('record') : 
 
 WebUI.switchToFrame(findTestObject('HALO Front-End/Common Elements/Iframe(5)'), GlobalVariable.Timeout)
 
-WebUI.delay(2)
+WebUI.delay(GlobalVariable.Short_Delay)
+
+WebUI.comment('This is a verifying step for checking the Mandatory fields are highleted by Red warning.')
+
+WebUI.takeScreenshot()
 
 WebUI.comment('Step 9,10,11,12 : This is a verifying step for checking the Warning shall be displayed in red for task action and Complete task button shall not be displayed until all mandatry fields are filled.')
 
@@ -138,7 +149,7 @@ WebUI.waitForElementVisible(findTestObject('Test Cases/Access child form from ot
 
 WebUI.click(findTestObject('Test Cases/Access child form from other workflows/Data collection Program form'))
 
-WebUI.delay(2)
+WebUI.delay(GlobalVariable.Short_Delay)
 
 WebUI.waitForElementVisible(findTestObject('Test Cases/Fill In Mandatory/Program Objective'), GlobalVariable.Timeout)
 
@@ -148,19 +159,15 @@ WebUI.setText(findTestObject('Test Cases/Fill In Mandatory/Start Date'), Start_d
 
 WebUI.setText(findTestObject('Test Cases/Fill In Mandatory/End Date (Expected)'), End_date)
 
-WebUI.delay(2)
+WebUI.delay(GlobalVariable.Short_Delay)
 
 WebUI.click(findTestObject('Test Cases/Fill In Mandatory/Save Data collection program'))
 
-WebUI.delay(2)
+WebUI.delay(GlobalVariable.Delay)
 
 WebUI.click(findTestObject('Test Cases/Fill In Mandatory/Data collection form(close)'))
 
-WebUI.delay(2)
-
-WebUI.click(findTestObject('HALO Front-End/Common Elements/Record Close'))
-
-WebUI.delay(2)
+WebUI.delay(GlobalVariable.Short_Delay)
 
 WebUI.comment('Step 13 : This is a verifying step for checking the all the mandatory fields are filled up and complete task button is there now.')
 

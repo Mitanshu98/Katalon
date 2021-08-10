@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Old record</name>
+   <name>record_id</name>
    <tag></tag>
-   <elementGuidId>58075b31-3938-4b93-88ea-25c4472c2c12</elementGuidId>
+   <elementGuidId>b5e3a746-19d2-4576-ba36-f78d72b0ac89</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[contains(text(),'DATACOL-${record}')]</value>
+         <value>//span[@class=&quot;label label-page-header&quot;]</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -1,4 +1,9 @@
-import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+ /*
+ Title:- Access child form from other workflows and navigate back to the original process record
+ Owner:- Mitanshu Gupta
+ Description:- In this test case we are accessing the child form from other workflows and navigate back to Data collection record.
+ Environment:- HALO 3.0(https://halocodebase.insife.cloud:8080/ords/f?p=100)
+ */ import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
@@ -21,11 +26,15 @@ WebUI.comment('Step 1 and 2')
 
 CustomKeywords.'HALO.HaloLogin'()
 
-WebUI.comment('')
+WebUI.comment('This is a verifying step for checking the roles of the user.')
+
+WebUI.takeFullPageScreenshot()
 
 WebUI.click(findTestObject('HALO Front-End/Processes/Process_Dropdown'))
 
 WebUI.waitForElementVisible(findTestObject('HALO Front-End/Processes/Data collection programs'), GlobalVariable.Timeout)
+
+WebUI.comment('Step 3,4 and 5')
 
 WebUI.click(findTestObject('HALO Front-End/Processes/Data collection programs'))
 
@@ -38,6 +47,18 @@ WebUI.click(findTestObject('Test Cases/Access child form from other workflows/Da
 
 WebUI.waitForPageLoad(GlobalVariable.Timeout)
 
+WebUI.waitForElementVisible(findTestObject('Test Cases/Fill In Mandatory/Record Search'), GlobalVariable.Timeout)
+
+WebUI.setText(findTestObject('Test Cases/Fill In Mandatory/Record Search'), Record_ID)
+
+WebUI.click(findTestObject('Test Cases/Fill In Mandatory/Record search button'))
+
+WebUI.waitForElementVisible(findTestObject('Test Cases/Access child form from other workflows/Old record', [('record') : Record_ID]), 
+    GlobalVariable.Timeout)
+
+WebUI.click(findTestObject('Test Cases/Access child form from other workflows/Old record', [('record') : Record_ID]))
+
+/*
 WebUI.waitForElementVisible(findTestObject('Test Cases/Access child form from other workflows/Create New Wizard'), GlobalVariable.Timeout)
 
 WebUI.click(findTestObject('Test Cases/Access child form from other workflows/Create New Wizard'))
@@ -53,28 +74,32 @@ WebUI.setText(findTestObject('Test Cases/Access child form from other workflows/
 WebUI.selectOptionByLabel(findTestObject('Test Cases/Access child form from other workflows/Record Type'), Type, false)
 
 WebUI.click(findTestObject('Test Cases/Access child form from other workflows/Create'))
-
+*/
 WebUI.waitForPageLoad(GlobalVariable.Timeout)
+
+WebUI.switchToFrame(findTestObject('HALO Front-End/Common Elements/Iframe(5)'), GlobalVariable.Timeout)
 
 WebUI.waitForElementVisible(findTestObject('Test Cases/Access child form from other workflows/Data collection Program form'), 
     GlobalVariable.Timeout)
 
 WebUI.click(findTestObject('Test Cases/Access child form from other workflows/Data collection Program form'))
 
-WebUI.switchToDefaultContent()
-
 WebUI.waitForPageLoad(GlobalVariable.Timeout)
 
-WebUI.delay(GlobalVariable.Delay)
+WebUI.waitForElementVisible(findTestObject('Test Cases/Fill In Mandatory/Program Objective'), GlobalVariable.Timeout)
 
-WebUI.waitForElementVisible(findTestObject('Test Cases/Access child form from other workflows/Yes'), GlobalVariable.Timeout)
+WebUI.setText(findTestObject('Test Cases/Fill In Mandatory/Program Objective'), objective)
 
-WebUI.click(findTestObject('Test Cases/Access child form from other workflows/Yes'))
+WebUI.setText(findTestObject('Test Cases/Fill In Mandatory/Start Date'), Start_date)
+
+WebUI.setText(findTestObject('Test Cases/Fill In Mandatory/End Date (Expected)'), End_Date)
 
 WebUI.delay(GlobalVariable.Delay)
 
 WebUI.waitForElementVisible(findTestObject('Test Cases/Access child form from other workflows/External Parties/External Parties'), 
     GlobalVariable.Timeout)
+
+WebUI.comment('Step 6 and 7')
 
 WebUI.click(findTestObject('Test Cases/Access child form from other workflows/External Parties/External Parties'))
 
@@ -118,13 +143,33 @@ WebUI.click(findTestObject('Test Cases/Access child form from other workflows/Ex
 
 WebUI.delay(GlobalVariable.Delay)
 
+WebUI.comment('This is a verifying step for checking External party shall be added.')
+
+WebUI.takeScreenshot()
+
 WebUI.click(findTestObject('Test Cases/Access child form from other workflows/External Parties/Open-Partner'))
 
 WebUI.waitForPageLoad(GlobalVariable.Timeout)
 
 WebUI.delay(GlobalVariable.Delay)
 
+WebUI.comment('This is a verifying step for checking Record shall be opened in a workflow Entities/Agreements form.')
+
+WebUI.takeScreenshot()
+
+WebUI.comment('Step 8 and 9')
+
 WebUI.click(findTestObject('Test Cases/Access child form from other workflows/External Parties/1st-Return'))
+
+WebUI.waitForPageLoad(GlobalVariable.Timeout)
+
+WebUI.delay(GlobalVariable.Delay)
+
+WebUI.comment('This is a verifying step for checking Data collection program details form shall be displayed.')
+
+WebUI.takeScreenshot()
+
+WebUI.comment('Step 10')
 
 WebUI.closeBrowser()
 

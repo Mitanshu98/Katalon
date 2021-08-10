@@ -1,10 +1,9 @@
-/*
+ /*
  Title:- Menu for accessing main page
  Owner:- Mitanshu Gupta
  Description:- In this Test case the user is verifying the Process page shall be there.
  Environment:- HALO 3.0(https://halocodebase.insife.cloud:8080/ords/f?p=100)
- */
-import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+ */ import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
@@ -47,15 +46,13 @@ WebUI.click(findTestObject('HALO Front-End/Common Elements/HALOPV'))
 
 WebUI.waitForPageLoad(GlobalVariable.Timeout)
 
+WebUI.delay(GlobalVariable.Delay)
+
 WebUI.comment('Step 5: Home page shall be displayed.')
 
 WebUI.takeScreenshot()
 
-WebUI.delay(GlobalVariable.Delay)
-
 WebUI.comment('Step 6')
-
-CustomKeywords.'HALO.Logout'()
 
 WebUI.closeBrowser()
 

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>23830-Scheduling of records workflows with two different pages</name>
+   <name>23561-Access child form from other workflows and navigate back to the original process record</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,59 +10,53 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>7f0350ec-8f9c-4608-8560-4f08141779ca</testSuiteGuid>
+   <testSuiteGuid>98d34ae3-571c-48b5-a52d-1443f98203c9</testSuiteGuid>
    <testCaseLink>
-      <guid>e774bd3b-5d6b-435f-9cc6-effd1b27a43a</guid>
+      <guid>eeff2293-bc3f-4e4d-a974-afc5ed270a8b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/23830-Scheduling of records workflows with two different pages</testCaseId>
+      <testCaseId>Test Cases/23561-Access child form from other workflows and navigate back to the original process record</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>7f07631f-99aa-4d34-a92e-db8bffabbbdd</variableId>
+         <variableId>54fb843e-bdca-4800-8fc0-34ae09cf9ef7</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>ec2be005-0809-49fd-9d06-c1002e5795db</variableId>
+         <variableId>91b48a4f-07bb-4ce0-b104-505b68b60697</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>3242e164-eeb0-4eb0-9c98-10376dcc1e36</variableId>
+         <variableId>d672e9a0-4d48-4f86-8ab8-696c459262dd</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>bc4fc905-8065-4bfb-b7e8-9f5e67c75d45</variableId>
+         <variableId>416ee576-fb44-47f9-8531-16dc15b70eb6</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>761547c8-5956-447a-8425-e83ff6f8e76c</variableId>
+         <variableId>9dc189c8-305e-48d7-b708-c9297520c8c9</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>af638123-1946-4da2-9ac8-844c5f05dad6</variableId>
+         <variableId>1d39aa90-8191-412e-8469-144767fcc407</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>bcb3909f-9fb2-4d99-addf-ef75b6db74ad</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>81e4c523-1b40-41c6-a01c-3423f76473a4</variableId>
+         <variableId>faa04981-143f-40a2-99f8-b831c47aea53</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

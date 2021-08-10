@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Old record</name>
+   <name>Recrd Id</name>
    <tag></tag>
-   <elementGuidId>58075b31-3938-4b93-88ea-25c4472c2c12</elementGuidId>
+   <elementGuidId>de7f5225-55a4-4b9d-aef2-8b77e94af50c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[contains(text(),'DATACOL-${record}')]</value>
+         <value>//label[@id=&quot;txtMessage&quot;]</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

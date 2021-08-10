@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>URS 01.05  : In this Test case the user is verifying the Process page shall be there.</description>
    <name>23779-Menu for accessing main page</name>
-   <tag></tag>
+   <tag>URS 01.05 </tag>
    <comment></comment>
    <testCaseGuid>f9b1694f-e14f-4833-8dc8-50fd6e0be2ab</testCaseGuid>
 </TestCaseEntity>

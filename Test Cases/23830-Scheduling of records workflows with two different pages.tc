@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>URS 05.161</description>
+   <description>URS 05.161 : Here in this test case we are Creating a record through Scheduler and creating record through Data reconcillation.</description>
    <name>23830-Scheduling of records workflows with two different pages</name>
    <tag>URS 05.161</tag>
    <comment></comment>
@@ -13,21 +13,21 @@
       <name>Title</name>
    </variable>
    <variable>
-      <defaultValue>'\'Password expiry\''</defaultValue>
-      <description></description>
+      <defaultValue>''</defaultValue>
+      <description>It should be empty as it takes it automatically</description>
       <id>ec2be005-0809-49fd-9d06-c1002e5795db</id>
       <masked>false</masked>
-      <name>Show</name>
+      <name>Schedule_Id</name>
    </variable>
    <variable>
-      <defaultValue>'Entities and agreements'</defaultValue>
+      <defaultValue>'Entities and Agreements Module'</defaultValue>
       <description></description>
       <id>3242e164-eeb0-4eb0-9c98-10376dcc1e36</id>
       <masked>false</masked>
       <name>Schedule_Process</name>
    </variable>
    <variable>
-      <defaultValue>'Entities management (External)'</defaultValue>
+      <defaultValue>'Entities Management (External)'</defaultValue>
       <description></description>
       <id>bc4fc905-8065-4bfb-b7e8-9f5e67c75d45</id>
       <masked>false</masked>
@@ -41,8 +41,8 @@
       <name>Organization</name>
    </variable>
    <variable>
-      <defaultValue>'2021-07-10'</defaultValue>
-      <description></description>
+      <defaultValue>''</defaultValue>
+      <description>It Should be blank as it take the current Date</description>
       <id>af638123-1946-4da2-9ac8-844c5f05dad6</id>
       <masked>false</masked>
       <name>Start_Date</name>
@@ -60,19 +60,5 @@
       <id>81e4c523-1b40-41c6-a01c-3423f76473a4</id>
       <masked>false</masked>
       <name>Data_schedule_Title</name>
-   </variable>
-   <variable>
-      <defaultValue>'2021-07-10'</defaultValue>
-      <description></description>
-      <id>7b9fa97b-69eb-46e3-aae4-fd2cae6f94d6</id>
-      <masked>false</masked>
-      <name>Data_Start</name>
-   </variable>
-   <variable>
-      <defaultValue>'2021-07-19'</defaultValue>
-      <description></description>
-      <id>877f9ca6-043e-4255-843f-3755845a0d84</id>
-      <masked>false</masked>
-      <name>Data_End</name>
    </variable>
 </TestCaseEntity>

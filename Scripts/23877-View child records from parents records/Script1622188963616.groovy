@@ -110,5 +110,7 @@ WebUI.comment('This is a Verification step to check the Related record are there
 
 WebUI.takeFullPageScreenshot()
 
+WebUI.comment('Step 7')
+
 WebUI.closeBrowser()
 

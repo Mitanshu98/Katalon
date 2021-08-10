@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>In this test case user will create a new record in Entities(External) and then create the child record and then open it from releated records</description>
+   <description>URS 02.35 : In this test case user will create a new record in Entities(External) and then create the child record and then open it from releated records</description>
    <name>23877-View child records from parents records</name>
-   <tag></tag>
+   <tag>URS 02.35 </tag>
    <comment></comment>
    <testCaseGuid>997551a4-7920-4316-8254-f314631ff7a7</testCaseGuid>
    <variable>
-      <defaultValue>'Entities and agreements'</defaultValue>
+      <defaultValue>'Entities and Agreements Module'</defaultValue>
       <description>Core process link in the child form</description>
       <id>7a990378-92fb-4f53-8855-96ac6b3a2ec0</id>
       <masked>false</masked>

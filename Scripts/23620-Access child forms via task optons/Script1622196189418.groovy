@@ -57,7 +57,7 @@ WebUI.click(findTestObject('Test Cases/Reports/PSUR Periodic reporting rules/New
 
 WebUI.waitForPageLoad(GlobalVariable.Timeout)
 
-WebUI.switchToFrame(findTestObject('HALO Front-End/Common Elements/Iframe(5)'), 2)
+WebUI.switchToFrame(findTestObject('HALO Front-End/Common Elements/Iframe(5)'), GlobalVariable.Timeout)
 
 WebUI.waitForElementPresent(findTestObject('HALO Front-End/Common Elements/Basic Information box/Basic Information'), GlobalVariable.Timeout)
 
@@ -83,14 +83,19 @@ WebUI.click(findTestObject('HALO Front-End/Common Elements/Basic Information box
 
 WebUI.delay(GlobalVariable.Delay)
 
+WebUI.comment('This is a verifying step for checking the record is created')
+
+WebUI.takeScreenshot()
+
 WebUI.waitForPageLoad(GlobalVariable.Timeout)
 
+/*
 WebUI.waitForElementClickable(findTestObject('Test Cases/Reports/Common Elements/1st Completed Task'), GlobalVariable.Timeout)
 
 WebUI.click(findTestObject('Test Cases/Reports/Common Elements/1st Completed Task'))
 
 WebUI.waitForPageLoad(GlobalVariable.Timeout)
-
+*/
 WebUI.comment('Step 6')
 
 WebUI.waitForElementClickable(findTestObject('Test Cases/Access child form via Task option/Create SDEA Agreement'), GlobalVariable.Timeout)
@@ -99,21 +104,11 @@ WebUI.click(findTestObject('Test Cases/Access child form via Task option/Create 
 
 WebUI.delay(GlobalVariable.Delay)
 
-WebUI.takeFullPageScreenshot()
-
-WebUI.click(findTestObject('Test Cases/Access child form via Task option/Return'))
-
-WebUI.waitForElementVisible(findTestObject('Test Cases/Access child form via Task option/2nd return'), GlobalVariable.Timeout)
-
-WebUI.click(findTestObject('Test Cases/Access child form via Task option/2nd return'))
-
 WebUI.comment('This is a verify step for checking the Create related SDEA page shall be opened (form for creation of child record)')
 
 WebUI.takeScreenshot()
 
 WebUI.comment('Step 7')
-
-CustomKeywords.'HALO.Logout'()
 
 WebUI.closeBrowser()
 

@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;R27546158755530145_ig_grid_vc_cur&quot;]/child::a[text()='Automation Test']</value>
+         <value>//table/tbody//a[text()='Automation Test']</value>
       </entry>
       <entry>
          <key>BASIC</key>

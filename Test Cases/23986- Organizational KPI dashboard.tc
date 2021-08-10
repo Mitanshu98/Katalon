@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>URS 04.15 :Here in this test case we are accessing the Drill down page in Organizational KPI Dashboard</description>
    <name>23986- Organizational KPI dashboard</name>
-   <tag></tag>
+   <tag>URS 04.15 </tag>
    <comment></comment>
    <testCaseGuid>abd4d616-448e-4e0d-9956-7f509887abd5</testCaseGuid>
 </TestCaseEntity>

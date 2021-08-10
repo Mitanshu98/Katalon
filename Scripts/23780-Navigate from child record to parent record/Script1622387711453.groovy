@@ -119,7 +119,7 @@ WebUI.delay(GlobalVariable.Delay)
 
 WebUI.comment('This is a verify step for checking the User shall be navigated to parent record from child record.')
 
-WebUI.takeScreenshot()
+WebUI.takeFullPageScreenshot()
 
 WebUI.closeBrowser()
 

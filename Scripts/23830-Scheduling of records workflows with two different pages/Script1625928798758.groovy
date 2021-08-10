@@ -1,7 +1,7 @@
  /*
- Title:- Schedule new process Record
+ Title:- Schedule of records workflows with two diffrent pages.
  Owner:- Mitanshu Gupta
- Description:- Here in this test case we are Creating a record through Scheduler.
+ Description:- Here in this test case we are Creating a record through Scheduler and creating record through Data reconcillation.
  Environment:- HALO 3.0(https://halocodebase.insife.cloud:8080/ords/f?p=100)
 */ import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
@@ -21,6 +21,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import groovy.time.TimeCategory as TimeCategory
 
 WebUI.comment('Step 1 and 2')
 
@@ -48,6 +49,10 @@ WebUI.waitForPageLoad(GlobalVariable.Timeout)
 
 WebUI.waitForElementVisible(findTestObject('Test Cases/Schedule new process record/Schedule Name'), GlobalVariable.Timeout)
 
+today = new Date()
+
+Start_Date = today.format('yyyy-MM-dd')
+
 WebUI.comment('Step 4')
 
 WebUI.setText(findTestObject('Test Cases/Schedule new process record/Schedule Name'), Title)
@@ -69,16 +74,16 @@ WebUI.click(findTestObject('Test Cases/Schedule new process record/Schedule new 
 WebUI.selectOptionByLabel(findTestObject('Test Cases/Schedule new process record/Schedule Core Process'), Schedule_Process, 
     false)
 
-WebUI.delay(2)
+WebUI.delay(GlobalVariable.Short_Delay)
 
 WebUI.selectOptionByLabel(findTestObject('Test Cases/Schedule new process record/Workflow to trigger'), Workflow, false)
 
-WebUI.delay(2)
+WebUI.delay(GlobalVariable.Short_Delay)
 
 WebUI.selectOptionByLabel(findTestObject('Test Cases/Schedule new process record/Organizational Entity'), Organization, 
     false)
 
-WebUI.delay(2)
+WebUI.delay(GlobalVariable.Short_Delay)
 
 WebUI.doubleClick(findTestObject('Test Cases/Scheduling of recordsworkflows with two different pages/Country-Denmark'))
 
@@ -88,6 +93,8 @@ WebUI.delay(GlobalVariable.Long_Delay)
 
 WebUI.comment('Step 5')
 
+Schedule_Id = WebUI.getText(findTestObject('Test Cases/Schedule of Initiation of workflows on existing record/Schedule Configuration Id'))
+
 WebUI.click(findTestObject('Test Cases/Schedule new process record/Activate_Update_schedule'))
 
 WebUI.delay(10)
@@ -95,6 +102,8 @@ WebUI.delay(10)
 WebUI.waitForElementVisible(findTestObject('Test Cases/Schedule new process record/Save'), GlobalVariable.Timeout)
 
 WebUI.click(findTestObject('Test Cases/Schedule new process record/Save'))
+
+WebUI.delay(GlobalVariable.Delay)
 
 WebUI.waitForPageLoad(GlobalVariable.Timeout)
 
@@ -104,11 +113,11 @@ WebUI.switchToDefaultContent()
 
 WebUI.refresh()
 
-WebUI.waitForElementVisible(findTestObject('Test Cases/Schedule new process record/Show'), GlobalVariable.Timeout)
+WebUI.waitForElementVisible(findTestObject('Test Cases/Schedule new process record/Show',[('show') : Schedule_Id]), GlobalVariable.Timeout)
 
 WebUI.comment('Step 6')
 
-WebUI.click(findTestObject('Test Cases/Schedule new process record/Show', [('show') : Show]))
+WebUI.click(findTestObject('Test Cases/Schedule new process record/Show', [('show') : Schedule_Id]))
 
 WebUI.waitForPageLoad(GlobalVariable.Timeout)
 
@@ -134,11 +143,11 @@ WebUI.click(findTestObject('Test Cases/Schedule new process record/OK'))
 
 WebUI.delay(GlobalVariable.Delay)
 
-WebUI.waitForElementVisible(findTestObject('Test Cases/Schedule new process record/New_Record'), GlobalVariable.Timeout)
+WebUI.waitForElementVisible(findTestObject('Test Cases/Schedule new process record/New_Record', [('Task') : Title]), GlobalVariable.Timeout)
 
 WebUI.comment('Step 8')
 
-WebUI.click(findTestObject('Test Cases/Schedule new process record/New_Record', [('Task') : Show]))
+WebUI.click(findTestObject('Test Cases/Schedule new process record/New_Record', [('Task') : Title]))
 
 WebUI.comment('This is a verify step for View/Edit process record page shall be opened.')
 
@@ -167,8 +176,6 @@ WebUI.waitForElementVisible(findTestObject('HALO Front-End/Common Elements/Recor
 WebUI.click(findTestObject('HALO Front-End/Common Elements/Record Close'))
 
 WebUI.waitForElementVisible(findTestObject('HALO Front-End/Processes/Data collection programs'), GlobalVariable.Timeout)
-
-WebUI.comment('Step 3')
 
 WebUI.click(findTestObject('HALO Front-End/Processes/Data collection programs'))
 
@@ -203,7 +210,7 @@ WebUI.takeFullPageScreenshot()
 WebUI.waitForElementVisible(findTestObject('Test Cases/Configure properties of schedued process/Setup Reconciliation Schedule'), 
     GlobalVariable.Timeout)
 
-WebUI.comment('Step 4')
+WebUI.comment('Step 10')
 
 WebUI.click(findTestObject('Test Cases/Configure properties of schedued process/Setup Reconciliation Schedule'))
 
@@ -213,9 +220,9 @@ WebUI.waitForElementVisible(findTestObject('Test Cases/Configure properties of s
 
 WebUI.setText(findTestObject('Test Cases/Configure properties of schedued process/Schedule Name'), Data_schedule_Title)
 
-WebUI.setText(findTestObject('Test Cases/Configure properties of schedued process/Schedule Start'), Data_Start)
+WebUI.setText(findTestObject('Test Cases/Configure properties of schedued process/Schedule Start'), Start_Date)
 
-WebUI.setText(findTestObject('Test Cases/Configure properties of schedued process/Schedule End'), Data_End)
+WebUI.setText(findTestObject('Test Cases/Configure properties of schedued process/Schedule End'), Start_Date)
 
 WebUI.click(findTestObject('Test Cases/Configure properties of schedued process/Repeat'))
 
@@ -237,7 +244,7 @@ WebUI.takeFullPageScreenshot()
 
 WebUI.click(findTestObject('Test Cases/Configure properties of schedued process/Delete'))
 
-WebUI.comment('Step 5')
+WebUI.comment('Step 11')
 
 WebUI.closeBrowser()
 

@@ -40,11 +40,19 @@ WebUI.click(findTestObject('HALO Front-End/User administration/Users'))
 
 WebUI.waitForPageLoad(GlobalVariable.Timeout)
 
-WebUI.click(findTestObject('HALO Front-End/User administration/Pencil', [('user') : Test]))
+WebUI.waitForElementVisible(findTestObject('Test Cases/create and modify light users/Search_User'), GlobalVariable.Timeout)
+
+WebUI.setText(findTestObject('Test Cases/create and modify light users/Search_User'), User)
+
+WebUI.click(findTestObject('Test Cases/create and modify light users/Search_Button'))
+
+WebUI.waitForElementVisible(findTestObject('HALO Front-End/User administration/Pencil', [('user') : User]), GlobalVariable.Timeout)
+
+WebUI.click(findTestObject('HALO Front-End/User administration/Pencil', [('user') : User]))
 
 WebUI.waitForPageLoad(GlobalVariable.Timeout)
 
-WebUI.switchToFrame(findTestObject('HALO Front-End/Common Elements/Iframe(5)'), 2)
+WebUI.switchToFrame(findTestObject('HALO Front-End/Common Elements/Iframe(5)'), GlobalVariable.Timeout)
 
 WebUI.comment('Step 4')
 
@@ -72,7 +80,7 @@ WebUI.comment('Step 6')
 
 WebUI.setText(findTestObject('Microsoft and HALO login/HALO Login Page/HALO_Username'), User)
 
-WebUI.setEncryptedText(findTestObject('Microsoft and HALO login/HALO Login Page/HALO_Password'), Userpassword)
+WebUI.setText(findTestObject('Microsoft and HALO login/HALO Login Page/HALO_Password'), Userpassword)
 
 WebUI.click(findTestObject('Microsoft and HALO login/HALO Login Page/Halo_Login Btn'))
 
