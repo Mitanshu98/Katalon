@@ -52,7 +52,7 @@ WebUI.waitForPageLoad(GlobalVariable.Timeout)
 
 WebUI.comment('Step 8')
 
-WebUI.click(findTestObject('Test Cases/Reports/PSUR Periodic reporting rules/New Record'))
+WebUI.click(findTestObject('Test Cases/Access to process records/Old Record E2'))
 
 WebUI.waitForPageLoad(GlobalVariable.Timeout)
 
@@ -120,7 +120,7 @@ WebUI.waitForPageLoad(GlobalVariable.Timeout)
 
 WebUI.comment('Step 14')
 
-WebUI.click(findTestObject('Test Cases/Reports/PSUR Periodic reporting rules/New Record'))
+WebUI.click(findTestObject('Test Cases/Access to process records/Old Record E1'))
 
 WebUI.waitForPageLoad(GlobalVariable.Timeout)
 
@@ -190,7 +190,7 @@ WebUI.waitForPageLoad(GlobalVariable.Timeout)
 
 WebUI.comment('Step 19')
 
-WebUI.click(findTestObject('Test Cases/Reports/PSUR Periodic reporting rules/New Record'))
+WebUI.click(findTestObject('Test Cases/Access to process records/Clinical studies/Product Management/old record product'))
 
 WebUI.waitForPageLoad(GlobalVariable.Timeout)
 
@@ -272,7 +272,7 @@ WebUI.waitForPageLoad(GlobalVariable.Timeout)
 
 WebUI.comment('Step 22')
 
-WebUI.click(findTestObject('Test Cases/Reports/PSUR Periodic reporting rules/New Record'))
+WebUI.click(findTestObject('Test Cases/Access to process records/Clinical studies/Clinical old record'))
 
 WebUI.switchToFrame(findTestObject('HALO Front-End/Common Elements/Iframe(5)'), GlobalVariable.Timeout)
 
@@ -351,7 +351,7 @@ WebUI.waitForPageLoad(GlobalVariable.Timeout)
 
 WebUI.comment('Step 26')
 
-WebUI.click(findTestObject('Test Cases/Reports/PSUR Periodic reporting rules/New Record'))
+WebUI.click(findTestObject('Test Cases/Access to process records/Old Record E3'))
 
 WebUI.waitForPageLoad(GlobalVariable.Timeout)
 

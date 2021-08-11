@@ -6,11 +6,11 @@
    <elementGuidId>fb4f7c42-d5bc-4d22-9d5c-986a5a55da86</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//li[@id = 't_TreeNav_0']/descendant::a[text()='Clinical Projects / Studies']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//li[@id = 't_TreeNav_0']/descendant::a[text()='Clinical projects / studies']</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

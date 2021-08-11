@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>URS 05.80  : In this test case we are configuring the Task completio date and check the users shall be able to override the task completion date when completing a task.</description>
    <name>23725 - Configure Overriding of Task Completion Date</name>
-   <tag></tag>
+   <tag>URS 05.80</tag>
    <comment></comment>
    <testCaseGuid>d806a1d6-5739-4898-829c-0f53bbbda562</testCaseGuid>
    <variable>

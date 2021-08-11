@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description>This is a link which open's the product management page.</description>
-   <name>Product Management</name>
+   <description></description>
+   <name>Old Record E1</name>
    <tag></tag>
-   <elementGuidId>61412343-0191-48d8-92bf-dba817238cb8</elementGuidId>
+   <elementGuidId>a381ef71-006b-415f-8b01-6e902b418a6b</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//li[@id = 't_TreeNav_0']/descendant::a[text()='Products']</value>
+         <value>//a[contains(text(),'ORG-INT-639')]</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

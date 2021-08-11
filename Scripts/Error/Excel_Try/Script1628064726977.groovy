@@ -32,14 +32,14 @@ boolean retval2 = str2.equals(str3);
 System.out.println("str2 is equal to str1 = " + retval1);
 System.out.println("str2 is equal to str3 = " + retval2);
 System.out.println(str1==str2)
-System.out.println(str1==str3)
+WebUI.comment(System.out.println(str1==str3))
 
 /*
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://demoaut.katalon.com/')
 
-String result = WebUI.getText(findTestObject('Randm/Appointment'))
+String result = WebUI.getText(findTestObject('null'))
 
 CustomKeywords.'excel.Export.demoKey'('D:\\\\demo.xlsx')
 

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description>This is a link which open's the product management page.</description>
-   <name>Product Management</name>
+   <description></description>
+   <name>Argus Record</name>
    <tag></tag>
-   <elementGuidId>61412343-0191-48d8-92bf-dba817238cb8</elementGuidId>
+   <elementGuidId>bc995552-658f-4588-b21a-6c658f3bd7c8</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//li[@id = 't_TreeNav_0']/descendant::a[text()='Products']</value>
+         <value>//a[contains(text(),'${ID}')]</value>
       </entry>
       <entry>
          <key>BASIC</key>

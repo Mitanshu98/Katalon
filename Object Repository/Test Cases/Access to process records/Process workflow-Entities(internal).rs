@@ -6,12 +6,11 @@
    <elementGuidId>fa5bc970-857c-46ec-a423-009db87dba65</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//div[@class='a-IRR-tableContainer']/descendant::a[text()='Entities Management (Internal)']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@class='a-IRR-tableContainer']/descendant::a[text()='Entities / agreements management (Internal)']</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

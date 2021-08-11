@@ -7,7 +7,7 @@
    <testCaseGuid>3abe435e-eac6-4e7f-9a90-0293b2e1710f</testCaseGuid>
    <variable>
       <defaultValue>'Halopv002'</defaultValue>
-      <description></description>
+      <description>This Username should be unique every time as Halo is not taking the repeated Username.</description>
       <id>dfda2e6c-38d7-4d20-94dd-00a008633a48</id>
       <masked>false</masked>
       <name>Username</name>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>HALOPV 2.2 - URS 02.65 : </description>
+   <description>URS 02.65 : </description>
    <name>23563-Access to process records</name>
-   <tag>HALOPV 2.2 - URS 02.65</tag>
+   <tag>URS 02.65</tag>
    <comment></comment>
    <testCaseGuid>b0c41323-0dbe-44ab-a7f3-62c5b407d8f9</testCaseGuid>
    <variable>

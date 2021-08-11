@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>23526 - DSUR Line Listing</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3190b8ee-a7ab-44b9-9ccc-5dd0d7513218</testCaseGuid>
+   <variable>
+      <defaultValue>'Routing Comments\r\n'</defaultValue>
+      <description></description>
+      <id>6e7aa712-71ac-4f9b-b200-66664e490e01</id>
+      <masked>false</masked>
+      <name>Comments</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>This should be empty</description>
+      <id>dc89f105-ae88-4d14-a54b-a0bde9e67dac</id>
+      <masked>false</masked>
+      <name>Record_ID</name>
+   </variable>
+   <variable>
+      <defaultValue>'TestUser001'</defaultValue>
+      <description></description>
+      <id>74a0cf06-d8ea-4395-89b4-cfc1a1fe4b01</id>
+      <masked>false</masked>
+      <name>User</name>
+   </variable>
+   <variable>
+      <defaultValue>'Asdnk23snnjBJjbj@#jnkj'</defaultValue>
+      <description></description>
+      <id>7e4cd83d-3c7e-46fe-b0c7-fec02011626e</id>
+      <masked>false</masked>
+      <name>Pass</name>
+   </variable>
+   <variable>
+      <defaultValue>'20IN000267'</defaultValue>
+      <description>Update the Argus CAse ID here</description>
+      <id>8c5a974e-0df0-4b03-a5a4-b5fc88f4c62c</id>
+      <masked>false</masked>
+      <name>ARGUS_ID</name>
+   </variable>
+   <variable>
+      <defaultValue>'Other'</defaultValue>
+      <description></description>
+      <id>8472e585-6475-4072-97d5-eb3b40088bc8</id>
+      <masked>false</masked>
+      <name>Type</name>
+   </variable>
+</TestCaseEntity>

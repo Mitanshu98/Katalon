@@ -6,12 +6,11 @@
    <elementGuidId>97be4b42-3f3c-4f3a-980c-21ab311ea2c6</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//ul[@class='t-LinksList t-LinksList--showIcons']/descendant::span[text()='Product Management']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//ul[@class='t-LinksList t-LinksList--showIcons']/descendant::span[text()='Product management']</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

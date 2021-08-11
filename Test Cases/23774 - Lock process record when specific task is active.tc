@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>URS 05.75 : In this test case we are locking the record and Save button shall not be present to edit the record information (Read only)</description>
    <name>23774 - Lock process record when specific task is active</name>
-   <tag></tag>
+   <tag>URS 05.75 </tag>
    <comment></comment>
    <testCaseGuid>6a2f0197-30df-4cea-b5fc-13b0dfde9a1b</testCaseGuid>
    <variable>
