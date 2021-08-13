@@ -15,7 +15,7 @@
       <guid>f975823b-4dda-4d2f-993d-94439577be71</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Error/23547 - Whom and When (All)</testCaseId>
+      <testCaseId>Test Cases/23547 - Whom and When (All)</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>

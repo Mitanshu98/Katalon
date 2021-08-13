@@ -7,7 +7,7 @@
    <testCaseGuid>7c9c4bac-de81-43c0-bac3-4a04907e59d6</testCaseGuid>
    <variable>
       <defaultValue>'HALO.jpg'</defaultValue>
-      <description>File name with extension</description>
+      <description>File name with extension  be updated</description>
       <id>9c266f72-90c1-4d27-8bd6-5e9677584601</id>
       <masked>false</masked>
       <name>File</name>

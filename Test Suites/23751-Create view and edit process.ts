@@ -15,7 +15,7 @@
       <guid>0e5ad7d8-70db-4641-a436-ed897bfad2ba</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Error/23751-Create view and edit process</testCaseId>
+      <testCaseId>Test Cases/23751-Create view and edit process</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>

@@ -1,0 +1,21 @@
+{
+  "keywordFileContentHash": "78AAFF6227A7A536B45D90D144DCB14B",
+  "keywordClasses": [
+    {
+      "name": "Access_to_process_records",
+      "keywordMethods": [
+        {
+          "name": "Yes",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "No",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

@@ -15,7 +15,7 @@
       <guid>086e0cad-1d70-4503-b064-4c32ffde17cc</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Error/23552 - Case Handling - Spontaneous Drug</testCaseId>
+      <testCaseId>Test Cases/23552 - Case Handling - Spontaneous Drug</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>

@@ -15,7 +15,7 @@
       <guid>03376ef4-6753-48bd-9929-e15616c3c531</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Error/23551 - Case Handling - Solicited Drug</testCaseId>
+      <testCaseId>Test Cases/23551 - Case Handling - Solicited Drug</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -33,7 +33,7 @@
       <guid>32ecbcd2-8678-4b1e-aebd-97253327aa9d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Error/23549 - Case Handling - Clinical Drug</testCaseId>
+      <testCaseId>Test Cases/23549 - Case Handling - Clinical Drug</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -51,7 +51,7 @@
       <guid>7b600c7d-428c-4784-a3ad-ee393b28b143</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Error/23548 - Case Handling - Clinical Device</testCaseId>
+      <testCaseId>Test Cases/23548 - Case Handling - Clinical Device</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -69,7 +69,7 @@
       <guid>3634618d-0aed-494a-aebe-d09762f7bbe9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Error/23550 - Case Handling - Post Marketing Device</testCaseId>
+      <testCaseId>Test Cases/23550 - Case Handling - Post Marketing Device</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -87,7 +87,7 @@
       <guid>f9f8ee38-5156-4e52-9786-79f7166dcdf1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Error/23554 - Submission - Clinical Drug</testCaseId>
+      <testCaseId>Test Cases/23554 - Submission - Clinical Drug</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -105,7 +105,7 @@
       <guid>da67ae6a-3e89-4242-ab2d-bfe57cac910b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Error/23555 - Submission - Post Marketing Device</testCaseId>
+      <testCaseId>Test Cases/23555 - Submission - Post Marketing Device</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -123,7 +123,7 @@
       <guid>56a7b434-5897-4aed-a1ec-1d1618adde2d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Error/23556 - Submission - Solicited Drug</testCaseId>
+      <testCaseId>Test Cases/23556 - Submission - Solicited Drug</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -141,7 +141,7 @@
       <guid>24dddfde-0688-48c0-b0d9-81f2dd9a5398</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Error/23557 - Submission - Spontaneous Drug</testCaseId>
+      <testCaseId>Test Cases/23557 - Submission - Spontaneous Drug</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -159,7 +159,7 @@
       <guid>90703952-e35a-4448-9367-4aad6a99391c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Error/23553 - Submission - Clinical Device</testCaseId>
+      <testCaseId>Test Cases/23553 - Submission - Clinical Device</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>

@@ -1,0 +1,68 @@
+{
+  "keywordFileContentHash": "E77E0C81A82BD120F132148480C2CC78",
+  "keywordClasses": [
+    {
+      "name": "HALO",
+      "keywordMethods": [
+        {
+          "name": "HaloLogin",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "Logout",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "HaloMicrosoftLogin",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "HaloUserLogin",
+          "parameters": [
+            {
+              "name": "User",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "password",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        },
+        {
+          "name": "Updatereadonly",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "Record_Id",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

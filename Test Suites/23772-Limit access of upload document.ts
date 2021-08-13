@@ -15,7 +15,7 @@
       <guid>d0914a15-9cf1-4fc7-85ec-20b4e6f6f730</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Error/23772-Limit Access of uploaded document</testCaseId>
+      <testCaseId>Test Cases/23772-Limit Access of uploaded document</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>

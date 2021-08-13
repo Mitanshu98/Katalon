@@ -15,7 +15,7 @@
       <guid>252b3f1d-8f77-41ca-bd93-addb94d31df4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Error/23856-User not allowed to access unauthorized page by manual manipulation of URLs</testCaseId>
+      <testCaseId>Test Cases/23856-User not allowed to access unauthorized page by manual manipulation of URLs</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
