@@ -42,19 +42,19 @@ WebUI.click(findTestObject('HALO Front-End/Processes/Requirement Intelligence'))
 
 WebUI.waitForPageLoad(GlobalVariable.Timeout)
 
-WebUI.waitForElementVisible(findTestObject('Test Cases/Reports/Common Elements/SDMR'), GlobalVariable.Timeout)
+WebUI.waitForElementVisible(findTestObject('Test Cases/Common Elements_Reports/SDMR'), GlobalVariable.Timeout)
 
 WebUI.comment('Step 4')
 
-WebUI.click(findTestObject('Test Cases/Reports/Common Elements/SDMR'))
+WebUI.click(findTestObject('Test Cases/Common Elements_Reports/SDMR'))
 
 WebUI.waitForPageLoad(GlobalVariable.Timeout)
 
-WebUI.waitForElementVisible(findTestObject('Test Cases/Reports/PSUR Periodic reporting rules/Old recrd'), GlobalVariable.Timeout)
+WebUI.waitForElementVisible(findTestObject('Test Cases/PSUR Periodic reporting rules/Old recrd'), GlobalVariable.Timeout)
 
 WebUI.comment('Step 5')
 
-WebUI.click(findTestObject('Test Cases/Reports/PSUR Periodic reporting rules/New Record'))
+WebUI.click(findTestObject('Test Cases/PSUR Periodic reporting rules/New Record'))
 
 WebUI.waitForPageLoad(GlobalVariable.Timeout)
 
@@ -65,9 +65,9 @@ WebUI.waitForElementVisible(findTestObject('Test Cases/Entities and agreements/E
 
 WebUI.click(findTestObject('Test Cases/Entities and agreements/Entities and agreement form/More menu'))
 
-WebUI.waitForElementPresent(findTestObject('Test Cases/Reports/Common Elements/Record info aka Basic information'), GlobalVariable.Timeout)
+WebUI.waitForElementPresent(findTestObject('Test Cases/Common Elements_Reports/Record info aka Basic information'), GlobalVariable.Timeout)
 
-WebUI.click(findTestObject('Test Cases/Reports/Common Elements/Record info aka Basic information'))
+WebUI.click(findTestObject('Test Cases/Common Elements_Reports/Record info aka Basic information'))
 
 WebUI.waitForPageLoad(GlobalVariable.Timeout)
 
@@ -91,9 +91,9 @@ CustomKeywords.'reports.Record'()
 
 WebUI.takeScreenshot()
 
-WebUI.waitForElementVisible(findTestObject('Test Cases/Reports/Tabular Reports/SDMR'), GlobalVariable.Timeout)
+WebUI.waitForElementVisible(findTestObject('Test Cases/Tabular Reports/SDMR'), GlobalVariable.Timeout)
 
-WebUI.click(findTestObject('Test Cases/Reports/Tabular Reports/SDMR'))
+WebUI.click(findTestObject('Test Cases/Tabular Reports/SDMR'))
 
 WebUI.comment('Step 8,9,10,11 and 12')
 

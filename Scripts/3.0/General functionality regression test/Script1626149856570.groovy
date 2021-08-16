@@ -74,9 +74,9 @@ WebUI.click(findTestObject('Test Cases/Regression/ICSR processing'))
 
 WebUI.waitForPageLoad(GlobalVariable.Timeout)
 
-WebUI.waitForElementVisible(findTestObject('Test Cases/Reports/PSUR Periodic reporting rules/New Record'), GlobalVariable.Timeout)
+WebUI.waitForElementVisible(findTestObject('Test Cases/PSUR Periodic reporting rules/New Record'), GlobalVariable.Timeout)
 
-WebUI.click(findTestObject('Test Cases/Reports/PSUR Periodic reporting rules/New Record'))
+WebUI.click(findTestObject('Test Cases/PSUR Periodic reporting rules/New Record'))
 
 WebUI.waitForPageLoad(GlobalVariable.Timeout)
 
@@ -110,17 +110,17 @@ WebUI.comment('This is a verifying step for checking View/edit record form appea
 
 WebUI.takeScreenshot()
 
-WebUI.waitForElementVisible(findTestObject('Test Cases/Reports/Common Elements/1st Completed Task'), GlobalVariable.Timeout)
+WebUI.waitForElementVisible(findTestObject('Test Cases/Common Elements_Reports/1st Completed Task'), GlobalVariable.Timeout)
 
 WebUI.comment('Step 7')
 
-WebUI.click(findTestObject('Test Cases/Reports/Common Elements/1st Completed Task'))
+WebUI.click(findTestObject('Test Cases/Common Elements_Reports/1st Completed Task'))
 
 WebUI.waitForPageLoad(GlobalVariable.Timeout)
 
 WebUI.delay(GlobalVariable.Delay)
 
-WebUI.click(findTestObject('Test Cases/Reports/Common Elements/1st Completed Task'))
+WebUI.click(findTestObject('Test Cases/Common Elements_Reports/1st Completed Task'))
 
 WebUI.waitForPageLoad(GlobalVariable.Timeout)
 

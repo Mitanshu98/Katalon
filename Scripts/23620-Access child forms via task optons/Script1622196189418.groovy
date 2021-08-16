@@ -51,9 +51,9 @@ WebUI.waitForPageLoad(GlobalVariable.Timeout)
 
 WebUI.comment('Step 5')
 
-WebUI.waitForElementVisible(findTestObject('Test Cases/Reports/PSUR Periodic reporting rules/New Record'), GlobalVariable.Timeout)
+WebUI.waitForElementVisible(findTestObject('Test Cases/PSUR Periodic reporting rules/New Record'), GlobalVariable.Timeout)
 
-WebUI.click(findTestObject('Test Cases/Reports/PSUR Periodic reporting rules/New Record'))
+WebUI.click(findTestObject('Test Cases/PSUR Periodic reporting rules/New Record'))
 
 WebUI.waitForPageLoad(GlobalVariable.Timeout)
 
@@ -90,9 +90,9 @@ WebUI.takeScreenshot()
 WebUI.waitForPageLoad(GlobalVariable.Timeout)
 
 /*
-WebUI.waitForElementClickable(findTestObject('Test Cases/Reports/Common Elements/1st Completed Task'), GlobalVariable.Timeout)
+WebUI.waitForElementClickable(findTestObject('Test Cases/Common Elements_Reports/1st Completed Task'), GlobalVariable.Timeout)
 
-WebUI.click(findTestObject('Test Cases/Reports/Common Elements/1st Completed Task'))
+WebUI.click(findTestObject('Test Cases/Common Elements_Reports/1st Completed Task'))
 
 WebUI.waitForPageLoad(GlobalVariable.Timeout)
 */

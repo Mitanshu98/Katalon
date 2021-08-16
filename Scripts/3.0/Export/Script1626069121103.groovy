@@ -102,7 +102,7 @@ WebUI.waitForPageLoad(GlobalVariable.Timeout)
 
 WebUI.delay(GlobalVariable.Delay)
 
-WebUI.click(findTestObject('Test Cases/Reports/Tabular Reports/Download button'))
+WebUI.click(findTestObject('Test Cases/Tabular Reports/Download button'))
 
 WebUI.comment('This is a verifyinhg step for checking the CSV file is downloaded.')
 

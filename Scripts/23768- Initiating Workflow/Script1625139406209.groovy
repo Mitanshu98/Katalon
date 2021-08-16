@@ -51,11 +51,11 @@ WebUI.click(findTestObject('Test Cases/Access child form via Task option/Entites
 
 WebUI.waitForPageLoad(GlobalVariable.Timeout)
 
-WebUI.waitForElementVisible(findTestObject('Test Cases/Reports/PSUR Periodic reporting rules/New Record'), GlobalVariable.Timeout)
+WebUI.waitForElementVisible(findTestObject('Test Cases/PSUR Periodic reporting rules/New Record'), GlobalVariable.Timeout)
 
 WebUI.comment('Step 5')
 
-WebUI.click(findTestObject('Test Cases/Reports/PSUR Periodic reporting rules/New Record'))
+WebUI.click(findTestObject('Test Cases/PSUR Periodic reporting rules/New Record'))
 
 WebUI.switchToFrame(findTestObject('HALO Front-End/Common Elements/Iframe(5)'), GlobalVariable.Timeout)
 
@@ -91,9 +91,9 @@ WebUI.click(findTestObject('Test Cases/Add, Delete and Attachment/Comp and forwa
 
 WebUI.waitForPageLoad(GlobalVariable.Timeout)
 
-WebUI.waitForElementVisible(findTestObject('Test Cases/Reports/Common Elements/1st Completed Task'), GlobalVariable.Timeout)
+WebUI.waitForElementVisible(findTestObject('Test Cases/Common Elements_Reports/1st Completed Task'), GlobalVariable.Timeout)
 
-WebUI.click(findTestObject('Test Cases/Reports/Common Elements/1st Completed Task'))
+WebUI.click(findTestObject('Test Cases/Common Elements_Reports/1st Completed Task'))
 
 WebUI.waitForPageLoad(GlobalVariable.Timeout)
 

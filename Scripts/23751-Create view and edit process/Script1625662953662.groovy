@@ -49,11 +49,11 @@ WebUI.click(findTestObject('Test Cases/Access child form via Task option/Entites
 
 WebUI.waitForPageLoad(GlobalVariable.Timeout)
 
-WebUI.waitForElementVisible(findTestObject('Test Cases/Reports/PSUR Periodic reporting rules/New Record'), GlobalVariable.Timeout)
+WebUI.waitForElementVisible(findTestObject('Test Cases/PSUR Periodic reporting rules/New Record'), GlobalVariable.Timeout)
 
 WebUI.comment('Step 5')
 
-WebUI.click(findTestObject('Test Cases/Reports/PSUR Periodic reporting rules/New Record'))
+WebUI.click(findTestObject('Test Cases/PSUR Periodic reporting rules/New Record'))
 
 WebUI.waitForPageLoad(GlobalVariable.Timeout)
 
@@ -64,9 +64,9 @@ WebUI.waitForElementVisible(findTestObject('Test Cases/Entities and agreements/E
 
 WebUI.click(findTestObject('Test Cases/Entities and agreements/Entities and agreement form/More menu'))
 
-WebUI.waitForElementPresent(findTestObject('Test Cases/Reports/Common Elements/Record info aka Basic information'), GlobalVariable.Timeout)
+WebUI.waitForElementPresent(findTestObject('Test Cases/Common Elements_Reports/Record info aka Basic information'), GlobalVariable.Timeout)
 
-WebUI.click(findTestObject('Test Cases/Reports/Common Elements/Record info aka Basic information'))
+WebUI.click(findTestObject('Test Cases/Common Elements_Reports/Record info aka Basic information'))
 
 WebUI.waitForPageLoad(GlobalVariable.Timeout)
 

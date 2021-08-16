@@ -29,33 +29,33 @@ public class reports {
 
 		WebUI.takeFullPageScreenshot()
 
-		WebUI.switchToFrame(findTestObject('Test Cases/Reports/Tabular Reports/Iframe(2)'), 2)
+		WebUI.switchToFrame(findTestObject('Test Cases/Tabular Reports/Iframe(2)'), 2)
 
-		WebUI.click(findTestObject('Test Cases/Reports/Tabular Reports/Action'))
+		WebUI.click(findTestObject('Test Cases/Tabular Reports/Action'))
 
-		WebUI.waitForElementClickable(findTestObject('Test Cases/Reports/Tabular Reports/Download'), GlobalVariable.Timeout)
+		WebUI.waitForElementClickable(findTestObject('Test Cases/Tabular Reports/Download'), GlobalVariable.Timeout)
 
-		WebUI.click(findTestObject('Test Cases/Reports/Tabular Reports/Download'))
+		WebUI.click(findTestObject('Test Cases/Tabular Reports/Download'))
 
 		WebUI.waitForPageLoad(GlobalVariable.Timeout)
 
-		WebUI.waitForElementVisible(findTestObject('Test Cases/Reports/Tabular Reports/CSV'), GlobalVariable.Timeout)
+		WebUI.waitForElementVisible(findTestObject('Test Cases/Tabular Reports/CSV'), GlobalVariable.Timeout)
 
-		WebUI.click(findTestObject('Test Cases/Reports/Tabular Reports/CSV'))
+		WebUI.click(findTestObject('Test Cases/Tabular Reports/CSV'))
 
 		WebUI.delay(GlobalVariable.Delay)
 
-		WebUI.click(findTestObject('Test Cases/Reports/Tabular Reports/Download button'))
+		WebUI.click(findTestObject('Test Cases/Tabular Reports/Download button'))
 
-		WebUI.click(findTestObject('Test Cases/Reports/Tabular Reports/Cancel Button'))
+		WebUI.click(findTestObject('Test Cases/Tabular Reports/Cancel Button'))
 
 		WebUI.waitForPageLoad(GlobalVariable.Timeout)
 
 		WebUI.switchToDefaultContent()
 
-		WebUI.waitForElementClickable(findTestObject('Test Cases/Reports/Tabular Reports/tabular record close'), GlobalVariable.Timeout)
+		WebUI.waitForElementClickable(findTestObject('Test Cases/Tabular Reports/tabular record close'), GlobalVariable.Timeout)
 
-		WebUI.click(findTestObject('Test Cases/Reports/Tabular Reports/tabular record close'))
+		WebUI.click(findTestObject('Test Cases/Tabular Reports/tabular record close'))
 
 		WebUI.delay(GlobalVariable.Delay)
 	}
@@ -63,25 +63,25 @@ public class reports {
 	public void Record(){
 		WebUI.waitForPageLoad(GlobalVariable.Timeout)
 
-		WebUI.waitForElementClickable(findTestObject('Test Cases/Reports/Common Elements/1st Completed Task'), GlobalVariable.Timeout)
+		WebUI.waitForElementClickable(findTestObject('Test Cases/Common Elements_Reports/1st Completed Task'), GlobalVariable.Timeout)
 
-		WebUI.click(findTestObject('Test Cases/Reports/Common Elements/1st Completed Task'))
-
-		WebUI.waitForPageLoad(GlobalVariable.Timeout)
-
-		WebUI.delay(GlobalVariable.Delay)
-
-		WebUI.waitForElementClickable(findTestObject('Test Cases/Reports/Common Elements/1st Completed Task'), GlobalVariable.Timeout)
-
-		WebUI.click(findTestObject('Test Cases/Reports/Common Elements/1st Completed Task'))
+		WebUI.click(findTestObject('Test Cases/Common Elements_Reports/1st Completed Task'))
 
 		WebUI.waitForPageLoad(GlobalVariable.Timeout)
 
 		WebUI.delay(GlobalVariable.Delay)
 
-		WebUI.waitForElementClickable(findTestObject('Test Cases/Reports/Common Elements/1st Completed Task'), GlobalVariable.Timeout)
+		WebUI.waitForElementClickable(findTestObject('Test Cases/Common Elements_Reports/1st Completed Task'), GlobalVariable.Timeout)
 
-		WebUI.click(findTestObject('Test Cases/Reports/Common Elements/1st Completed Task'))
+		WebUI.click(findTestObject('Test Cases/Common Elements_Reports/1st Completed Task'))
+
+		WebUI.waitForPageLoad(GlobalVariable.Timeout)
+
+		WebUI.delay(GlobalVariable.Delay)
+
+		WebUI.waitForElementClickable(findTestObject('Test Cases/Common Elements_Reports/1st Completed Task'), GlobalVariable.Timeout)
+
+		WebUI.click(findTestObject('Test Cases/Common Elements_Reports/1st Completed Task'))
 
 		WebUI.waitForPageLoad(GlobalVariable.Timeout)
 
@@ -107,9 +107,9 @@ public class reports {
 
 		WebUI.waitForPageLoad(GlobalVariable.Timeout)
 
-		WebUI.waitForElementClickable(findTestObject('Test Cases/Reports/Tabular Reports/Requirements Dropdown'), GlobalVariable.Timeout)
+		WebUI.waitForElementClickable(findTestObject('Test Cases/Tabular Reports/Requirements Dropdown'), GlobalVariable.Timeout)
 
-		WebUI.click(findTestObject('Test Cases/Reports/Tabular Reports/Requirements Dropdown'))
+		WebUI.click(findTestObject('Test Cases/Tabular Reports/Requirements Dropdown'))
 
 		WebUI.delay(GlobalVariable.Delay)
 	}
@@ -119,41 +119,41 @@ public class reports {
 
 		WebUI.delay(GlobalVariable.Delay)
 
-		WebUI.switchToFrame(findTestObject('Test Cases/Reports/Tabular Reports/Iframe(2)'), 2)
+		WebUI.switchToFrame(findTestObject('Test Cases/Tabular Reports/Iframe(2)'), 2)
 
 		WebUI.comment('This is a verify step for checking the HALO reports shall be displayed')
 
 		WebUI.takeFullPageScreenshot()
 
-		WebUI.scrollToElement(findTestObject('Test Cases/Reports/Tabular Reports/Scroll Element/PSUR'), GlobalVariable.Timeout)
+		WebUI.scrollToElement(findTestObject('Test Cases/Tabular Reports/Scroll Element/PSUR'), GlobalVariable.Timeout)
 
 		WebUI.takeFullPageScreenshot()
 
-		WebUI.click(findTestObject('Test Cases/Reports/Tabular Reports/Action'))
+		WebUI.click(findTestObject('Test Cases/Tabular Reports/Action'))
 
-		WebUI.waitForElementClickable(findTestObject('Test Cases/Reports/Tabular Reports/Download'), GlobalVariable.Timeout)
+		WebUI.waitForElementClickable(findTestObject('Test Cases/Tabular Reports/Download'), GlobalVariable.Timeout)
 
-		WebUI.click(findTestObject('Test Cases/Reports/Tabular Reports/Download'))
+		WebUI.click(findTestObject('Test Cases/Tabular Reports/Download'))
 
 		WebUI.waitForPageLoad(GlobalVariable.Timeout)
 
-		WebUI.waitForElementVisible(findTestObject('Test Cases/Reports/Tabular Reports/CSV'), GlobalVariable.Timeout)
+		WebUI.waitForElementVisible(findTestObject('Test Cases/Tabular Reports/CSV'), GlobalVariable.Timeout)
 
-		WebUI.click(findTestObject('Test Cases/Reports/Tabular Reports/CSV'))
+		WebUI.click(findTestObject('Test Cases/Tabular Reports/CSV'))
 
 		WebUI.delay(GlobalVariable.Delay)
 
-		WebUI.click(findTestObject('Test Cases/Reports/Tabular Reports/Download button'))
+		WebUI.click(findTestObject('Test Cases/Tabular Reports/Download button'))
 
-		WebUI.click(findTestObject('Test Cases/Reports/Tabular Reports/Cancel Button'))
+		WebUI.click(findTestObject('Test Cases/Tabular Reports/Cancel Button'))
 
 		WebUI.waitForPageLoad(GlobalVariable.Timeout)
 
 		WebUI.switchToDefaultContent()
 
-		WebUI.waitForElementClickable(findTestObject('Test Cases/Reports/Tabular Reports/tabular record close'), GlobalVariable.Timeout)
+		WebUI.waitForElementClickable(findTestObject('Test Cases/Tabular Reports/tabular record close'), GlobalVariable.Timeout)
 
-		WebUI.click(findTestObject('Test Cases/Reports/Tabular Reports/tabular record close'))
+		WebUI.click(findTestObject('Test Cases/Tabular Reports/tabular record close'))
 
 		WebUI.delay(GlobalVariable.Delay)
 	}
@@ -163,41 +163,41 @@ public class reports {
 
 		WebUI.delay(GlobalVariable.Delay)
 
-		WebUI.switchToFrame(findTestObject('Test Cases/Reports/Tabular Reports/Iframe(2)'), 2)
+		WebUI.switchToFrame(findTestObject('Test Cases/Tabular Reports/Iframe(2)'), 2)
 
 		WebUI.comment('This is a verify step for checking the HALO reports shall be displayed')
 
 		WebUI.takeFullPageScreenshot()
 
-		WebUI.scrollToElement(findTestObject('Test Cases/Reports/Tabular Reports/Scroll Element/DSUR_2'), GlobalVariable.Timeout)
+		WebUI.scrollToElement(findTestObject('Test Cases/Tabular Reports/Scroll Element/DSUR_2'), GlobalVariable.Timeout)
 
 		WebUI.takeFullPageScreenshot()
 
-		WebUI.click(findTestObject('Test Cases/Reports/Tabular Reports/Action'))
+		WebUI.click(findTestObject('Test Cases/Tabular Reports/Action'))
 
-		WebUI.waitForElementClickable(findTestObject('Test Cases/Reports/Tabular Reports/Download'), GlobalVariable.Timeout)
+		WebUI.waitForElementClickable(findTestObject('Test Cases/Tabular Reports/Download'), GlobalVariable.Timeout)
 
-		WebUI.click(findTestObject('Test Cases/Reports/Tabular Reports/Download'))
+		WebUI.click(findTestObject('Test Cases/Tabular Reports/Download'))
 
 		WebUI.waitForPageLoad(GlobalVariable.Timeout)
 
-		WebUI.waitForElementVisible(findTestObject('Test Cases/Reports/Tabular Reports/CSV'), GlobalVariable.Timeout)
+		WebUI.waitForElementVisible(findTestObject('Test Cases/Tabular Reports/CSV'), GlobalVariable.Timeout)
 
-		WebUI.click(findTestObject('Test Cases/Reports/Tabular Reports/CSV'))
+		WebUI.click(findTestObject('Test Cases/Tabular Reports/CSV'))
 
 		WebUI.delay(GlobalVariable.Delay)
 
-		WebUI.click(findTestObject('Test Cases/Reports/Tabular Reports/Download button'))
+		WebUI.click(findTestObject('Test Cases/Tabular Reports/Download button'))
 
-		WebUI.click(findTestObject('Test Cases/Reports/Tabular Reports/Cancel Button'))
+		WebUI.click(findTestObject('Test Cases/Tabular Reports/Cancel Button'))
 
 		WebUI.waitForPageLoad(GlobalVariable.Timeout)
 
 		WebUI.switchToDefaultContent()
 
-		WebUI.waitForElementClickable(findTestObject('Test Cases/Reports/Tabular Reports/tabular record close'), GlobalVariable.Timeout)
+		WebUI.waitForElementClickable(findTestObject('Test Cases/Tabular Reports/tabular record close'), GlobalVariable.Timeout)
 
-		WebUI.click(findTestObject('Test Cases/Reports/Tabular Reports/tabular record close'))
+		WebUI.click(findTestObject('Test Cases/Tabular Reports/tabular record close'))
 
 		WebUI.delay(GlobalVariable.Delay)
 	}
@@ -207,45 +207,45 @@ public class reports {
 
 		WebUI.delay(GlobalVariable.Delay)
 
-		WebUI.switchToFrame(findTestObject('Test Cases/Reports/Tabular Reports/Iframe(2)'), 2)
+		WebUI.switchToFrame(findTestObject('Test Cases/Tabular Reports/Iframe(2)'), 2)
 
 		WebUI.comment('This is a verify step for checking the HALO reports shall be displayed')
 
 		WebUI.takeFullPageScreenshot()
 
-		WebUI.scrollToElement(findTestObject('Test Cases/Reports/Tabular Reports/Scroll Element/Signal_1'), GlobalVariable.Timeout)
+		WebUI.scrollToElement(findTestObject('Test Cases/Tabular Reports/Scroll Element/Signal_1'), GlobalVariable.Timeout)
 
 		WebUI.takeFullPageScreenshot()
 
-		WebUI.scrollToElement(findTestObject('Test Cases/Reports/Tabular Reports/Scroll Element/Signal_2'), GlobalVariable.Timeout)
+		WebUI.scrollToElement(findTestObject('Test Cases/Tabular Reports/Scroll Element/Signal_2'), GlobalVariable.Timeout)
 
 		WebUI.takeFullPageScreenshot()
 
-		WebUI.click(findTestObject('Test Cases/Reports/Tabular Reports/Action'))
+		WebUI.click(findTestObject('Test Cases/Tabular Reports/Action'))
 
-		WebUI.waitForElementClickable(findTestObject('Test Cases/Reports/Tabular Reports/Download'), GlobalVariable.Timeout)
+		WebUI.waitForElementClickable(findTestObject('Test Cases/Tabular Reports/Download'), GlobalVariable.Timeout)
 
-		WebUI.click(findTestObject('Test Cases/Reports/Tabular Reports/Download'))
+		WebUI.click(findTestObject('Test Cases/Tabular Reports/Download'))
 
 		WebUI.waitForPageLoad(GlobalVariable.Timeout)
 
-		WebUI.waitForElementVisible(findTestObject('Test Cases/Reports/Tabular Reports/CSV'), GlobalVariable.Timeout)
+		WebUI.waitForElementVisible(findTestObject('Test Cases/Tabular Reports/CSV'), GlobalVariable.Timeout)
 
-		WebUI.click(findTestObject('Test Cases/Reports/Tabular Reports/CSV'))
+		WebUI.click(findTestObject('Test Cases/Tabular Reports/CSV'))
 
 		WebUI.delay(GlobalVariable.Delay)
 
-		WebUI.click(findTestObject('Test Cases/Reports/Tabular Reports/Download button'))
+		WebUI.click(findTestObject('Test Cases/Tabular Reports/Download button'))
 
-		WebUI.click(findTestObject('Test Cases/Reports/Tabular Reports/Cancel Button'))
+		WebUI.click(findTestObject('Test Cases/Tabular Reports/Cancel Button'))
 
 		WebUI.waitForPageLoad(GlobalVariable.Timeout)
 
 		WebUI.switchToDefaultContent()
 
-		WebUI.waitForElementClickable(findTestObject('Test Cases/Reports/Tabular Reports/tabular record close'), GlobalVariable.Timeout)
+		WebUI.waitForElementClickable(findTestObject('Test Cases/Tabular Reports/tabular record close'), GlobalVariable.Timeout)
 
-		WebUI.click(findTestObject('Test Cases/Reports/Tabular Reports/tabular record close'))
+		WebUI.click(findTestObject('Test Cases/Tabular Reports/tabular record close'))
 
 		WebUI.delay(GlobalVariable.Delay)
 	}
@@ -255,41 +255,41 @@ public class reports {
 
 		WebUI.delay(GlobalVariable.Delay)
 
-		WebUI.switchToFrame(findTestObject('Test Cases/Reports/Tabular Reports/Iframe(2)'), 2)
+		WebUI.switchToFrame(findTestObject('Test Cases/Tabular Reports/Iframe(2)'), 2)
 
 		WebUI.comment('This is a verify step for checking the HALO reports shall be displayed')
 
 		WebUI.takeFullPageScreenshot()
 
-		WebUI.scrollToElement(findTestObject('Test Cases/Reports/Tabular Reports/Scroll Element/OEO_1'), GlobalVariable.Timeout)
+		WebUI.scrollToElement(findTestObject('Test Cases/Tabular Reports/Scroll Element/OEO_1'), GlobalVariable.Timeout)
 
 		WebUI.takeFullPageScreenshot()
 
-		WebUI.click(findTestObject('Test Cases/Reports/Tabular Reports/Action'))
+		WebUI.click(findTestObject('Test Cases/Tabular Reports/Action'))
 
-		WebUI.waitForElementClickable(findTestObject('Test Cases/Reports/Tabular Reports/Download'), GlobalVariable.Timeout)
+		WebUI.waitForElementClickable(findTestObject('Test Cases/Tabular Reports/Download'), GlobalVariable.Timeout)
 
-		WebUI.click(findTestObject('Test Cases/Reports/Tabular Reports/Download'))
+		WebUI.click(findTestObject('Test Cases/Tabular Reports/Download'))
 
 		WebUI.waitForPageLoad(GlobalVariable.Timeout)
 
-		WebUI.waitForElementVisible(findTestObject('Test Cases/Reports/Tabular Reports/CSV'), GlobalVariable.Timeout)
+		WebUI.waitForElementVisible(findTestObject('Test Cases/Tabular Reports/CSV'), GlobalVariable.Timeout)
 
-		WebUI.click(findTestObject('Test Cases/Reports/Tabular Reports/CSV'))
+		WebUI.click(findTestObject('Test Cases/Tabular Reports/CSV'))
 
 		WebUI.delay(GlobalVariable.Delay)
 
-		WebUI.click(findTestObject('Test Cases/Reports/Tabular Reports/Download button'))
+		WebUI.click(findTestObject('Test Cases/Tabular Reports/Download button'))
 
-		WebUI.click(findTestObject('Test Cases/Reports/Tabular Reports/Cancel Button'))
+		WebUI.click(findTestObject('Test Cases/Tabular Reports/Cancel Button'))
 
 		WebUI.waitForPageLoad(GlobalVariable.Timeout)
 
 		WebUI.switchToDefaultContent()
 
-		WebUI.waitForElementClickable(findTestObject('Test Cases/Reports/Tabular Reports/tabular record close'), GlobalVariable.Timeout)
+		WebUI.waitForElementClickable(findTestObject('Test Cases/Tabular Reports/tabular record close'), GlobalVariable.Timeout)
 
-		WebUI.click(findTestObject('Test Cases/Reports/Tabular Reports/tabular record close'))
+		WebUI.click(findTestObject('Test Cases/Tabular Reports/tabular record close'))
 
 		WebUI.delay(GlobalVariable.Delay)
 	}

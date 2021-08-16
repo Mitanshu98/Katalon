@@ -40,17 +40,17 @@ WebUI.click(findTestObject('HALO Front-End/Processes/Requirement Intelligence'))
 
 WebUI.waitForPageLoad(GlobalVariable.Timeout)
 
-WebUI.waitForElementVisible(findTestObject('Test Cases/Reports/Common Elements/SUSAR'), GlobalVariable.Timeout)
+WebUI.waitForElementVisible(findTestObject('Test Cases/Common Elements_Reports/SUSAR'), GlobalVariable.Timeout)
 
 WebUI.comment('Step 4')
 
-WebUI.click(findTestObject('Test Cases/Reports/Common Elements/SUSAR'))
+WebUI.click(findTestObject('Test Cases/Common Elements_Reports/SUSAR'))
 
 WebUI.waitForPageLoad(GlobalVariable.Timeout)
 
-WebUI.waitForElementVisible(findTestObject('Test Cases/Reports/PSUR Periodic reporting rules/New Record'), GlobalVariable.Timeout)
+WebUI.waitForElementVisible(findTestObject('Test Cases/PSUR Periodic reporting rules/New Record'), GlobalVariable.Timeout)
 
-WebUI.click(findTestObject('Test Cases/Reports/PSUR Periodic reporting rules/New Record'))
+WebUI.click(findTestObject('Test Cases/PSUR Periodic reporting rules/New Record'))
 
 WebUI.waitForPageLoad(GlobalVariable.Timeout)
 
@@ -61,9 +61,9 @@ WebUI.waitForElementVisible(findTestObject('Test Cases/Entities and agreements/E
 
 WebUI.click(findTestObject('Test Cases/Entities and agreements/Entities and agreement form/More menu'))
 
-WebUI.waitForElementPresent(findTestObject('Test Cases/Reports/Common Elements/Record info aka Basic information'), GlobalVariable.Timeout)
+WebUI.waitForElementPresent(findTestObject('Test Cases/Common Elements_Reports/Record info aka Basic information'), GlobalVariable.Timeout)
 
-WebUI.click(findTestObject('Test Cases/Reports/Common Elements/Record info aka Basic information'))
+WebUI.click(findTestObject('Test Cases/Common Elements_Reports/Record info aka Basic information'))
 
 WebUI.waitForPageLoad(GlobalVariable.Timeout)
 
@@ -87,23 +87,23 @@ WebUI.comment('This is a verify step for checking the record is created.')
 
 WebUI.takeScreenshot()
 
-WebUI.waitForElementClickable(findTestObject('Test Cases/Reports/PSUR Periodic reporting rules/Periodic form'), GlobalVariable.Timeout)
+WebUI.waitForElementClickable(findTestObject('Test Cases/PSUR Periodic reporting rules/Periodic form'), GlobalVariable.Timeout)
 
-WebUI.click(findTestObject('Test Cases/Reports/PSUR Periodic reporting rules/Periodic form'))
+WebUI.click(findTestObject('Test Cases/PSUR Periodic reporting rules/Periodic form'))
 
 WebUI.waitForPageLoad(GlobalVariable.Timeout)
 
 WebUI.comment('Step 6')
 
-WebUI.selectOptionByLabel(findTestObject('Test Cases/Reports/SUSAR/Country'), Country, false)
+WebUI.selectOptionByLabel(findTestObject('Test Cases/SUSAR/Country'), Country, false)
 
 WebUI.delay(GlobalVariable.Delay)
 
-WebUI.check(findTestObject('Test Cases/Reports/SUSAR/Is perioic SUSAR required'))
+WebUI.check(findTestObject('Test Cases/SUSAR/Is perioic SUSAR required'))
 
 WebUI.delay(GlobalVariable.Delay)
 
-WebUI.click(findTestObject('Test Cases/Reports/Common Elements/Save form'))
+WebUI.click(findTestObject('Test Cases/Common Elements_Reports/Save form'))
 
 WebUI.delay(GlobalVariable.Delay)
 
@@ -111,11 +111,11 @@ WebUI.comment('This is a verify step for checking the SUSAR form shall be displa
 
 WebUI.takeScreenshot()
 
-WebUI.waitForElementClickable(findTestObject('Test Cases/Reports/Common Elements/Return Form'), GlobalVariable.Timeout)
+WebUI.waitForElementClickable(findTestObject('Test Cases/Common Elements_Reports/Return Form'), GlobalVariable.Timeout)
 
 WebUI.comment('Step 7')
 
-WebUI.click(findTestObject('Test Cases/Reports/Common Elements/Return Form'))
+WebUI.click(findTestObject('Test Cases/Common Elements_Reports/Return Form'))
 
 WebUI.comment('Step 8 and 9')
 
@@ -125,9 +125,9 @@ WebUI.comment('This is a verify step for checking the Tabular reports shall be d
 
 WebUI.takeScreenshot()
 
-WebUI.waitForElementVisible(findTestObject('Test Cases/Reports/Tabular Reports/SUSAR'), GlobalVariable.Timeout)
+WebUI.waitForElementVisible(findTestObject('Test Cases/Tabular Reports/SUSAR'), GlobalVariable.Timeout)
 
-WebUI.click(findTestObject('Test Cases/Reports/Tabular Reports/SUSAR'))
+WebUI.click(findTestObject('Test Cases/Tabular Reports/SUSAR'))
 
 WebUI.comment('Step 11,12,13 and 15')
 

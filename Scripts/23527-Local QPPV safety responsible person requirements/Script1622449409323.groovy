@@ -40,17 +40,17 @@ WebUI.click(findTestObject('HALO Front-End/Processes/Requirement Intelligence'))
 
 WebUI.waitForPageLoad(GlobalVariable.Timeout)
 
-WebUI.waitForElementVisible(findTestObject('Test Cases/Reports/Common Elements/Local QPPV'), GlobalVariable.Timeout)
+WebUI.waitForElementVisible(findTestObject('Test Cases/Common Elements_Reports/Local QPPV'), GlobalVariable.Timeout)
 
 WebUI.comment('Step 4')
 
-WebUI.click(findTestObject('Test Cases/Reports/Common Elements/Local QPPV'))
+WebUI.click(findTestObject('Test Cases/Common Elements_Reports/Local QPPV'))
 
 WebUI.waitForPageLoad(GlobalVariable.Timeout)
 
-WebUI.waitForElementVisible(findTestObject('Test Cases/Reports/PSUR Periodic reporting rules/New Record'), GlobalVariable.Timeout)
+WebUI.waitForElementVisible(findTestObject('Test Cases/PSUR Periodic reporting rules/New Record'), GlobalVariable.Timeout)
 
-WebUI.click(findTestObject('Test Cases/Reports/PSUR Periodic reporting rules/New Record'))
+WebUI.click(findTestObject('Test Cases/PSUR Periodic reporting rules/New Record'))
 
 WebUI.waitForPageLoad(GlobalVariable.Timeout)
 
@@ -63,9 +63,9 @@ WebUI.comment('Step 5')
 
 WebUI.click(findTestObject('Test Cases/Entities and agreements/Entities and agreement form/More menu'))
 
-WebUI.waitForElementPresent(findTestObject('Test Cases/Reports/Common Elements/Record info aka Basic information'), GlobalVariable.Timeout)
+WebUI.waitForElementPresent(findTestObject('Test Cases/Common Elements_Reports/Record info aka Basic information'), GlobalVariable.Timeout)
 
-WebUI.click(findTestObject('Test Cases/Reports/Common Elements/Record info aka Basic information'))
+WebUI.click(findTestObject('Test Cases/Common Elements_Reports/Record info aka Basic information'))
 
 WebUI.waitForPageLoad(GlobalVariable.Timeout)
 
@@ -85,21 +85,21 @@ WebUI.comment('This is a verify step for checking the Local OPPV/Safety record s
 
 WebUI.takeFullPageScreenshot()
 
-WebUI.waitForElementClickable(findTestObject('Test Cases/Reports/QPPV/QPPV Form'), GlobalVariable.Timeout, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.waitForElementClickable(findTestObject('Test Cases/QPPV/QPPV Form'), GlobalVariable.Timeout, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.comment('Step 6')
 
-WebUI.click(findTestObject('Test Cases/Reports/QPPV/QPPV Form'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('Test Cases/QPPV/QPPV Form'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.waitForPageLoad(GlobalVariable.Timeout, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('Test Cases/Reports/QPPV/COUNTRY'), GlobalVariable.Timeout, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.waitForElementVisible(findTestObject('Test Cases/QPPV/COUNTRY'), GlobalVariable.Timeout, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.selectOptionByLabel(findTestObject('Test Cases/Reports/QPPV/COUNTRY'), Country, false, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.selectOptionByLabel(findTestObject('Test Cases/QPPV/COUNTRY'), Country, false, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.selectOptionByLabel(findTestObject('Test Cases/Reports/QPPV/Is qualified person required'), Person, false, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.selectOptionByLabel(findTestObject('Test Cases/QPPV/Is qualified person required'), Person, false, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Test Cases/Reports/QPPV/Save QPPv form'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('Test Cases/QPPV/Save QPPv form'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.delay(GlobalVariable.Delay, FailureHandling.CONTINUE_ON_FAILURE)
 
@@ -109,9 +109,9 @@ WebUI.takeFullPageScreenshot()
 
 WebUI.delay(GlobalVariable.Delay, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForElementClickable(findTestObject('Test Cases/Reports/QPPV/Qppv form return'), GlobalVariable.Timeout, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.waitForElementClickable(findTestObject('Test Cases/QPPV/Qppv form return'), GlobalVariable.Timeout, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Test Cases/Reports/QPPV/Qppv form return'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('Test Cases/QPPV/Qppv form return'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.waitForPageLoad(GlobalVariable.Timeout)
 
@@ -123,9 +123,9 @@ WebUI.comment('This is a verify step for checking the Tabular reports shall be d
 
 WebUI.takeScreenshot()
 
-WebUI.waitForElementVisible(findTestObject('Test Cases/Reports/Tabular Reports/QPPV'), GlobalVariable.Timeout)
+WebUI.waitForElementVisible(findTestObject('Test Cases/Tabular Reports/QPPV'), GlobalVariable.Timeout)
 
-WebUI.click(findTestObject('Test Cases/Reports/Tabular Reports/QPPV'))
+WebUI.click(findTestObject('Test Cases/Tabular Reports/QPPV'))
 
 WebUI.comment('Step 10,11,12,13,14 and 15')
 

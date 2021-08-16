@@ -42,17 +42,17 @@ WebUI.click(findTestObject('HALO Front-End/Processes/Requirement Intelligence'))
 
 WebUI.waitForPageLoad(GlobalVariable.Timeout)
 
-WebUI.waitForElementVisible(findTestObject('Test Cases/Reports/Common Elements/Whom and When'), GlobalVariable.Timeout)
+WebUI.waitForElementVisible(findTestObject('Test Cases/Common Elements_Reports/Whom and When'), GlobalVariable.Timeout)
 
 WebUI.comment('Step 4')
 
-WebUI.click(findTestObject('Test Cases/Reports/Common Elements/Whom and When'))
+WebUI.click(findTestObject('Test Cases/Common Elements_Reports/Whom and When'))
 
 WebUI.waitForPageLoad(GlobalVariable.Timeout)
 
-WebUI.waitForElementVisible(findTestObject('Test Cases/Reports/PSUR Periodic reporting rules/New Record'), GlobalVariable.Timeout)
+WebUI.waitForElementVisible(findTestObject('Test Cases/PSUR Periodic reporting rules/New Record'), GlobalVariable.Timeout)
 
-WebUI.click(findTestObject('Test Cases/Reports/PSUR Periodic reporting rules/New Record'))
+WebUI.click(findTestObject('Test Cases/PSUR Periodic reporting rules/New Record'))
 
 WebUI.waitForPageLoad(GlobalVariable.Timeout)
 
@@ -63,11 +63,11 @@ WebUI.waitForElementVisible(findTestObject('Test Cases/Entities and agreements/E
 
 WebUI.click(findTestObject('Test Cases/Entities and agreements/Entities and agreement form/More menu'))
 
-WebUI.waitForElementPresent(findTestObject('Test Cases/Reports/Common Elements/Record info aka Basic information'), GlobalVariable.Timeout)
+WebUI.waitForElementPresent(findTestObject('Test Cases/Common Elements_Reports/Record info aka Basic information'), GlobalVariable.Timeout)
 
 WebUI.comment('Step 5')
 
-WebUI.click(findTestObject('Test Cases/Reports/Common Elements/Record info aka Basic information'))
+WebUI.click(findTestObject('Test Cases/Common Elements_Reports/Record info aka Basic information'))
 
 WebUI.waitForPageLoad(GlobalVariable.Timeout)
 
@@ -104,83 +104,83 @@ WebUI.comment('This is a verifying step for checking ICSR requirements details f
 
 WebUI.takeScreenshot()
 
-WebUI.waitForElementClickable(findTestObject('Test Cases/Reports/PSUR Periodic reporting rules/Periodic form'), GlobalVariable.Timeout)
+WebUI.waitForElementClickable(findTestObject('Test Cases/PSUR Periodic reporting rules/Periodic form'), GlobalVariable.Timeout)
 
 WebUI.comment('Step 6')
 
-WebUI.click(findTestObject('Test Cases/Reports/PSUR Periodic reporting rules/Periodic form'))
+WebUI.click(findTestObject('Test Cases/PSUR Periodic reporting rules/Periodic form'))
 
 WebUI.waitForPageLoad(GlobalVariable.Timeout)
 
-WebUI.waitForElementVisible(findTestObject('Test Cases/Reports/Whom and When/Country/Country'), GlobalVariable.Timeout)
+WebUI.waitForElementVisible(findTestObject('Test Cases/Whom and When/Country/Country'), GlobalVariable.Timeout)
 
-WebUI.click(findTestObject('Test Cases/Reports/Whom and When/Country/Country'))
+WebUI.click(findTestObject('Test Cases/Whom and When/Country/Country'))
 
 WebUI.switchToDefaultContent()
 
 WebUI.delay(GlobalVariable.Delay)
 
-WebUI.setText(findTestObject('Test Cases/Reports/Whom and When/Country/Search field 0'), 'Denmark (DK)')
+WebUI.setText(findTestObject('Test Cases/Whom and When/Country/Search field 0'), 'Denmark (DK)')
 
-WebUI.click(findTestObject('Test Cases/Reports/Whom and When/Country/Search field'))
+WebUI.click(findTestObject('Test Cases/Whom and When/Country/Search field'))
 
-WebUI.waitForElementVisible(findTestObject('Test Cases/Reports/Whom and When/Country/Search'), GlobalVariable.Timeout)
+WebUI.waitForElementVisible(findTestObject('Test Cases/Whom and When/Country/Search'), GlobalVariable.Timeout)
 
-WebUI.click(findTestObject('Test Cases/Reports/Whom and When/Country/Search'))
+WebUI.click(findTestObject('Test Cases/Whom and When/Country/Search'))
 
 WebUI.switchToFrame(findTestObject('HALO Front-End/Common Elements/Iframe(5)'), GlobalVariable.Timeout)
 
 WebUI.delay(GlobalVariable.Delay)
 
-WebUI.check(findTestObject('Test Cases/Reports/Whom and When/Is submission of expedieted report'))
+WebUI.check(findTestObject('Test Cases/Whom and When/Is submission of expedieted report'))
 
 WebUI.delay(2)
 
-WebUI.check(findTestObject('Test Cases/Reports/Whom and When/Domestic'))
+WebUI.check(findTestObject('Test Cases/Whom and When/Domestic'))
 
 WebUI.delay(2)
 
-WebUI.check(findTestObject('Test Cases/Reports/Whom and When/Foreign'))
+WebUI.check(findTestObject('Test Cases/Whom and When/Foreign'))
 
 WebUI.delay(2)
 
-WebUI.check(findTestObject('Test Cases/Reports/Whom and When/Reporting Criteria/Public health threat'), FailureHandling.STOP_ON_FAILURE)
+WebUI.check(findTestObject('Test Cases/Whom and When/Reporting Criteria/Public health threat'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.check(findTestObject('Test Cases/Reports/Whom and When/Reporting Criteria/Serious detoration'), FailureHandling.STOP_ON_FAILURE)
+WebUI.check(findTestObject('Test Cases/Whom and When/Reporting Criteria/Serious detoration'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.check(findTestObject('Test Cases/Reports/Whom and When/Reporting Criteria/Non - Serious'), FailureHandling.STOP_ON_FAILURE)
+WebUI.check(findTestObject('Test Cases/Whom and When/Reporting Criteria/Non - Serious'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(2)
 
-WebUI.selectOptionByLabel(findTestObject('Test Cases/Reports/Whom and When/Listednesss/Listedness'), 'Local datasheet', 
+WebUI.selectOptionByLabel(findTestObject('Test Cases/Whom and When/Listednesss/Listedness'), 'Local datasheet', 
     false, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.check(findTestObject('Test Cases/Reports/Whom and When/Listednesss/Listed'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.check(findTestObject('Test Cases/Whom and When/Listednesss/Listed'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.check(findTestObject('Test Cases/Reports/Whom and When/Listednesss/Unlisted'), FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.delay(2)
-
-WebUI.check(findTestObject('Test Cases/Reports/Whom and When/Listednesss/Initial'), FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.check(findTestObject('Test Cases/Reports/Whom and When/Listednesss/Follow-up'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.check(findTestObject('Test Cases/Whom and When/Listednesss/Unlisted'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.delay(2)
 
-WebUI.selectOptionByLabel(findTestObject('Test Cases/Reports/Whom and When/Reporting Criteria/Submissin report'), 'CIOMS', 
+WebUI.check(findTestObject('Test Cases/Whom and When/Listednesss/Initial'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.check(findTestObject('Test Cases/Whom and When/Listednesss/Follow-up'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.delay(2)
+
+WebUI.selectOptionByLabel(findTestObject('Test Cases/Whom and When/Reporting Criteria/Submissin report'), 'CIOMS', 
     false)
 
 WebUI.comment('This is a verifying step for checking ICSR Requirements details form will be saved.')
 
 WebUI.takeFullPageScreenshot()
 
-WebUI.click(findTestObject('Test Cases/Reports/Whom and When/Implementation Details'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('Test Cases/Whom and When/Implementation Details'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('Test Cases/Reports/Whom and When/Case handler'), GlobalVariable.Timeout, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.waitForElementVisible(findTestObject('Test Cases/Whom and When/Case handler'), GlobalVariable.Timeout, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.check(findTestObject('Test Cases/Reports/Whom and When/Case handler'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.check(findTestObject('Test Cases/Whom and When/Case handler'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.check(findTestObject('Test Cases/Reports/Whom and When/Submission'))
+WebUI.check(findTestObject('Test Cases/Whom and When/Submission'))
 
 WebUI.delay(2)
 
@@ -188,15 +188,15 @@ WebUI.comment('This is a verifying step for checking ICSR Requirements details f
 
 WebUI.takeFullPageScreenshot()
 
-WebUI.click(findTestObject('Test Cases/Reports/Common Elements/Save form'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('Test Cases/Common Elements_Reports/Save form'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.delay(GlobalVariable.Delay)
 
 WebUI.takeFullPageScreenshot()
 
-WebUI.waitForElementClickable(findTestObject('Test Cases/Reports/Whom and When/Return ICSR requirement'), GlobalVariable.Timeout)
+WebUI.waitForElementClickable(findTestObject('Test Cases/Whom and When/Return ICSR requirement'), GlobalVariable.Timeout)
 
-WebUI.click(findTestObject('Test Cases/Reports/Whom and When/Return ICSR requirement'))
+WebUI.click(findTestObject('Test Cases/Whom and When/Return ICSR requirement'))
 
 WebUI.comment('Step 7')
 
@@ -212,19 +212,19 @@ WebUI.takeFullPageScreenshot()
 
 WebUI.delay(900)
 
-WebUI.waitForElementVisible(findTestObject('Test Cases/Reports/Whom and When/Report/Whom and When'), GlobalVariable.Timeout)
+WebUI.waitForElementVisible(findTestObject('Test Cases/Whom and When/Report/Whom and When'), GlobalVariable.Timeout)
 
-WebUI.click(findTestObject('Test Cases/Reports/Whom and When/Report/Whom and When'))
+WebUI.click(findTestObject('Test Cases/Whom and When/Report/Whom and When'))
 
-WebUI.switchToFrame(findTestObject('Test Cases/Reports/Tabular Reports/Iframe(2)'), GlobalVariable.Timeout)
+WebUI.switchToFrame(findTestObject('Test Cases/Tabular Reports/Iframe(2)'), GlobalVariable.Timeout)
 
 WebUI.waitForPageLoad(GlobalVariable.Timeout)
 
-WebUI.waitForElementVisible(findTestObject('Test Cases/Reports/Whom and When/record Search'), GlobalVariable.Timeout)
+WebUI.waitForElementVisible(findTestObject('Test Cases/Whom and When/record Search'), GlobalVariable.Timeout)
 
-WebUI.setText(findTestObject('Test Cases/Reports/Whom and When/record Search'), Record_Id)
+WebUI.setText(findTestObject('Test Cases/Whom and When/record Search'), Record_Id)
 
-WebUI.click(findTestObject('Test Cases/Reports/Whom and When/Search Button'))
+WebUI.click(findTestObject('Test Cases/Whom and When/Search Button'))
 
 WebUI.delay(GlobalVariable.Delay)
 
@@ -232,11 +232,11 @@ WebUI.comment('This is a verifying step for checking data elements discribe in a
 
 WebUI.takeFullPageScreenshot()
 
-WebUI.scrollToElement(findTestObject('Test Cases/Reports/Whom and When/scroll/Whom_1'), GlobalVariable.Timeout)
+WebUI.scrollToElement(findTestObject('Test Cases/Whom and When/scroll/Whom_1'), GlobalVariable.Timeout)
 
 WebUI.takeScreenshot()
 
-WebUI.scrollToElement(findTestObject('Test Cases/Reports/Whom and When/scroll/Whom_2'), GlobalVariable.Timeout)
+WebUI.scrollToElement(findTestObject('Test Cases/Whom and When/scroll/Whom_2'), GlobalVariable.Timeout)
 
 WebUI.takeScreenshot()
 

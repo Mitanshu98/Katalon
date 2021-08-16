@@ -187,17 +187,17 @@ WebUI.click(findTestObject('Test Cases/DSUR Line Listing/ICSR_RECORD', [('id') :
 
 WebUI.switchToFrame(findTestObject('HALO Front-End/Common Elements/Iframe(5)'), GlobalVariable.Timeout)
 
-WebUI.waitForElementClickable(findTestObject('Test Cases/Reports/Common Elements/1st Completed Task'), GlobalVariable.Timeout)
+WebUI.waitForElementClickable(findTestObject('Test Cases/Common Elements_Reports/1st Completed Task'), GlobalVariable.Timeout)
 
-WebUI.click(findTestObject('Test Cases/Reports/Common Elements/1st Completed Task'))
+WebUI.click(findTestObject('Test Cases/Common Elements_Reports/1st Completed Task'))
 
 WebUI.waitForPageLoad(GlobalVariable.Timeout)
 
 WebUI.delay(GlobalVariable.Delay)
 
-WebUI.waitForElementClickable(findTestObject('Test Cases/Reports/Common Elements/1st Completed Task'), GlobalVariable.Timeout)
+WebUI.waitForElementClickable(findTestObject('Test Cases/Common Elements_Reports/1st Completed Task'), GlobalVariable.Timeout)
 
-WebUI.click(findTestObject('Test Cases/Reports/Common Elements/1st Completed Task'))
+WebUI.click(findTestObject('Test Cases/Common Elements_Reports/1st Completed Task'))
 
 WebUI.waitForPageLoad(GlobalVariable.Timeout)
 
@@ -237,7 +237,7 @@ WebUI.waitForElementVisible(findTestObject('Test Cases/DSUR Line Listing/All Rec
 
 WebUI.click(findTestObject('Test Cases/DSUR Line Listing/All Records'))
 
-WebUI.switchToFrame(findTestObject('Test Cases/Reports/Tabular Reports/Iframe(2)'), GlobalVariable.Timeout)
+WebUI.switchToFrame(findTestObject('Test Cases/Tabular Reports/Iframe(2)'), GlobalVariable.Timeout)
 
 WebUI.waitForElementVisible(findTestObject('Test Cases/DSUR Line Listing/All Record search'), GlobalVariable.Timeout)
 
@@ -257,11 +257,11 @@ WebUI.takeFullPageScreenshot()
 
 WebUI.comment('Step 11,12 and 13')
 
-WebUI.click(findTestObject('Test Cases/Reports/Tabular Reports/Action'))
+WebUI.click(findTestObject('Test Cases/Tabular Reports/Action'))
 
-WebUI.waitForElementClickable(findTestObject('Test Cases/Reports/Tabular Reports/Download'), GlobalVariable.Timeout)
+WebUI.waitForElementClickable(findTestObject('Test Cases/Tabular Reports/Download'), GlobalVariable.Timeout)
 
-WebUI.click(findTestObject('Test Cases/Reports/Tabular Reports/Download'))
+WebUI.click(findTestObject('Test Cases/Tabular Reports/Download'))
 
 WebUI.comment('Step 14 and 15')
 

@@ -42,18 +42,18 @@ WebUI.waitForPageLoad(GlobalVariable.Timeout)
 
 WebUI.comment('Step 4')
 
-WebUI.waitForElementVisible(findTestObject('Test Cases/Reports/Common Elements/Periodic reporting requirement for medical devices record'), 
+WebUI.waitForElementVisible(findTestObject('Test Cases/Common Elements_Reports/Periodic reporting requirement for medical devices record'), 
     GlobalVariable.Timeout)
 
-WebUI.click(findTestObject('Test Cases/Reports/Common Elements/Periodic reporting requirement for medical devices record'))
+WebUI.click(findTestObject('Test Cases/Common Elements_Reports/Periodic reporting requirement for medical devices record'))
 
 WebUI.waitForPageLoad(GlobalVariable.Timeout)
 
 WebUI.comment('Step 5')
 
-WebUI.waitForElementVisible(findTestObject('Test Cases/Reports/PSUR Periodic reporting rules/New Record'), GlobalVariable.Timeout)
+WebUI.waitForElementVisible(findTestObject('Test Cases/PSUR Periodic reporting rules/New Record'), GlobalVariable.Timeout)
 
-WebUI.click(findTestObject('Test Cases/Reports/PSUR Periodic reporting rules/New Record'))
+WebUI.click(findTestObject('Test Cases/PSUR Periodic reporting rules/New Record'))
 
 WebUI.waitForPageLoad(GlobalVariable.Timeout)
 
@@ -64,9 +64,9 @@ WebUI.waitForElementVisible(findTestObject('Test Cases/Entities and agreements/E
 
 WebUI.click(findTestObject('Test Cases/Entities and agreements/Entities and agreement form/More menu'))
 
-WebUI.waitForElementPresent(findTestObject('Test Cases/Reports/Common Elements/Record info aka Basic information'), GlobalVariable.Timeout)
+WebUI.waitForElementPresent(findTestObject('Test Cases/Common Elements_Reports/Record info aka Basic information'), GlobalVariable.Timeout)
 
-WebUI.click(findTestObject('Test Cases/Reports/Common Elements/Record info aka Basic information'))
+WebUI.click(findTestObject('Test Cases/Common Elements_Reports/Record info aka Basic information'))
 
 WebUI.waitForPageLoad(GlobalVariable.Timeout)
 
@@ -88,37 +88,37 @@ WebUI.comment('This is a verify step for checking the  Medical device periodic r
 
 WebUI.takeScreenshot()
 
-WebUI.waitForElementClickable(findTestObject('Test Cases/Reports/PSUR Periodic reporting rules/Periodic form'), GlobalVariable.Timeout)
+WebUI.waitForElementClickable(findTestObject('Test Cases/PSUR Periodic reporting rules/Periodic form'), GlobalVariable.Timeout)
 
 WebUI.comment('Step 6')
 
-WebUI.click(findTestObject('Test Cases/Reports/PSUR Periodic reporting rules/Periodic form'))
+WebUI.click(findTestObject('Test Cases/PSUR Periodic reporting rules/Periodic form'))
 
 WebUI.waitForPageLoad(GlobalVariable.Timeout)
 
-WebUI.check(findTestObject('Test Cases/Reports/Periodic device report rules/periodic report required'))
+WebUI.check(findTestObject('Test Cases/Periodic device report rules/periodic report required'))
 
 WebUI.delay(GlobalVariable.Delay)
 
-WebUI.waitForElementVisible(findTestObject('Test Cases/Reports/Periodic device report rules/Devices under investigation'), 
+WebUI.waitForElementVisible(findTestObject('Test Cases/Periodic device report rules/Devices under investigation'), 
     GlobalVariable.Timeout)
 
-WebUI.check(findTestObject('Test Cases/Reports/Periodic device report rules/Devices under investigation'))
+WebUI.check(findTestObject('Test Cases/Periodic device report rules/Devices under investigation'))
 
 WebUI.delay(GlobalVariable.Delay)
 
-WebUI.waitForElementVisible(findTestObject('Test Cases/Reports/Periodic device report rules/Devices under investigation'), 
+WebUI.waitForElementVisible(findTestObject('Test Cases/Periodic device report rules/Devices under investigation'), 
     GlobalVariable.Timeout)
 
-WebUI.setText(findTestObject('Test Cases/Reports/Periodic device report rules/Format(Clinical)'), Format, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.setText(findTestObject('Test Cases/Periodic device report rules/Format(Clinical)'), Format, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.delay(GlobalVariable.Delay)
 
-WebUI.check(findTestObject('Test Cases/Reports/Periodic device report rules/Frequency(clinical)'))
+WebUI.check(findTestObject('Test Cases/Periodic device report rules/Frequency(clinical)'))
 
 WebUI.delay(GlobalVariable.Delay)
 
-WebUI.click(findTestObject('Test Cases/Reports/Common Elements/Save form'))
+WebUI.click(findTestObject('Test Cases/Common Elements_Reports/Save form'))
 
 WebUI.delay(GlobalVariable.Delay)
 
@@ -126,9 +126,9 @@ WebUI.comment('This is a verify step for checking the Periodic device report rul
 
 WebUI.takeFullPageScreenshot()
 
-WebUI.waitForElementClickable(findTestObject('Test Cases/Reports/Periodic device report rules/Return Form'), GlobalVariable.Timeout)
+WebUI.waitForElementClickable(findTestObject('Test Cases/Periodic device report rules/Return Form'), GlobalVariable.Timeout)
 
-WebUI.click(findTestObject('Test Cases/Reports/Periodic device report rules/Return Form'))
+WebUI.click(findTestObject('Test Cases/Periodic device report rules/Return Form'))
 
 WebUI.comment('Step 7,8 and 9')
 
@@ -138,9 +138,9 @@ WebUI.comment('This is a verify step for checking the Tabular reports shall be d
 
 WebUI.takeFullPageScreenshot()
 
-WebUI.waitForElementVisible(findTestObject('Test Cases/Reports/Tabular Reports/Periodic device report rules'), GlobalVariable.Timeout)
+WebUI.waitForElementVisible(findTestObject('Test Cases/Tabular Reports/Periodic device report rules'), GlobalVariable.Timeout)
 
-WebUI.click(findTestObject('Test Cases/Reports/Tabular Reports/Periodic device report rules'))
+WebUI.click(findTestObject('Test Cases/Tabular Reports/Periodic device report rules'))
 
 WebUI.comment('Step 10,11,12,13,14 and 15')
 

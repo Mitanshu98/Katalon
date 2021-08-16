@@ -42,17 +42,17 @@ WebUI.click(findTestObject('HALO Front-End/Processes/Requirement Intelligence'))
 
 WebUI.waitForPageLoad(GlobalVariable.Timeout)
 
-WebUI.waitForElementVisible(findTestObject('Test Cases/Reports/Common Elements/PSUR Periodic Safety update report'), GlobalVariable.Timeout)
+WebUI.waitForElementVisible(findTestObject('Test Cases/Common Elements_Reports/PSUR Periodic Safety update report'), GlobalVariable.Timeout)
 
 WebUI.comment('Step 4')
 
-WebUI.click(findTestObject('Test Cases/Reports/Common Elements/PSUR Periodic Safety update report'))
+WebUI.click(findTestObject('Test Cases/Common Elements_Reports/PSUR Periodic Safety update report'))
 
 WebUI.waitForPageLoad(GlobalVariable.Timeout)
 
-WebUI.waitForElementVisible(findTestObject('Test Cases/Reports/PSUR Periodic reporting rules/New Record'), GlobalVariable.Timeout)
+WebUI.waitForElementVisible(findTestObject('Test Cases/PSUR Periodic reporting rules/New Record'), GlobalVariable.Timeout)
 
-WebUI.click(findTestObject('Test Cases/Reports/PSUR Periodic reporting rules/New Record'))
+WebUI.click(findTestObject('Test Cases/PSUR Periodic reporting rules/New Record'))
 
 WebUI.waitForPageLoad(GlobalVariable.Timeout)
 
@@ -65,9 +65,9 @@ WebUI.waitForElementVisible(findTestObject('Test Cases/Entities and agreements/E
 
 WebUI.click(findTestObject('Test Cases/Entities and agreements/Entities and agreement form/More menu'))
 
-WebUI.waitForElementPresent(findTestObject('Test Cases/Reports/Common Elements/Record info aka Basic information'), GlobalVariable.Timeout)
+WebUI.waitForElementPresent(findTestObject('Test Cases/Common Elements_Reports/Record info aka Basic information'), GlobalVariable.Timeout)
 
-WebUI.click(findTestObject('Test Cases/Reports/Common Elements/Record info aka Basic information'))
+WebUI.click(findTestObject('Test Cases/Common Elements_Reports/Record info aka Basic information'))
 
 WebUI.waitForPageLoad(GlobalVariable.Timeout)
 
@@ -89,36 +89,36 @@ WebUI.comment('This is a verify step for checking the PSUR Periodic reporting fo
 
 WebUI.takeFullPageScreenshot()
 
-WebUI.waitForElementClickable(findTestObject('Test Cases/Reports/PSUR Periodic reporting rules/Periodic form'), GlobalVariable.Timeout)
+WebUI.waitForElementClickable(findTestObject('Test Cases/PSUR Periodic reporting rules/Periodic form'), GlobalVariable.Timeout)
 
-WebUI.click(findTestObject('Test Cases/Reports/PSUR Periodic reporting rules/Periodic form'))
+WebUI.click(findTestObject('Test Cases/PSUR Periodic reporting rules/Periodic form'))
 
 WebUI.waitForPageLoad(GlobalVariable.Timeout)
 
-WebUI.waitForElementVisible(findTestObject('Test Cases/Reports/PSUR Periodic reporting rules/PSUR Form/Country'), GlobalVariable.Timeout, 
+WebUI.waitForElementVisible(findTestObject('Test Cases/PSUR Periodic reporting rules/PSUR Form/Country'), GlobalVariable.Timeout, 
     FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.selectOptionByLabel(findTestObject('Test Cases/Reports/PSUR Periodic reporting rules/PSUR Form/Country'), Country, 
+WebUI.selectOptionByLabel(findTestObject('Test Cases/PSUR Periodic reporting rules/PSUR Form/Country'), Country, 
     false, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.check(findTestObject('Test Cases/Reports/PSUR Periodic reporting rules/PSUR Form/Are PSUR Required'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.check(findTestObject('Test Cases/PSUR Periodic reporting rules/PSUR Form/Are PSUR Required'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.check(findTestObject('Test Cases/Reports/PSUR Periodic reporting rules/PSUR Form/Is there a local guidance'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.check(findTestObject('Test Cases/PSUR Periodic reporting rules/PSUR Form/Is there a local guidance'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.delay(GlobalVariable.Delay, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.selectOptionByLabel(findTestObject('Test Cases/Reports/PSUR Periodic reporting rules/PSUR Form/Reporting language'), 
+WebUI.selectOptionByLabel(findTestObject('Test Cases/PSUR Periodic reporting rules/PSUR Form/Reporting language'), 
     Language, false, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.selectOptionByLabel(findTestObject('Test Cases/Reports/PSUR Periodic reporting rules/PSUR Form/Submission date DLP'), 
+WebUI.selectOptionByLabel(findTestObject('Test Cases/PSUR Periodic reporting rules/PSUR Form/Submission date DLP'), 
     Submission_DLP, false, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.selectOptionByLabel(findTestObject('Test Cases/Reports/PSUR Periodic reporting rules/PSUR Form/When reports required'), 
+WebUI.selectOptionByLabel(findTestObject('Test Cases/PSUR Periodic reporting rules/PSUR Form/When reports required'), 
     Reports, false, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.delay(GlobalVariable.Delay)
 
-WebUI.click(findTestObject('Test Cases/Reports/Common Elements/Save form'))
+WebUI.click(findTestObject('Test Cases/Common Elements_Reports/Save form'))
 
 WebUI.delay(GlobalVariable.Delay)
 
@@ -126,11 +126,11 @@ WebUI.comment('This is a verify step for checking the PSUR form shall be display
 
 WebUI.takeFullPageScreenshot()
 
-WebUI.waitForElementClickable(findTestObject('Test Cases/Reports/Common Elements/Return Form'), GlobalVariable.Timeout)
+WebUI.waitForElementClickable(findTestObject('Test Cases/Common Elements_Reports/Return Form'), GlobalVariable.Timeout)
 
 WebUI.comment('Step 7')
 
-WebUI.click(findTestObject('Test Cases/Reports/Common Elements/Return Form'))
+WebUI.click(findTestObject('Test Cases/Common Elements_Reports/Return Form'))
 
 WebUI.comment('Step 8 and 9')
 
@@ -140,9 +140,9 @@ WebUI.comment('This is a verify step for checking the Tabular reports shall be d
 
 WebUI.takeFullPageScreenshot()
 
-WebUI.waitForElementVisible(findTestObject('Test Cases/Reports/Tabular Reports/PSUR'), GlobalVariable.Timeout)
+WebUI.waitForElementVisible(findTestObject('Test Cases/Tabular Reports/PSUR'), GlobalVariable.Timeout)
 
-WebUI.click(findTestObject('Test Cases/Reports/Tabular Reports/PSUR'))
+WebUI.click(findTestObject('Test Cases/Tabular Reports/PSUR'))
 
 WebUI.comment('Step 10,11,12,13 and 14')
 
